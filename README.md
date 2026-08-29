@@ -1,16 +1,18 @@
-## Hi there 👋
+# Hi, I'm Vishal 👋 — AI Product Manager
 
-<!--
-**vishalhabib99/vishalhabib99** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I build and ship AI-powered products end to end: from problem framing and PRDs to working prototypes and measurable outcomes.
 
-Here are some ideas to get you started:
+## 🎯 Focus areas
+- LLM product design (RAG, agents, evals, prompt/response quality)
+- Turning ambiguous AI capabilities into shippable, reliable product features
+- Bridging product strategy and technical feasibility — I prototype my own ideas before handing them to engineering
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🧱 What's in this profile
+- 📄 [`ai-pm-portfolio`](https://github.com/vishalhabib99/ai-pm-portfolio) — PRDs, case studies, and working prototypes
+- ✍️ Writeups on product decisions in AI, including tradeoffs and what didn't work
+
+## 🛠️ Currently building
+_Updated as projects ship — see [ai-pm-portfolio](https://github.com/vishalhabib99/ai-pm-portfolio) for details._
+
+## 📫 Reach me
+- GitHub: [@vishalhabib99](https://github.com/vishalhabib99)
