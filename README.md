@@ -1,18 +1,24 @@
-# Hi, I'm Vishal 👋 — AI Product Manager
+# Hi, I'm Vishal 👋
 
-I build and ship AI-powered products end to end: from problem framing and PRDs to working prototypes and measurable outcomes.
+**Product Leader — Agentic AI, AI/ML-Powered Customer Experiences & Platform Products**
 
-## 🎯 Focus areas
-- Agentic AI/ML software & product development — where autonomous coding/dev agents actually work in production, and where they don't yet
-- LLM product design (RAG, agents, evals, prompt/response quality)
-- Turning ambiguous AI capabilities into shippable, reliable product features
-- Bridging product strategy and technical feasibility — I prototype my own ideas before handing them to engineering
+AI-native product leader with 10+ years defining strategy, vision, roadmap, and launching 0-to-1 products and 1-to-100 platforms across fintech, wealth management, telecom, retail, ecommerce, and healthcare — spanning B2B, B2C, and B2B2C.
 
-## 🛠️ Currently building
-**[Agent Codebase Readiness Score (ACRS)](https://github.com/vishalhabib99/ai-pm-portfolio/tree/main/prototypes/agent-codebase-readiness-score)** — scoring how ready a *specific* codebase is for autonomous coding agents, before committing rollout budget to it. Grounded in real 2026 data: 79% of enterprises have adopted AI agents, only 11% run them in production.
+## 💼 Currently
+Leading product strategy for **Digital Advisor** and **Personal Advisor** at **Vanguard** ($6B+ LOB, 4M+ MAU) — architecting the next-generation Agentic AI Digital Advisor from 0-to-1, including model evaluation frameworks (correctness, groundedness, safety, latency) and FINRA/SEC-compliant responsible AI design.
+
+## 🚀 Selected work
+- **Vanguard** — Agentic AI Digital Advisor (0→1): LLM orchestration, autonomous agent workflows, personalized financial guidance at scale, with regulatory guardrails and model governance.
+- **T-Mobile** — Launched one of the first autonomous enterprise Agentic AI platforms in US telecom: **75% adoption, 46% automation, 60% containment, 80% CSAT, 30% fewer support calls**. Built the IntentCX AI governance & model evaluation framework (aligned to NIST AI RMF), adopted org-wide by 3 additional teams.
+- **eBay** — Drove **$300M+ in savings** via marketplace platform modernization and API standardization across hundreds of engineering teams.
+
+## 🎓 Background
+Stanford University Graduate School of Business · Google AI certifications (AI Essentials, Responsible AI, Prompting, AI Tools for Productivity)
 
 ## 🧱 Portfolio
-📄 [`ai-pm-portfolio`](https://github.com/vishalhabib99/ai-pm-portfolio) — PRDs, case studies, and working prototypes, including honestly-reported failures, not just wins
+📄 [`ai-pm-portfolio`](https://github.com/vishalhabib99/ai-pm-portfolio) — PRDs, working prototypes, and honestly-reported evals (including failures, not just wins)
 
 ## 📫 Reach me
+- Website: [vishalhabib.netlify.app](https://vishalhabib.netlify.app/)
+- LinkedIn: [in/vishal-habib](https://www.linkedin.com/in/vishal-habib/)
 - GitHub: [@vishalhabib99](https://github.com/vishalhabib99)
