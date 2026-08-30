@@ -16,7 +16,8 @@ Leading product strategy for **Digital Advisor** and **Personal Advisor** at **V
 Stanford University Graduate School of Business · Google AI certifications (AI Essentials, Responsible AI, Prompting, AI Tools for Productivity)
 
 ## 🧱 Portfolio
-📄 [`ai-pm-portfolio`](https://github.com/vishalhabib99/ai-pm-portfolio) — PRDs, working prototypes, and honestly-reported evals (including failures, not just wins)
+- 📄 [`ai-pm-portfolio`](https://github.com/vishalhabib99/ai-pm-portfolio) — PRDs, working prototypes, and honestly-reported evals (including failures, not just wins)
+- 🩺 [`mcp-doctor`](https://github.com/vishalhabib99/mcp-doctor) — static-analysis CLI that audits MCP server implementations for the things that break an agent calling them. Dogfooded against real servers, which surfaced and fixed 2 precision bugs, and produced a [real issue filed on Home Assistant's MCP server](https://github.com/homeassistant-ai/ha-mcp/issues/2324) (4.5K★, active).
 
 ## 📫 Reach me
 - Website: [vishalhabib.netlify.app](https://vishalhabib.netlify.app/)
