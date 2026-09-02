@@ -17,7 +17,7 @@ Stanford University Graduate School of Business · Google AI certifications (AI 
 
 ## 🧱 Portfolio
 - 📄 [`ai-pm-portfolio`](https://github.com/vishalhabib99/ai-pm-portfolio) — PRDs, working prototypes, and honestly-reported evals (including failures, not just wins)
-- 🩺 [`mcp-doctor`](https://github.com/vishalhabib99/mcp-doctor) — static-analysis CLI that audits MCP server implementations for the things that break an agent calling them. Dogfooded against real servers, which surfaced and fixed 2 precision bugs, and produced a [real issue filed on Home Assistant's MCP server](https://github.com/homeassistant-ai/ha-mcp/issues/2324) (4.5K★, active).
+- 🩺 [`mcp-doctor`](https://github.com/vishalhabib99/mcp-doctor) — static-analysis CLI that audits MCP server implementations for the things that break an agent calling them (`pip install mcp-server-lint`, or a GitHub Action). Dogfooded against 17+ real MCP servers in the wild — up to 50k★ (Google's `chrome-devtools-mcp`) — found and fixed 17 genuine bugs, verified against each repo before/after. One fix led to a [merged PR](https://github.com/homeassistant-ai/ha-mcp/pull/2327) into `ha-mcp` (4.5K★, active).
 
 ## 📫 Reach me
 - Website: [vishalhabib.netlify.app](https://vishalhabib.netlify.app/)
