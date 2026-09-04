@@ -17,7 +17,7 @@ Stanford University Graduate School of Business · Google AI certifications (AI 
 
 ## 🧱 Portfolio
 - 📄 [`ai-pm-portfolio`](https://github.com/vishalhabib99/ai-pm-portfolio) — PRDs, working prototypes, and honestly-reported evals (including failures, not just wins)
-- 🩺 [`mcp-doctor`](https://github.com/vishalhabib99/mcp-doctor) — static-analysis CLI that audits MCP server implementations for the things that break an agent calling them (`pip install mcp-server-lint`, or a GitHub Action). Dogfooded against 20+ real MCP servers in the wild — up to 32.6k★, including GitHub's own official `github-mcp-server` — found and fixed 20 genuine bugs, verified against each repo before/after. One fix led to a [merged PR](https://github.com/homeassistant-ai/ha-mcp/pull/2327) into `ha-mcp` (4.5K★, active).
+- 🩺 [`mcp-doctor`](https://github.com/vishalhabib99/mcp-doctor) — static-analysis CLI that audits MCP server implementations for the things that break an agent calling them (`pip install mcp-server-lint`, or a GitHub Action). Dogfooded against 24+ real MCP servers in the wild across Python, TypeScript, and Go — up to 50k★, including GitHub's own official `github-mcp-server` and HashiCorp's `terraform-mcp-server` — found and fixed 21 genuine bugs, verified against each repo before/after. One fix led to a [merged PR](https://github.com/homeassistant-ai/ha-mcp/pull/2327) into `ha-mcp` (4.5K★, active); a separate clean pass surfaced a real doc-coverage gap [filed upstream](https://github.com/haris-musa/excel-mcp-server/issues/158) in `excel-mcp-server` (4.1K★, active).
 
 ## 📫 Reach me
 - Website: [vishalhabib.netlify.app](https://vishalhabib.netlify.app/)
