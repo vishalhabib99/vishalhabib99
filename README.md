@@ -32,7 +32,8 @@ The "model evaluation frameworks" line above isn't abstract — it's the same di
 - [I built three tools to audit MCP servers. Each one found a bug in itself first.](https://dev.to/vishalhabib99/i-built-three-tools-to-audit-mcp-servers-each-one-found-a-bug-in-itself-first-5dlc) — the trilogy's origin story, on dev.to
 
 ## 📫 Reach me
-- Website: [vishalhabib.netlify.app](https://vishalhabib.netlify.app/)
+- Email: [vishalhabib99@gmail.com](mailto:vishalhabib99@gmail.com)
 - LinkedIn: [in/vishal-habib](https://www.linkedin.com/in/vishal-habib/)
+- Website: [vishalhabib.netlify.app](https://vishalhabib.netlify.app/)
 - dev.to: [@vishalhabib99](https://dev.to/vishalhabib99)
 - GitHub: [@vishalhabib99](https://github.com/vishalhabib99)
