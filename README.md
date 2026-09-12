@@ -28,6 +28,7 @@ The "model evaluation frameworks" line above isn't abstract — it's the same di
 
 ## ✍️ Writing
 - [I Built Three Tools to Audit MCP Servers for Agentic AI. Here's What They Found — and What I Learned Shipping Them.](https://www.linkedin.com/pulse/i-built-three-tools-audit-mcp-servers-agentic-ai-heres-vishal-habib-kmv3c/) — the full trilogy story on LinkedIn, including why I built it (grounded in my Agentic AI model-evaluation work at Vanguard) and what each tool found
+- [Building T-Mobile's First Enterprise Agentic AI Platform: 25M Users, 75% Adoption, and What I'd Do Differently](https://www.linkedin.com/pulse/building-t-mobiles-first-enterprise-agentic-ai-platform-vishal-habib-bftoc/) — the platform story on LinkedIn, including the evals/governance framework this portfolio's tools directly extend
 - [I built three tools to audit MCP servers. Each one found a bug in itself first.](https://dev.to/vishalhabib99/i-built-three-tools-to-audit-mcp-servers-each-one-found-a-bug-in-itself-first-5dlc) — the trilogy's origin story, on dev.to
 
 ## 📫 Reach me
