@@ -1,6 +1,6 @@
 # Hi, I'm Vishal 👋
 
-**Product Leader — Agentic AI, AI/ML-Powered Customer Experiences & Platform Products**
+**Product Leader & Builder — Agentic AI, AI/ML-Powered Customer Experiences & Platform Products**
 
 AI-native product leader with 10+ years defining strategy, vision, roadmap, and launching 0-to-1 products and 1-to-100 platforms across fintech, wealth management, telecom, retail, ecommerce, and healthcare — spanning B2B, B2C, and B2B2C.
 
