@@ -1,6 +1,6 @@
 # Hi, I'm Vishal 👋
 
-**AI Product Leader & Builder — Agentic AI**
+**Lead AI Product Manager & Builder — Agentic AI**
 
 10+ years launching 0→1 products and scaling platforms in fintech, telecom and ecommerce. Today I lead agentic AI product strategy at Vanguard, and on the side I build the eval tooling I wish every AI team had.
 
