@@ -59,7 +59,7 @@ Two areas that used to be on this list have shipped, rebuilt so nothing is guess
 
   - `pip install mcp-server-lint`, or as a [GitHub Marketplace Action](https://github.com/marketplace/actions/mcp-doctor).
   - Tested on official servers from GitHub, HashiCorp, Red Hat, Brave, MathWorks and the MCP spec's own reference servers.
-  - Checks documentation, security risks (dangerous exec, SSRF, tool poisoning), annotation contradictions, unpinned dependencies, and breaking changes between versions (`--diff-against`).
+  - Checks documentation, security risks (dangerous exec, SSRF, tool poisoning), annotation contradictions, unpinned dependencies, breaking changes between versions (`--diff-against`), and tools whose descriptions an agent can't tell apart. Across 1,543 real tools, that last check found one issue, a real copy-paste bug, and no false positives.
   - Most fixes came from its own false positives on real repos; a recurring pattern was confirmed on other codebases before a fix shipped. [Full build log →](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/BUILD_LOG.md)
 
   </details>
