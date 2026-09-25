@@ -23,10 +23,10 @@ At work I build evals for AI agents: is the answer correct, grounded, safe and f
 
 <details><summary>What this doesn't cover, by design</summary><br>
 
+Two areas that used to be on this list have shipped, rebuilt so nothing is guessed. **Runtime authorization** is now a policy the operator writes, enforced before each call. **Logging** is now a tamper-evident audit log the wrapper writes itself, rather than a grade of the server's own logs. Both are in `mcp-trust-check`.
+
 - **Semantic hallucination** ("is this answer actually true"): needs an LLM judge, which would break the deterministic, no-API-cost design all three tools share.
 - **Live agent red-teaming**: `mcp-doctor`'s security score audits a tool's own code and description for injection risk, not whether a live agent can be manipulated at runtime.
-- **Runtime authorization** (does a tool really refuse an out-of-scope action): "out of scope" means something different on every server, so testing it honestly needs per-target setup. That's manual security review.
-- **Logging completeness**: evaluated and declined. There's no spec-mandated format to check against, and the only proxy misfires on simple tools that have nothing to log.
 
 </details>
 
@@ -87,7 +87,7 @@ At work I build evals for AI agents: is the answer correct, grounded, safe and f
 
   <details><summary>More detail</summary><br>
 
-  - One combined score and PR comment instead of three, plus a [release decision](https://github.com/vishalhabib99/mcp-trust-check#release-decision-ship-fix-first-or-block): SHIP, FIX-FIRST, or BLOCK. An average can hide the one crash that matters. The decision can't, because the worst finding wins, and every reason is listed. Each decision also carries a [confidence level](https://github.com/vishalhabib99/mcp-trust-check#confidence-should-you-act-on-the-decision) (how much of the server was actually exercised) and a needs-human-review flag, so clear cases can pass automatically and the rest go to a person. Also a Python package (`GuardedSession`) that runs all three live checks on each real call, calling the tool only once, and [decides each call](https://github.com/vishalhabib99/mcp-trust-check#a-decision-on-every-call-act-escalate-or-block): ACT, ESCALATE to a person, or BLOCK, with a confidence level.
+  - One combined score and PR comment instead of three, plus a [release decision](https://github.com/vishalhabib99/mcp-trust-check#release-decision-ship-fix-first-or-block): SHIP, FIX-FIRST, or BLOCK. An average can hide the one crash that matters. The decision can't, because the worst finding wins, and every reason is listed. Each decision also carries a [confidence level](https://github.com/vishalhabib99/mcp-trust-check#confidence-should-you-act-on-the-decision) (how much of the server was actually exercised) and a needs-human-review flag, so clear cases can pass automatically and the rest go to a person. Also a Python package (`GuardedSession`) that runs all three live checks on each real call, calling the tool only once, and [decides each call](https://github.com/vishalhabib99/mcp-trust-check#a-decision-on-every-call-act-escalate-or-block): ACT, ESCALATE to a person, or BLOCK, with a confidence level. It also enforces [an operator-written policy](https://github.com/vishalhabib99/mcp-trust-check#policy-audit-log-and-pii-guardrails-for-a-live-agent) before each call, keeps a tamper-evident audit log, and escalates responses that leak card numbers, SSNs or IBANs (0 false positives across 20,513 real files).
   - The [hosted-server survey](https://github.com/vishalhabib99/mcp-trust-check/tree/main/docs/hosted-survey-2026-09) (Hugging Face, Microsoft Learn, AWS, Cloudflare and 6 more) reads only what every client reads on connect. I chose not to fuzz other companies' production endpoints.
   - 🎥 [35s live demo](https://github.com/vishalhabib99/mcp-trust-check#demo) · [Full build log →](https://github.com/vishalhabib99/mcp-trust-check/blob/main/docs/BUILD_LOG.md)
 
