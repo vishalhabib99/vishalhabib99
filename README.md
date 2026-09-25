@@ -63,7 +63,7 @@ At work I build evals for AI agents: is the answer correct, grounded, safe and f
   - Most fixes came from its own false positives on real repos; a recurring pattern was confirmed on other codebases before a fix shipped. [Full build log →](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/BUILD_LOG.md)
 
   </details>
-- 🧪 [`mcp-fuzz`](https://github.com/vishalhabib99/mcp-fuzz) — launches a real MCP server and calls every tool with schema-derived inputs to check it fails cleanly. Runtime runs on 23 real servers up to 61K★; crash bugs filed upstream, one confirmed fixed, and an external maintainer shipped a fix in response to a finding.
+- 🧪 [`mcp-fuzz`](https://github.com/vishalhabib99/mcp-fuzz) — launches a real MCP server and calls every tool with schema-derived inputs to check it fails cleanly. Runtime runs on 24 real servers up to 61K★; crash bugs filed upstream, one confirmed fixed, and an external maintainer shipped a fix in response to a finding.
 
   <details><summary>More detail</summary><br>
 
