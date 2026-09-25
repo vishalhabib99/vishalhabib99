@@ -87,7 +87,7 @@ At work I build evals for AI agents: is the answer correct, grounded, safe and f
 
   <details><summary>More detail</summary><br>
 
-  - One combined score and PR comment instead of three, plus a [release decision](https://github.com/vishalhabib99/mcp-trust-check#release-decision-ship-fix-first-or-block): SHIP, FIX-FIRST, or BLOCK. An average can hide the one crash that matters. The decision can't, because the worst finding wins, and every reason is listed. Also a Python package (`GuardedSession`) that runs all three live checks on each real call, calling the tool only once.
+  - One combined score and PR comment instead of three, plus a [release decision](https://github.com/vishalhabib99/mcp-trust-check#release-decision-ship-fix-first-or-block): SHIP, FIX-FIRST, or BLOCK. An average can hide the one crash that matters. The decision can't, because the worst finding wins, and every reason is listed. Each decision also carries a [confidence level](https://github.com/vishalhabib99/mcp-trust-check#confidence-should-you-act-on-the-decision) (how much of the server was actually exercised) and a needs-human-review flag, so clear cases can pass automatically and the rest go to a person. Also a Python package (`GuardedSession`) that runs all three live checks on each real call, calling the tool only once.
   - The [hosted-server survey](https://github.com/vishalhabib99/mcp-trust-check/tree/main/docs/hosted-survey-2026-09) (Hugging Face, Microsoft Learn, AWS, Cloudflare and 6 more) reads only what every client reads on connect. I chose not to fuzz other companies' production endpoints.
   - 🎥 [35s live demo](https://github.com/vishalhabib99/mcp-trust-check#demo) · [Full build log →](https://github.com/vishalhabib99/mcp-trust-check/blob/main/docs/BUILD_LOG.md)
 
