@@ -34,6 +34,8 @@ At work I build evals for AI agents: is the answer correct, grounded, safe and f
 
 **For AI product managers**
 
+- 📋 [`agentic-product-playbook`](https://github.com/vishalhabib99/agentic-product-playbook) — 7 ways AI agents fail in production, plus the templates that catch them: agent PRD, eval plan, launch checklist, metrics glossary. **[Take the 3-minute Agent Readiness Scorecard →](https://vishalhabib99.github.io/agentic-product-playbook/)**
+
 - 🧭 [`ai-pm-skills`](https://github.com/vishalhabib99/ai-pm-skills) — Claude Code skills for AI PMs: `/build-or-not`, `/eval-plan`, `/agent-trust-review`. Each is tested with evals whose gates were set before the first run, failures included. **[See real runs without installing →](https://vishalhabib99.github.io/ai-pm-skills/)**
 
   <details><summary>More detail</summary><br>
