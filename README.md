@@ -60,6 +60,7 @@ Two areas that used to be on this list have shipped, rebuilt so nothing is guess
 **🛒 Marketplaces: AI listings that match the item**
 
 - 🏷️ [`listing-claim-check`](https://github.com/vishalhabib99/listing-claim-check) — Checks an AI-written listing against the seller's own item specifics before it's published: PUBLISH or REVIEW, with the exact words behind every unbacked claim ("like new" on a used phone, "unlocked" on a carrier-locked one, a box that isn't included). **[Try it in your browser →](https://vishalhabib99.github.io/listing-claim-check/)** Gates were set before any code. v0.1 **failed** its first blind run (2 of 11 high-harm claims got through), so the design changed: any number no item specific backs goes to a person. On a fresh blind set, 0 of 11 got through.
+- 🧩 [eBay case study](https://github.com/vishalhabib99/ai-pm-portfolio/blob/main/case-studies/2026-09-ebay-marketplace-platform.md) — the marketplace platform behind the $300M+: standardized APIs, a move to microservices (99.9% availability on seller-facing APIs), and a self-serve developer portal that cut integration time 40%. Why that same "clear contract" idea matters for AI agents and AI-written listings.
 
 **🏢 SaaS & enterprise platforms**
 
