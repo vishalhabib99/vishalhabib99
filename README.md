@@ -2,15 +2,28 @@
 
 **Lead AI Product Manager & Builder — Agentic AI**
 
-10+ years launching 0→1 products and scaling platforms in fintech, telecom and ecommerce. Today I lead agentic AI product strategy at Vanguard, and on the side I build the eval tooling I wish every AI team had.
+10+ years launching 0→1 products and scaling platforms across **fintech, SaaS and enterprise platforms, and marketplaces**. Today I lead agentic AI product strategy at Vanguard, and on the side I build the eval and trust tooling I wish every AI team had.
+
+**What ties it together:** AI output is only worth shipping when it can be checked against a source of truth, whether that's an IRS rule, a tool's own schema, or a platform's API contract.
 
 ## 💼 Currently
 Leading product strategy for **Digital Advisor** and **Personal Advisor** at **Vanguard** ($6B+ LOB, 4M+ MAU) — architecting the next-generation Agentic AI Digital Advisor from 0-to-1, including model evaluation frameworks (correctness, groundedness, safety, latency) and FINRA/SEC-compliant responsible AI design.
 
-## 🚀 Selected work
-- **Vanguard** — Agentic AI Digital Advisor (0→1): LLM orchestration, autonomous agent workflows, personalized financial guidance at scale, with regulatory guardrails and model governance.
-- **T-Mobile** — Launched one of the first autonomous enterprise Agentic AI platforms in US telecom: **75% adoption, 46% automation, 60% containment, 80% CSAT, 30% fewer support calls**. Built the IntentCX AI governance & model evaluation framework (aligned to NIST AI RMF), adopted org-wide by 3 additional teams.
-- **eBay** — Drove **$300M+ in savings** via marketplace platform modernization and API standardization across hundreds of engineering teams.
+## 🚀 Selected work, by vertical
+- 🏦 **Fintech: Vanguard.** Agentic AI Digital Advisor (0→1): LLM orchestration, autonomous agent workflows, personalized financial guidance at scale, with regulatory guardrails and model governance. Earlier in fintech: Axis Bank.
+- ☁️ **SaaS & enterprise platforms: T-Mobile.** Launched one of the first autonomous enterprise Agentic AI platforms in US telecom: **75% adoption, 46% automation, 60% containment, 80% CSAT, 30% fewer support calls**. Built the IntentCX AI governance & model evaluation framework (aligned to NIST AI RMF), adopted org-wide by 3 additional teams.
+- 🛒 **Marketplaces: eBay.** Drove **$300M+ in savings** via marketplace platform modernization and API standardization across hundreds of engineering teams.
+
+## 🗺️ Where my work sits in the AI stack
+
+| Layer | Shipped at work | Built in the open |
+|---|---|---|
+| **Apps & human-in-the-loop** | 🏦 Vanguard Digital Advisor experience · ☁️ T-Mobile agentic support platform | 🏦 [Contribution room calculator](https://vishalhabib99.github.io/retirement-answer-check/room/) · 🏦 [Review queue](https://github.com/vishalhabib99/retirement-answer-check#human-review-queue-is-the-review-itself-working) that tests whether reviewers catch what the checker missed |
+| **Agents & orchestration** | 🏦 Agentic AI Digital Advisor (0→1) · ☁️ Autonomous enterprise agent platform | [`GuardedSession`](https://github.com/vishalhabib99/mcp-trust-check#a-decision-on-every-call-act-escalate-or-block): decides ACT, ESCALATE or BLOCK on each live tool call |
+| **Tools & APIs (MCP)** | 🛒 eBay API standardization across hundreds of teams | [`mcp-doctor`](https://github.com/vishalhabib99/mcp-doctor), [`mcp-fuzz`](https://github.com/vishalhabib99/mcp-fuzz), [`mcp-reality-check`](https://github.com/vishalhabib99/mcp-reality-check) · 🏦 `check_answer` and `contribution_room` MCP tools |
+| **Evals & quality** | 🏦 Model evals for correctness, groundedness, safety, latency · ☁️ IntentCX evaluation framework | 🏦 [Blind, pre-registered evals](https://github.com/vishalhabib99/retirement-answer-check#results) · [`/eval-plan`](https://github.com/vishalhabib99/ai-pm-skills) |
+| **Guardrails, governance & risk** | 🏦 FINRA/SEC-compliant responsible AI design · ☁️ Governance aligned to NIST AI RMF | 🏦 [Model risk pack](https://github.com/vishalhabib99/retirement-answer-check/blob/main/docs/model-risk/README.md) (SR 26-2 + NIST AI 600-1) · [`mcp-trust-check`](https://github.com/vishalhabib99/mcp-trust-check) release gate, policy, audit log, PII checks |
+| **Product decisions** | 0→1 strategy, launch gates, adoption and containment metrics | [`/build-or-not`](https://github.com/vishalhabib99/ai-pm-skills) · [Agent Readiness Scorecard](https://vishalhabib99.github.io/agentic-product-playbook/) |
 
 ## ✅ Proof from outside
 - Fix [merged upstream](https://github.com/homeassistant-ai/ha-mcp/pull/2327) into `ha-mcp` (4.8K★)
@@ -32,9 +45,18 @@ Two areas that used to be on this list have shipped, rebuilt so nothing is guess
 
 ## 🧱 Portfolio
 
-**For AI product managers**
+**🏦 Fintech: verified AI answers about retirement money**
 
 - 🛡️ [`retirement-answer-check`](https://github.com/vishalhabib99/retirement-answer-check) — Checks an AI assistant's draft answer to a retirement-account question before a customer sees it: SEND or REVIEW, with an IRS or FINRA source for every flag. Built end to end: PRD, launch gates set before the first run, blind held-out tests, release gated by `mcp-trust-check`. Pattern rules alone let 5 of 15 blind wrong facts through; adding a fact-checking judge brought that to 0 of 25. Personal project, public sources only.
+
+  <details><summary>More detail</summary><br>
+
+  - **[Contribution room calculator](https://vishalhabib99.github.io/retirement-answer-check/room/):** how much more you can put into a 401(k), IRA and Roth IRA in 2026, with an IRS link on every number. No model: the same deterministic logic ships as a `contribution_room` MCP tool, so an assistant can compute limits instead of quoting last year's from memory. Tested against the IRS's own worked example.
+  - **[Model risk pack](https://github.com/vishalhabib99/retirement-answer-check/blob/main/docs/model-risk/README.md):** inventory, model card, validation report and monitoring plan. Written against SR 26-2, the April 2026 replacement for SR 11-7, which leaves generative AI out of scope, so the LLM judges are governed under NIST AI 600-1. Verdict: shadow mode only, with 3 open High findings, including prompt injection that hasn't been tested yet.
+
+  </details>
+
+**For AI product managers**
 
 - 📋 [`agentic-product-playbook`](https://github.com/vishalhabib99/agentic-product-playbook) — 7 ways AI agents fail in production, plus the templates that catch them: agent PRD, eval plan, launch checklist, metrics glossary. **[Take the 3-minute Agent Readiness Scorecard →](https://vishalhabib99.github.io/agentic-product-playbook/)**
 
