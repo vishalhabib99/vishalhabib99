@@ -16,7 +16,7 @@ Leading product strategy for **Digital Advisor** and **Personal Advisor** at **V
 - Fix [merged upstream](https://github.com/homeassistant-ai/ha-mcp/pull/2327) into `ha-mcp` (4.8K★)
 - Maintainers shipped fixes after my findings: [`mcp-server-chart`](https://github.com/antvis/mcp-server-chart/issues/323) (4.3K★) and [`agent-inspect`](https://github.com/rajudandigam/agent-inspect/issues/362)
 - Two contributors on the official [MCP spec discussion](https://github.com/modelcontextprotocol/modelcontextprotocol/discussions/3322) tested my tools and reported two real bugs and a spec gap; all three are fixed or shipped as new checks
-- A [public leaderboard](https://vishalhabib99.github.io/mcp-doctor/) grading 19 popular MCP servers, and [real skill runs](https://vishalhabib99.github.io/ai-pm-skills/) you can read without installing anything
+- A [public leaderboard](https://vishalhabib99.github.io/mcp-doctor/) grading 21 popular MCP servers, and [real skill runs](https://vishalhabib99.github.io/ai-pm-skills/) you can read without installing anything
 
 ## 🔗 Why this portfolio exists
 At work I build evals for AI agents: is the answer correct, grounded, safe and fast? These projects apply the same checks one layer down, to the tools an agent calls. `mcp-doctor` checks that a tool is documented well enough to use, `mcp-fuzz` checks that it fails safely and responds fast, and `mcp-reality-check` checks that its answers are true to what it did. `ai-pm-skills` packages the product side of that work, deciding what to build and what "good enough to ship" means, for other PMs. `agentic-product-playbook` is the no-install version for any PM: the failure modes, templates and a 3-minute scorecard for deciding whether an agent is ready to launch.
