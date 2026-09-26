@@ -19,7 +19,7 @@ Leading product strategy for **Digital Advisor** and **Personal Advisor** at **V
 - A [public leaderboard](https://vishalhabib99.github.io/mcp-doctor/) grading 21 popular MCP servers, and [real skill runs](https://vishalhabib99.github.io/ai-pm-skills/) you can read without installing anything
 
 ## 🔗 Why this portfolio exists
-At work I build evals for AI agents: is the answer correct, grounded, safe and fast? These projects apply the same checks one layer down, to the tools an agent calls. `mcp-doctor` checks that a tool is documented well enough to use, `mcp-fuzz` checks that it fails safely and responds fast, and `mcp-reality-check` checks that its answers are true to what it did. `ai-pm-skills` packages the product side of that work, deciding what to build and what "good enough to ship" means, for other PMs. `agentic-product-playbook` is the no-install version for any PM: the failure modes, templates and a 3-minute scorecard for deciding whether an agent is ready to launch.
+At work I build evals for AI agents: is the answer correct, grounded, safe and fast? These projects apply the same checks one layer down, to the tools an agent calls. `mcp-doctor` checks that a tool is documented well enough to use, `mcp-fuzz` checks that it fails safely and responds fast, and `mcp-reality-check` checks that its answers are true to what it did. `ai-pm-skills` packages the product side of that work, deciding what to build and what "good enough to ship" means, for other PMs. `agentic-product-playbook` is the no-install version for any PM: the failure modes, templates and a 3-minute scorecard for deciding whether an agent is ready to launch. `retirement-answer-check` puts it all together on one regulated use case.
 
 <details><summary>What this doesn't cover, by design</summary><br>
 
@@ -33,6 +33,8 @@ Two areas that used to be on this list have shipped, rebuilt so nothing is guess
 ## 🧱 Portfolio
 
 **For AI product managers**
+
+- 🛡️ [`retirement-answer-check`](https://github.com/vishalhabib99/retirement-answer-check) — Checks an AI assistant's draft answer to a retirement-account question before a customer sees it: SEND or REVIEW, with an IRS or FINRA source for every flag. Built end to end: PRD, launch gates set before the first run, blind held-out tests, release gated by `mcp-trust-check`. Pattern rules alone let 5 of 15 blind wrong facts through; adding a fact-checking judge brought that to 0 of 25. Personal project, public sources only.
 
 - 📋 [`agentic-product-playbook`](https://github.com/vishalhabib99/agentic-product-playbook) — 7 ways AI agents fail in production, plus the templates that catch them: agent PRD, eval plan, launch checklist, metrics glossary. **[Take the 3-minute Agent Readiness Scorecard →](https://vishalhabib99.github.io/agentic-product-playbook/)**
 
