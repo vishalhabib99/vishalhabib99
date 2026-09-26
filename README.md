@@ -18,11 +18,12 @@ Leading product strategy for **Digital Advisor** and **Personal Advisor** at **V
 
 | Layer | Shipped at work | Built in the open |
 |---|---|---|
-| **Apps & human-in-the-loop** | 🏦 Vanguard Digital Advisor experience · 🏢 T-Mobile agentic support platform | 🏦 [Contribution room calculator](https://vishalhabib99.github.io/retirement-answer-check/room/) · 🏦 [Review queue](https://github.com/vishalhabib99/retirement-answer-check#human-review-queue-is-the-review-itself-working) that tests whether reviewers catch what the checker missed |
+| **Apps & human-in-the-loop** | 🏦 Vanguard Digital Advisor experience · 🏢 T-Mobile agentic support platform | 🏦 [Contribution room calculator](https://vishalhabib99.github.io/retirement-answer-check/room/) · 🏦 [Review queue](https://github.com/vishalhabib99/retirement-answer-check#human-review-queue-is-the-review-itself-working) that tests whether reviewers catch what the checker missed · 🛒 [Listing checker demo](https://vishalhabib99.github.io/listing-claim-check/) |
 | **Agents & orchestration** | 🏦 Agentic AI Digital Advisor (0→1) · 🏢 Autonomous enterprise agent platform | [`GuardedSession`](https://github.com/vishalhabib99/mcp-trust-check#a-decision-on-every-call-act-escalate-or-block): decides ACT, ESCALATE or BLOCK on each live tool call |
-| **Tools & APIs (MCP)** | 🛒 eBay API standardization across hundreds of teams | [`mcp-doctor`](https://github.com/vishalhabib99/mcp-doctor), [`mcp-fuzz`](https://github.com/vishalhabib99/mcp-fuzz), [`mcp-reality-check`](https://github.com/vishalhabib99/mcp-reality-check) · 🏦 `check_answer` and `contribution_room` MCP tools |
-| **Evals & quality** | 🏦 Model evals for correctness, groundedness, safety, latency · 🏢 IntentCX evaluation framework | 🏦 [Blind, pre-registered evals](https://github.com/vishalhabib99/retirement-answer-check#results) · [`/eval-plan`](https://github.com/vishalhabib99/ai-pm-skills) |
+| **Tools & APIs (MCP)** | 🛒 eBay API standardization across hundreds of teams | [`mcp-doctor`](https://github.com/vishalhabib99/mcp-doctor), [`mcp-fuzz`](https://github.com/vishalhabib99/mcp-fuzz), [`mcp-reality-check`](https://github.com/vishalhabib99/mcp-reality-check) · 🏦 `check_answer` and `contribution_room` MCP tools · 🛒 `check_listing` MCP tool |
+| **Evals & quality** | 🏦 Model evals for correctness, groundedness, safety, latency · 🏢 IntentCX evaluation framework | 🏦 [Blind, pre-registered evals](https://github.com/vishalhabib99/retirement-answer-check#results) · 🛒 [A failed first blind run, then a fresh blind pass](https://github.com/vishalhabib99/listing-claim-check#results) · [`/eval-plan`](https://github.com/vishalhabib99/ai-pm-skills) |
 | **Guardrails, governance & risk** | 🏦 FINRA/SEC-compliant responsible AI design · 🏢 Governance aligned to NIST AI RMF | 🏦 [Model risk pack](https://github.com/vishalhabib99/retirement-answer-check/blob/main/docs/model-risk/README.md) (SR 26-2 + NIST AI 600-1) · [`mcp-trust-check`](https://github.com/vishalhabib99/mcp-trust-check) release gate, policy, audit log, PII checks |
+| **Cost & pricing** | 🏢 Accuracy, cost and latency tuned per interaction type: latency roughly halved on low-stakes queries | 🏢 [Which model, and how to price it](https://github.com/vishalhabib99/ai-pm-portfolio/blob/main/memos/2026-09-ai-feature-unit-economics.md): verified model pricing, 4 routing options, per-seat economics |
 | **Product decisions** | 0→1 strategy, launch gates, adoption and containment metrics | [`/build-or-not`](https://github.com/vishalhabib99/ai-pm-skills) · [Agent Readiness Scorecard](https://vishalhabib99.github.io/agentic-product-playbook/) |
 
 ## ✅ Proof from outside
@@ -55,6 +56,15 @@ Two areas that used to be on this list have shipped, rebuilt so nothing is guess
   - **[Model risk pack](https://github.com/vishalhabib99/retirement-answer-check/blob/main/docs/model-risk/README.md):** inventory, model card, validation report and monitoring plan. Written against SR 26-2, the April 2026 replacement for SR 11-7, which leaves generative AI out of scope, so the LLM judges are governed under NIST AI 600-1. Verdict: shadow mode only, with 3 open High findings, including prompt injection that hasn't been tested yet.
 
   </details>
+
+**🛒 Marketplaces: AI listings that match the item**
+
+- 🏷️ [`listing-claim-check`](https://github.com/vishalhabib99/listing-claim-check) — Checks an AI-written listing against the seller's own item specifics before it's published: PUBLISH or REVIEW, with the exact words behind every unbacked claim ("like new" on a used phone, "unlocked" on a carrier-locked one, a box that isn't included). **[Try it in your browser →](https://vishalhabib99.github.io/listing-claim-check/)** Gates were set before any code. v0.1 **failed** its first blind run (2 of 11 high-harm claims got through), so the design changed: any number no item specific backs goes to a person. On a fresh blind set, 0 of 11 got through.
+
+**🏢 SaaS & enterprise platforms**
+
+- 📊 [Which model, and how to price it](https://github.com/vishalhabib99/ai-pm-portfolio/blob/main/memos/2026-09-ai-feature-unit-economics.md) — unit economics for an AI support-drafting feature: verified Claude pricing (including the ~30% tokenizer difference), four routing options, per-seat pricing. The finding: model cost is under 5% of the value delivered, so the constraint is draft quality, and caching barely matters because retrieved docs can't be cached.
+- 📡 [T-Mobile case study](https://github.com/vishalhabib99/ai-pm-portfolio/blob/main/case-studies/2026-09-tmobile-enterprise-agentic-platform.md) — four architecture decisions behind the agentic platform (25M users, 60% containment), their tradeoffs, and what I'd do differently.
 
 **For AI product managers**
 
