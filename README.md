@@ -13,7 +13,7 @@ Leading product strategy for **Digital Advisor** and **Personal Advisor** at **V
 - **eBay** — Drove **$300M+ in savings** via marketplace platform modernization and API standardization across hundreds of engineering teams.
 
 ## ✅ Proof from outside
-- Fix [merged upstream](https://github.com/homeassistant-ai/ha-mcp/pull/2327) into `ha-mcp` (4.5K★)
+- Fix [merged upstream](https://github.com/homeassistant-ai/ha-mcp/pull/2327) into `ha-mcp` (4.8K★)
 - Maintainers shipped fixes after my findings: [`mcp-server-chart`](https://github.com/antvis/mcp-server-chart/issues/323) (4.3K★) and [`agent-inspect`](https://github.com/rajudandigam/agent-inspect/issues/362)
 - Two contributors on the official [MCP spec discussion](https://github.com/modelcontextprotocol/modelcontextprotocol/discussions/3322) tested my tools and reported two real bugs and a spec gap; all three are fixed or shipped as new checks
 - A [public leaderboard](https://vishalhabib99.github.io/mcp-doctor/) grading 19 popular MCP servers, and [real skill runs](https://vishalhabib99.github.io/ai-pm-skills/) you can read without installing anything
@@ -68,7 +68,7 @@ Two areas that used to be on this list have shipped, rebuilt so nothing is guess
   <details><summary>More detail</summary><br>
 
   - `pip install mcp-runtime-check`. Works over stdio or remote Streamable HTTP (`--url`).
-  - Found all 27 tools in Ant Design's `mcp-server-chart` crashing on bad input ([fixed upstream](https://github.com/antvis/mcp-server-chart/issues/323)), plus bugs [filed on `shadcn-ui-mcp-server`](https://github.com/Jpisnice/shadcn-ui-mcp-server/issues/61) and [`codebase-memory-mcp`](https://github.com/DeusData/codebase-memory-mcp/issues/2118) (42.7K★).
+  - Found all 27 tools in Ant Design's `mcp-server-chart` crashing on bad input ([fixed upstream](https://github.com/antvis/mcp-server-chart/issues/323)), plus bugs [filed on `shadcn-ui-mcp-server`](https://github.com/Jpisnice/shadcn-ui-mcp-server/issues/61) and [`codebase-memory-mcp`](https://github.com/DeusData/codebase-memory-mcp/issues/2118) (44.9K★).
   - Also checks latency, response size, concurrency, resource lifecycles and token cost, and runs as a live gate inside an agent session (`LatencyGate`).
   - [Full build log →](https://github.com/vishalhabib99/mcp-fuzz/blob/main/docs/BUILD_LOG.md)
 
