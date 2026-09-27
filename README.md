@@ -95,7 +95,7 @@ Two areas that used to be on this list have shipped, rebuilt so nothing is guess
 
 **Trust & quality tooling for the tools AI agents call (MCP)**
 
-- 🩺 [`mcp-doctor`](https://github.com/vishalhabib99/mcp-doctor) — static audit of MCP servers for what breaks an agent calling them. Run on 40+ real servers up to 90k★: 43 real bugs found and fixed, one fix [merged upstream](https://github.com/homeassistant-ai/ha-mcp/pull/2327). [Public leaderboard](https://vishalhabib99.github.io/mcp-doctor/).
+- 🩺 [`mcp-doctor`](https://github.com/vishalhabib99/mcp-doctor) — static audit of MCP servers for what breaks an agent calling them. Run on 40+ real servers up to 90k★: 43 real bugs found and fixed, one fix [merged upstream](https://github.com/homeassistant-ai/ha-mcp/pull/2327). [Public leaderboard](https://vishalhabib99.github.io/mcp-doctor/). **[Scan your server with no install →](https://github.com/vishalhabib99/mcp-doctor/issues/new?template=scan-request.yml)** Open an issue, paste the repo URL, and a bot replies with the report.
 
   <details><summary>More detail</summary><br>
 
@@ -136,6 +136,7 @@ Two areas that used to be on this list have shipped, rebuilt so nothing is guess
   </details>
 
 ## ✍️ Writing
+- [My tools were rigorous. They were also hard to try.](https://www.linkedin.com/posts/vishal-habib_agenticai-mcp-aiproductmanagement-share-7510079742864334848-qohk/) — why mcp-doctor now runs with no install, on LinkedIn
 - [My prompt-injection fix caught 0 of 20 attacks. The part I almost didn't build caught all of them.](https://dev.to/vishalhabib99/my-prompt-injection-fix-caught-0-of-20-attacks-the-part-i-almost-didnt-build-caught-all-of-them-oi0) — two red teams against retirement-answer-check's judges, and the regex that failed, on dev.to
 - [I set the pass bar before testing my Claude Code skills. The first run failed.](https://dev.to/vishalhabib99/i-set-the-pass-bar-before-testing-my-claude-code-skills-the-first-run-failed-1ef5) — the eval story behind ai-pm-skills, on dev.to
 - [I Built Three Tools to Audit MCP Servers for Agentic AI. Here's What They Found — and What I Learned Shipping Them.](https://www.linkedin.com/pulse/i-built-three-tools-audit-mcp-servers-agentic-ai-heres-vishal-habib-kmv3c/) — the trilogy story on LinkedIn
