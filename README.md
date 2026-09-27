@@ -95,7 +95,7 @@ Two areas that used to be on this list have shipped, rebuilt so nothing is guess
 
 **Trust & quality tooling for the tools AI agents call (MCP)**
 
-- 🩺 [`mcp-doctor`](https://github.com/vishalhabib99/mcp-doctor) — static audit of MCP servers for what breaks an agent calling them. Run on 40+ real servers up to 76k★: 43 real bugs found and fixed, one fix [merged upstream](https://github.com/homeassistant-ai/ha-mcp/pull/2327). [Public leaderboard](https://vishalhabib99.github.io/mcp-doctor/).
+- 🩺 [`mcp-doctor`](https://github.com/vishalhabib99/mcp-doctor) — static audit of MCP servers for what breaks an agent calling them. Run on 40+ real servers up to 90k★: 43 real bugs found and fixed, one fix [merged upstream](https://github.com/homeassistant-ai/ha-mcp/pull/2327). [Public leaderboard](https://vishalhabib99.github.io/mcp-doctor/).
 
   <details><summary>More detail</summary><br>
 
@@ -105,7 +105,7 @@ Two areas that used to be on this list have shipped, rebuilt so nothing is guess
   - Most fixes came from its own false positives on real repos; a recurring pattern was confirmed on other codebases before a fix shipped. [Full build log →](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/BUILD_LOG.md)
 
   </details>
-- 🧪 [`mcp-fuzz`](https://github.com/vishalhabib99/mcp-fuzz) — launches a real MCP server and calls every tool with schema-derived inputs to check it fails cleanly. Runtime runs on 24 real servers up to 61K★; crash bugs filed upstream, one confirmed fixed, and an external maintainer shipped a fix in response to a finding.
+- 🧪 [`mcp-fuzz`](https://github.com/vishalhabib99/mcp-fuzz) — launches a real MCP server and calls every tool with schema-derived inputs to check it fails cleanly. Runtime runs on 24 real servers up to 62K★; crash bugs filed upstream, one confirmed fixed, and an external maintainer shipped a fix in response to a finding.
 
   <details><summary>More detail</summary><br>
 
