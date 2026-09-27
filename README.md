@@ -2,7 +2,7 @@
 
 **Lead AI Product Manager & Builder — Agentic AI**
 
-10+ years launching 0→1 products and scaling platforms across **fintech, SaaS and enterprise platforms, and marketplaces**. Today I lead agentic AI product strategy at Vanguard, and on the side I build the eval and trust tooling I wish every AI team had.
+10+ years launching 0→1 products and scaling platforms 1→100 across **fintech, SaaS and enterprise platforms, and marketplaces**: **$9B+ in revenue platforms, 29M+ MAU, $300M+ in cost savings**. Today I lead agentic AI product strategy at Vanguard, and on the side I build the eval and trust tooling I wish every AI team had.
 
 **What ties it together:** AI output is only worth shipping when it can be checked against a source of truth, whether that's an IRS rule, a tool's own schema, or a platform's API contract.
 
@@ -10,9 +10,15 @@
 Leading product strategy for **Digital Advisor** and **Personal Advisor** at **Vanguard** ($6B+ LOB, 4M+ MAU) — architecting the next-generation Agentic AI Digital Advisor from 0-to-1, including model evaluation frameworks (correctness, groundedness, safety, latency) and FINRA/SEC-compliant responsible AI design.
 
 ## 🚀 Selected work, by vertical
-- 🏦 **Fintech: Vanguard.** Agentic AI Digital Advisor (0→1): LLM orchestration, autonomous agent workflows, personalized financial guidance at scale, with regulatory guardrails and model governance. Earlier in fintech: Axis Bank.
-- 🏢 **SaaS & enterprise platforms: T-Mobile.** Launched one of the first autonomous enterprise Agentic AI platforms in US telecom: **75% adoption, 46% automation, 60% containment, 80% CSAT, 30% fewer support calls**. Built the IntentCX AI governance & model evaluation framework (aligned to NIST AI RMF), adopted org-wide by 3 additional teams.
-- 🛒 **Marketplaces: eBay.** Drove **$300M+ in savings** via marketplace platform modernization and API standardization across hundreds of engineering teams.
+- 🏦 **Fintech: Vanguard.** Agentic AI Digital Advisor (0→1) at the world's second-largest asset manager (~$12T AUM): LLM orchestration, autonomous agent workflows, personalized financial guidance at scale, with regulatory guardrails and model governance. Also in fintech: launched **T-Mobile Money** (fee-free digital banking, high-yield savings) and, earlier, digital lending modernization at Axis Bank.
+- 🏢 **SaaS & enterprise platforms: T-Mobile.** Product lead for T-Life, the flagship app ($3B+ LOB, 25M+ MAU); managed 3 PMs and a 40+ person cross-functional org. Launched one of the first autonomous enterprise Agentic AI platforms in US telecom: **75% adoption, 46% automation, 60% containment, 80% CSAT, 30% fewer support calls**. Built the IntentCX AI governance & model evaluation framework (aligned to NIST AI RMF), adopted org-wide by 3 additional teams. AI personalization on the T-Life home feed: **+27% engagement, +15% conversion** across 50+ A/B experiments a year.
+- 🛒 **Marketplaces: eBay.** Drove **$300M+ in savings** and **+35% adoption** via marketplace platform modernization and API standardization across hundreds of engineering teams; monolith to microservices with 40% faster deploys and 99.9% availability on seller-facing APIs.
+- 🩺 **Earlier, healthcare: Premera Blue Cross.** Billing and payment redesign that cut task completion time 25%.
+
+## 🏆 Recognition
+- **Patent filed:** sole inventor on a U.S. provisional patent application (No. 63/980,243, May 2026) for an agentic AI/ML orchestration and governance system: dynamic execution governance, non-transitive delegation, risk-aware orchestration, and verifiable compliance.
+- **Top Product Leader, T-Mobile (2025)**, for building and launching the enterprise agentic AI platform.
+- **Keynote speaker, T-Mobile Technology Innovation Summit (2025):** AI strategy keynote to 1,200+ attendees on scaling enterprise agentic AI platforms.
 
 ## 🗺️ Where my work sits in the AI stack
 
@@ -135,7 +141,9 @@ Two areas that used to be on this list have shipped, rebuilt so nothing is guess
 - [I built three tools to audit MCP servers. Each one found a bug in itself first.](https://dev.to/vishalhabib99/i-built-three-tools-to-audit-mcp-servers-each-one-found-a-bug-in-itself-first-5dlc) — the trilogy's origin story, on dev.to
 
 ## 🎓 Background
-Stanford University Graduate School of Business
+- **Stanford Graduate School of Business:** Executive Program, Harnessing AI for Breakthrough Innovation and Strategic Impact (2026)
+- MBA, Business Strategy and Marketing, Indiana University of Pennsylvania · MS, Information Technology Management, Campbellsville University
+- Certifications: PMP · SAFe POPM · AWS Solutions Architect Associate · CSPO · PMI-PBA · Google AI Essentials
 
 ## 📫 Reach me
 - Email: [vishalhabib99@gmail.com](mailto:vishalhabib99@gmail.com)
