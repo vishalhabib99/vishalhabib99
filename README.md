@@ -40,7 +40,7 @@
 - 📊 [Which model, and how to price it](https://github.com/vishalhabib99/ai-pm-portfolio/blob/main/memos/2026-09-ai-feature-unit-economics.md) — unit economics for an AI support-drafting feature: model cost is under 5% of the value delivered, so the constraint is draft quality.
 
 **🧰 Trust tooling for the tools AI agents call (MCP)**
-- 🩺 [`mcp-doctor`](https://github.com/vishalhabib99/mcp-doctor) — static audit of MCP servers. Run on 40+ real servers up to 90k★: 44 real bugs found and fixed. **[Scan your server with no install →](https://github.com/vishalhabib99/mcp-doctor/issues/new?template=scan-request.yml)**
+- 🩺 [`mcp-doctor`](https://github.com/vishalhabib99/mcp-doctor) — static audit of MCP servers. Run on 40+ real servers up to 90k★: 45 real bugs found and fixed. **[Scan your server with no install →](https://github.com/vishalhabib99/mcp-doctor/issues/new?template=scan-request.yml)**
 - 🧪 [`mcp-fuzz`](https://github.com/vishalhabib99/mcp-fuzz) — calls every tool on a live server with schema-derived inputs to check it fails cleanly. Runtime runs on 24 real servers up to 62K★.
 - 🩻 [`mcp-reality-check`](https://github.com/vishalhabib99/mcp-reality-check) — catches "successful" responses that aren't: disguised refusals, empty content, output that breaks its own schema.
 - 🛡️ [`mcp-trust-check`](https://github.com/vishalhabib99/mcp-trust-check) — all three as one [GitHub Action](https://github.com/marketplace/actions/mcp-trust-check) with a SHIP / FIX-FIRST / BLOCK release decision, plus `GuardedSession` for live per-call decisions, an operator-written policy, a tamper-evident audit log and PII checks.
