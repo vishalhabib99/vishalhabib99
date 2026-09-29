@@ -53,12 +53,13 @@
 <img src="https://raw.githubusercontent.com/vishalhabib99/ai-pm-skills/main/docs/demo.gif" alt="A real /build-or-not run in Claude Code: 0 of 6 real examples clear the bar, so the decision is don't build" width="600">
 
 ## ✍️ Writing
+- ["0 of 18 got through" isn't a launch. Here's the number that is.](https://dev.to/vishalhabib99/0-of-18-got-through-isnt-a-launch-heres-the-number-that-is-34p4) (dev.to)
 - [My prompt-injection fix caught 0 of 20 attacks. The part I almost didn't build caught all of them.](https://dev.to/vishalhabib99/my-prompt-injection-fix-caught-0-of-20-attacks-the-part-i-almost-didnt-build-caught-all-of-them-oi0) (dev.to)
-- [I set the pass bar before testing my Claude Code skills. The first run failed.](https://dev.to/vishalhabib99/i-set-the-pass-bar-before-testing-my-claude-code-skills-the-first-run-failed-1ef5) (dev.to)
 - [Building T-Mobile's First Enterprise Agentic AI Platform: 25M Users, 75% Adoption, and What I'd Do Differently](https://www.linkedin.com/pulse/building-t-mobiles-first-enterprise-agentic-ai-platform-vishal-habib-bftoc/) (LinkedIn)
 
 <details><summary>More writing</summary><br>
 
+- [I set the pass bar before testing my Claude Code skills. The first run failed.](https://dev.to/vishalhabib99/i-set-the-pass-bar-before-testing-my-claude-code-skills-the-first-run-failed-1ef5) (dev.to)
 - [My tools were rigorous. They were also hard to try.](https://www.linkedin.com/posts/vishal-habib_agenticai-mcp-aiproductmanagement-share-7510079742864334848-qohk/) — why mcp-doctor now runs with no install (LinkedIn)
 - [I Built Three Tools to Audit MCP Servers for Agentic AI. Here's What They Found — and What I Learned Shipping Them.](https://www.linkedin.com/pulse/i-built-three-tools-audit-mcp-servers-agentic-ai-heres-vishal-habib-kmv3c/) (LinkedIn)
 - [I built three tools to audit MCP servers. Each one found a bug in itself first.](https://dev.to/vishalhabib99/i-built-three-tools-to-audit-mcp-servers-each-one-found-a-bug-in-itself-first-5dlc) (dev.to)
