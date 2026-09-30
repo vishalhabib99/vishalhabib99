@@ -2,7 +2,7 @@
 
 **Lead AI Product Manager & Builder — Agentic AI** · leading the 0→1 Agentic AI Digital Advisor at **Vanguard** · ex-T-Mobile, eBay · Stanford GSB
 
-10+ years launching 0→1 products and scaling platforms 1→100 across **fintech, SaaS and enterprise platforms, and marketplaces**: **$9B+ in revenue platforms, 29M+ MAU, $300M+ in cost savings**. On the side I build the eval and trust tooling I wish every AI team had, and I publish the failures along with the passes. I build with Claude Code; I write the evals and set the pass bars before the first run.
+10+ years launching 0→1 products and scaling platforms 1→100 across **fintech, SaaS and enterprise platforms, and marketplaces**: **$9B+ in revenue platforms, 29M+ MAU, $300M+ in cost savings**. On the side I build the eval and trust tooling I wish every AI team had, and I publish the failures along with the passes.
 
 **What ties it together:** AI output is only worth shipping when it can be checked against a source of truth, whether that's an IRS rule, a tool's own schema, or a platform's API contract.
 
