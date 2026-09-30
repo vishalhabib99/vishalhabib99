@@ -11,7 +11,7 @@
 - Both of my fixes to `excel-mcp-server` (4.2K★) were reimplemented in its v1.0.0 rewrite, [credited in the changelog](https://github.com/haris-musa/excel-mcp-server/releases/tag/v1.0.0)
 - Maintainers shipped fixes after my findings: [`codebase-memory-mcp`](https://github.com/DeusData/codebase-memory-mcp/issues/2118) (45K★) relabeled 10 mislabeled read-only tools in v0.11.0, with a [fix for the last 2](https://github.com/DeusData/codebase-memory-mcp/pull/2404) in review; plus [`mcp-server-chart`](https://github.com/antvis/mcp-server-chart/issues/323) (4.4K★) and [`agent-inspect`](https://github.com/rajudandigam/agent-inspect/issues/362)
 - Two contributors on the official [MCP spec discussion](https://github.com/modelcontextprotocol/modelcontextprotocol/discussions/3322) tested my tools and reported two real bugs and a spec gap; all three are fixed or shipped as new checks
-- A [public leaderboard](https://vishalhabib99.github.io/mcp-doctor/) grading 21 popular MCP servers, and [real skill runs](https://vishalhabib99.github.io/ai-pm-skills/) you can read without installing anything
+- A [public leaderboard](https://vishalhabib99.github.io/mcp-doctor/) grading 24 MCP servers, 3 of them added by an outside maintainer through the [no-install scan](https://github.com/vishalhabib99/mcp-doctor/issues?q=label%3Ascan-request), and [real skill runs](https://vishalhabib99.github.io/ai-pm-skills/) you can read without installing anything
 
 ## 🗺️ Where my work sits in the AI stack
 
