@@ -9,7 +9,7 @@
 ## ✅ Proof from outside
 - Fix [merged upstream](https://github.com/homeassistant-ai/ha-mcp/pull/2327) into `ha-mcp` (4.9K★)
 - Both of my fixes to `excel-mcp-server` (4.2K★) were reimplemented in its v1.0.0 rewrite, [credited in the changelog](https://github.com/haris-musa/excel-mcp-server/releases/tag/v1.0.0)
-- Maintainers shipped fixes after my findings: [`codebase-memory-mcp`](https://github.com/DeusData/codebase-memory-mcp/issues/2118) (45K★) relabeled all 12 mislabeled read-only tools (10 in v0.11.0, the [last 2](https://github.com/DeusData/codebase-memory-mcp/pull/2404) merged 09-30); plus [`mcp-server-chart`](https://github.com/antvis/mcp-server-chart/issues/323) (4.4K★) and [`agent-inspect`](https://github.com/rajudandigam/agent-inspect/issues/362)
+- Maintainers shipped fixes after my findings: [`codebase-memory-mcp`](https://github.com/DeusData/codebase-memory-mcp/issues/2118) (45.6K★) relabeled all 12 mislabeled read-only tools (10 in v0.11.0, the [last 2](https://github.com/DeusData/codebase-memory-mcp/pull/2404) merged 09-30); plus [`mcp-server-chart`](https://github.com/antvis/mcp-server-chart/issues/323) (4.4K★) and [`agent-inspect`](https://github.com/rajudandigam/agent-inspect/issues/362)
 - Two contributors on the official [MCP spec discussion](https://github.com/modelcontextprotocol/modelcontextprotocol/discussions/3322) tested my tools and reported two real bugs and a spec gap; all three are fixed or shipped as new checks
 - A [public leaderboard](https://vishalhabib99.github.io/mcp-doctor/) grading 24 MCP servers, 3 of them added by an outside maintainer through the [no-install scan](https://github.com/vishalhabib99/mcp-doctor/issues?q=label%3Ascan-request), and [real skill runs](https://vishalhabib99.github.io/ai-pm-skills/) you can read without installing anything
 
@@ -41,7 +41,7 @@
 
 **🧰 Trust tooling for the tools AI agents call (MCP)**
 - 🩺 [`mcp-doctor`](https://github.com/vishalhabib99/mcp-doctor) — static audit of MCP servers. Finds [11,228 of 11,411 tools across 603 real servers](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/coverage.md) on 4 frameworks, every miss published; 57 real bugs found and fixed. **[Scan your server with no install →](https://github.com/vishalhabib99/mcp-doctor/issues/new?template=scan-request.yml)**
-- 🧪 [`mcp-fuzz`](https://github.com/vishalhabib99/mcp-fuzz) — calls every tool on a live server with schema-derived inputs to check it fails cleanly. Runtime runs on 24 real servers up to 62K★.
+- 🧪 [`mcp-fuzz`](https://github.com/vishalhabib99/mcp-fuzz) — calls every tool on a live server with schema-derived inputs to check it fails cleanly. Runtime runs on 24 real servers up to 62.6K★.
 - 🩻 [`mcp-reality-check`](https://github.com/vishalhabib99/mcp-reality-check) — catches "successful" responses that aren't: disguised refusals, empty content, output that breaks its own schema.
 - 🛡️ [`mcp-trust-check`](https://github.com/vishalhabib99/mcp-trust-check) — all three as one [GitHub Action](https://github.com/marketplace/actions/mcp-trust-check) with a SHIP / FIX-FIRST / BLOCK release decision, plus `GuardedSession` for live per-call decisions, an operator-written policy, a tamper-evident audit log and PII checks.
 
