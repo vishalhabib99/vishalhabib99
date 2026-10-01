@@ -7,6 +7,8 @@
 **What ties it together:** AI output is only worth shipping when it can be checked against a source of truth, whether that's an IRS rule, a tool's own schema, or a platform's API contract.
 
 ## ✅ Proof from outside
+None of these maintainers work with me. Each change shipped because the evidence was clear enough for them to act on.
+
 - Fix [merged upstream](https://github.com/homeassistant-ai/ha-mcp/pull/2327) into `ha-mcp` (4.9K★)
 - Both of my fixes to `excel-mcp-server` (4.2K★) were reimplemented in its v1.0.0 rewrite, [credited in the changelog](https://github.com/haris-musa/excel-mcp-server/releases/tag/v1.0.0)
 - Maintainers shipped fixes after my findings: [`codebase-memory-mcp`](https://github.com/DeusData/codebase-memory-mcp/issues/2118) (45.6K★) relabeled all 12 mislabeled read-only tools (10 in v0.11.0, the [last 2](https://github.com/DeusData/codebase-memory-mcp/pull/2404) merged 09-30); plus [`mcp-server-chart`](https://github.com/antvis/mcp-server-chart/issues/323) (4.4K★) and [`agent-inspect`](https://github.com/rajudandigam/agent-inspect/issues/362)
@@ -42,7 +44,7 @@
 - 📊 [Which model, and how to price it](https://github.com/vishalhabib99/ai-pm-portfolio/blob/main/memos/2026-09-ai-feature-unit-economics.md) — unit economics for an AI support-drafting feature: model cost is under 5% of the value delivered, so the constraint is draft quality.
 
 **🧰 Trust tooling for the tools AI agents call (MCP)**
-- 🩺 [`mcp-doctor`](https://github.com/vishalhabib99/mcp-doctor) — static audit of MCP servers. Finds [11,228 of 11,411 tools across 603 real servers](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/coverage.md) on 4 frameworks, every miss published; scanning real servers surfaced 66 bugs in mcp-doctor itself, all fixed. **[Scan your server with no install →](https://github.com/vishalhabib99/mcp-doctor/issues/new?template=scan-request.yml)**
+- 🩺 [`mcp-doctor`](https://github.com/vishalhabib99/mcp-doctor) — **for MCP server maintainers who need to know whether an agent can actually use their tools.** Open an issue with your repo URL and a bot replies with a graded report, no install. The first outside maintainer scanned [3 of their servers](https://github.com/vishalhabib99/mcp-doctor/issues?q=label%3Ascan-request). Their first scan found 0 of 165 tools, which was a bug in mcp-doctor, fixed the next day and re-run. It now finds [11,228 of 11,411 tools across 603 real servers](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/coverage.md), every miss published; scanning real servers surfaced 66 bugs in mcp-doctor itself, all fixed. **[Scan your server →](https://github.com/vishalhabib99/mcp-doctor/issues/new?template=scan-request.yml)**
 - 🧪 [`mcp-fuzz`](https://github.com/vishalhabib99/mcp-fuzz) — calls every tool on a live server with schema-derived inputs to check it fails cleanly. Runtime runs on 24 real servers up to 62.6K★.
 - 🩻 [`mcp-reality-check`](https://github.com/vishalhabib99/mcp-reality-check) — catches "successful" responses that aren't: disguised refusals, empty content, output that breaks its own schema.
 - 🛡️ [`mcp-trust-check`](https://github.com/vishalhabib99/mcp-trust-check) — all three as one [GitHub Action](https://github.com/marketplace/actions/mcp-trust-check) with a SHIP / FIX-FIRST / BLOCK release decision, plus `GuardedSession` for live per-call decisions, an operator-written policy, a tamper-evident audit log and PII checks.
