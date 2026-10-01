@@ -13,7 +13,7 @@
 - Two contributors on the official [MCP spec discussion](https://github.com/modelcontextprotocol/modelcontextprotocol/discussions/3322) tested my tools and reported two real bugs and a spec gap; all three are fixed or shipped as new checks
 - A [public leaderboard](https://vishalhabib99.github.io/mcp-doctor/) grading 24 MCP servers, 3 of them added by an outside maintainer through the [no-install scan](https://github.com/vishalhabib99/mcp-doctor/issues?q=label%3Ascan-request), and [real skill runs](https://vishalhabib99.github.io/ai-pm-skills/) you can read without installing anything
 
-## 🗺️ Where my work sits in the AI stack
+<details><summary><b>🗺️ Where my work sits in the AI stack</b>: what I shipped at work vs. built in the open, layer by layer</summary><br>
 
 | Layer | Shipped at work | Built in the open |
 |---|---|---|
@@ -24,6 +24,8 @@
 | **Guardrails, governance & risk** | 🏦 FINRA/SEC-compliant responsible AI design · 🏢 Governance aligned to NIST AI RMF | 🏦 [Model risk pack](https://github.com/vishalhabib99/retirement-answer-check/blob/main/docs/model-risk/README.md) (SR 26-2 + NIST AI 600-1) · 🏦 [Prompt-injection red team](https://github.com/vishalhabib99/retirement-answer-check#prompt-injection-can-a-draft-talk-the-checker-into-passing-it), before and after the fix · [`mcp-trust-check`](https://github.com/vishalhabib99/mcp-trust-check) release gate, policy, audit log, PII checks · 🏢 [Red-teamed handoff checks](https://github.com/vishalhabib99/agent-handoff-check#results) with a tamper-evident record of who handed what to whom |
 | **Cost & pricing** | 🏢 Accuracy, cost and latency tuned per interaction type: latency roughly halved on low-stakes queries | 🏢 [Which model, and how to price it](https://github.com/vishalhabib99/ai-pm-portfolio/blob/main/memos/2026-09-ai-feature-unit-economics.md): verified model pricing, 4 routing options, per-seat economics |
 | **Product decisions** | 0→1 strategy, launch gates, adoption and containment metrics | [PRD: Agent Outcome Trust Score](https://github.com/vishalhabib99/ai-pm-portfolio/blob/main/prds/2026-09-agent-outcome-trust-score.md), an evidence-first scorecard for deciding whether an agent is ready for production · [`/build-or-not`](https://github.com/vishalhabib99/ai-pm-skills) · [Agent Readiness Scorecard](https://vishalhabib99.github.io/agentic-product-playbook/) |
+
+</details>
 
 ## 🧱 Portfolio
 
