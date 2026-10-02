@@ -6,6 +6,11 @@
 
 **What ties it together:** AI output is only worth shipping when it can be checked against a source of truth, whether that's an IRS rule, a tool's own schema, or a platform's API contract.
 
+**⏱️ Got 2 minutes? Start here:**
+1. **[A real report from a real user](https://github.com/vishalhabib99/mcp-doctor/issues/5)**: an outside maintainer opened an issue and a bot graded their MCP server. No install needed.
+2. **[A red team that broke my own checker](https://github.com/vishalhabib99/listing-claim-check#results)**: all 22 in-scope attacks got through, and I published it as-is.
+3. **[Try a checker yourself](https://vishalhabib99.github.io/agent-handoff-check/)**: an agent-to-agent handoff, decided ACT, ESCALATE or BLOCK, in your browser.
+
 ## ✅ Proof from outside
 None of these maintainers work with me. Each change shipped because the evidence was clear enough for them to act on.
 
@@ -32,29 +37,31 @@ None of these maintainers work with me. Each change shipped because the evidence
 ## 🧱 Portfolio
 
 **🏦 Fintech**
-- 🛡️ [`retirement-answer-check`](https://github.com/vishalhabib99/retirement-answer-check) — checks an AI assistant's draft answer to a retirement-account question before a customer sees it: SEND or REVIEW, with an IRS or FINRA source for every flag. Pattern rules alone let 5 of 15 blind wrong facts through; adding a fact-checking judge brought that to 0 of 25. Includes a [contribution room calculator](https://vishalhabib99.github.io/retirement-answer-check/room/) and a [model risk pack](https://github.com/vishalhabib99/retirement-answer-check/blob/main/docs/model-risk/README.md) (SR 26-2 + NIST AI 600-1).
+- 🛡️ [`retirement-answer-check`](https://github.com/vishalhabib99/retirement-answer-check): checks an AI's draft answer to a retirement-account question before a customer sees it, and decides SEND or REVIEW with an IRS or FINRA source for every flag.<br>
+  Pattern rules alone let 5 of 15 blind wrong facts through; adding a fact-checking judge cut that to 0 of 25. Also: [contribution room calculator](https://vishalhabib99.github.io/retirement-answer-check/room/) · [model risk pack](https://github.com/vishalhabib99/retirement-answer-check/blob/main/docs/model-risk/README.md)
 
 **🛒 Marketplaces**
-- 🏷️ [`listing-claim-check`](https://github.com/vishalhabib99/listing-claim-check) — checks an AI-written listing against the seller's own item specifics: PUBLISH or REVIEW. **[Try it →](https://vishalhabib99.github.io/listing-claim-check/)** v0.1 failed its first blind run, v0.2 passed a fresh one (0 of 11 high-harm claims through), then a [red team with the code open](https://github.com/vishalhabib99/listing-claim-check#results) got all 22 in-scope attacks through. Published as-is.
-- 🧩 [eBay case study](https://github.com/vishalhabib99/ai-pm-portfolio/blob/main/case-studies/2026-09-ebay-marketplace-platform.md) — the platform behind the $300M+ in savings, and why a clear contract matters for AI agents too.
+- 🏷️ [`listing-claim-check`](https://github.com/vishalhabib99/listing-claim-check): checks an AI-written listing against the seller's own item specifics and decides PUBLISH or REVIEW. **[Try it →](https://vishalhabib99.github.io/listing-claim-check/)**<br>
+  v0.1 failed its blind run and v0.2 passed a fresh one, then a [red team](https://github.com/vishalhabib99/listing-claim-check#results) got all 22 attacks through. Published as-is.
+- 🧩 [eBay case study](https://github.com/vishalhabib99/ai-pm-portfolio/blob/main/case-studies/2026-09-ebay-marketplace-platform.md): the platform behind $300M+ in savings, and why clear contracts matter for AI agents too.
 
 **🏢 SaaS & enterprise platforms**
-- 🔗 [`agent-handoff-check`](https://github.com/vishalhabib99/agent-handoff-check) — checks every agent-to-agent handoff against what the customer actually authorized: ACT, ESCALATE or BLOCK. **[Try it →](https://vishalhabib99.github.io/agent-handoff-check/)** A red team got 3 unauthorized calls through; after one design change, a fresh blind run let 0 of 18 through and stopped 0 of 14 legitimate calls.
-- 📡 [T-Mobile case study](https://github.com/vishalhabib99/ai-pm-portfolio/blob/main/case-studies/2026-09-tmobile-enterprise-agentic-platform.md) — four architecture decisions behind the agentic platform (25M users, 60% containment) and what I'd do differently.
-- 📊 [Which model, and how to price it](https://github.com/vishalhabib99/ai-pm-portfolio/blob/main/memos/2026-09-ai-feature-unit-economics.md) — unit economics for an AI support-drafting feature: model cost is under 5% of the value delivered, so the constraint is draft quality.
+- 🔗 [`agent-handoff-check`](https://github.com/vishalhabib99/agent-handoff-check): checks every agent-to-agent handoff against what the customer authorized and decides ACT, ESCALATE or BLOCK. **[Try it →](https://vishalhabib99.github.io/agent-handoff-check/)**<br>
+  A red team got 3 unauthorized calls through; after one design change, a fresh blind run let 0 of 18 through and blocked 0 of 14 legitimate calls.
+- 📡 [T-Mobile case study](https://github.com/vishalhabib99/ai-pm-portfolio/blob/main/case-studies/2026-09-tmobile-enterprise-agentic-platform.md): four architecture decisions behind the agentic platform (25M users, 60% containment) and what I'd do differently.
+- 📊 [Which model, and how to price it](https://github.com/vishalhabib99/ai-pm-portfolio/blob/main/memos/2026-09-ai-feature-unit-economics.md): model cost is under 5% of the value delivered, so the real constraint is draft quality.
 
 **🧰 Trust tooling for the tools AI agents call (MCP)**
-- 🩺 [`mcp-doctor`](https://github.com/vishalhabib99/mcp-doctor) — **for MCP server maintainers who need to know whether an agent can actually use their tools.** Open an issue with your repo URL and a bot replies with a graded report, no install. The first outside maintainer scanned [3 of their servers](https://github.com/vishalhabib99/mcp-doctor/issues?q=label%3Ascan-request). Their first scan found 0 of 165 tools, which was a bug in mcp-doctor, fixed the next day and re-run. It now finds [11,228 of 11,411 tools across 603 real servers](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/coverage.md), every miss published; scanning real servers surfaced 69 bugs in mcp-doctor itself, all fixed. **[Scan your server →](https://github.com/vishalhabib99/mcp-doctor/issues/new?template=scan-request.yml)**
-- 🧪 [`mcp-fuzz`](https://github.com/vishalhabib99/mcp-fuzz) — calls every tool on a live server with schema-derived inputs to check it fails cleanly. Runtime runs on 24 real servers up to 62.6K★.
-- 🩻 [`mcp-reality-check`](https://github.com/vishalhabib99/mcp-reality-check) — catches "successful" responses that aren't: disguised refusals, empty content, output that breaks its own schema.
-- 🛡️ [`mcp-trust-check`](https://github.com/vishalhabib99/mcp-trust-check) — all three as one [GitHub Action](https://github.com/marketplace/actions/mcp-trust-check) with a SHIP / FIX-FIRST / BLOCK release decision, plus `GuardedSession` for live per-call decisions, an operator-written policy, a tamper-evident audit log and PII checks.
+- 🩺 [`mcp-doctor`](https://github.com/vishalhabib99/mcp-doctor): tells MCP server maintainers whether an agent can actually use their tools. Open an issue with your repo URL and a bot replies with a graded report. **[Scan your server →](https://github.com/vishalhabib99/mcp-doctor/issues/new?template=scan-request.yml)**<br>
+  Finds [11,228 of 11,411 tools across 603 real servers](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/coverage.md), with every miss published. Scanning real servers surfaced 69 bugs in mcp-doctor itself, all fixed.
+- 🧪 [`mcp-fuzz`](https://github.com/vishalhabib99/mcp-fuzz) checks that a live server fails cleanly · 🩻 [`mcp-reality-check`](https://github.com/vishalhabib99/mcp-reality-check) catches "successful" responses that aren't · 🛡️ [`mcp-trust-check`](https://github.com/vishalhabib99/mcp-trust-check) runs all three as one [GitHub Action](https://github.com/marketplace/actions/mcp-trust-check) that decides SHIP, FIX-FIRST or BLOCK.
+
+<img src="https://raw.githubusercontent.com/vishalhabib99/mcp-doctor/main/docs/demo.png" alt="mcp-doctor scanning homeassistant-ai/ha-mcp: Quality 96% grade A, Security 98% grade A, 88 tools found, with per-tool OK and WARN lines" width="600">
 
 **🧭 For AI product managers**
-- 🧭 [`ai-pm-skills`](https://github.com/vishalhabib99/ai-pm-skills) — Claude Code skills: `/build-or-not`, `/eval-plan`, `/agent-trust-review`, each tested with gates set before the first run. **[See real runs →](https://vishalhabib99.github.io/ai-pm-skills/)**
-- 📋 [`agentic-product-playbook`](https://github.com/vishalhabib99/agentic-product-playbook) — 7 ways AI agents fail in production, plus templates. **[3-minute Agent Readiness Scorecard →](https://vishalhabib99.github.io/agentic-product-playbook/)**
-- 📄 [`ai-pm-portfolio`](https://github.com/vishalhabib99/ai-pm-portfolio) — PRDs, prototypes and honestly-reported evals, failures included.
-
-<img src="https://raw.githubusercontent.com/vishalhabib99/ai-pm-skills/main/docs/demo.gif" alt="A real /build-or-not run in Claude Code: 0 of 6 real examples clear the bar, so the decision is don't build" width="600">
+- 🧭 [`ai-pm-skills`](https://github.com/vishalhabib99/ai-pm-skills): Claude Code skills (`/build-or-not`, `/eval-plan`, `/agent-trust-review`), each tested against gates set before the first run. **[See real runs →](https://vishalhabib99.github.io/ai-pm-skills/)**
+- 📋 [`agentic-product-playbook`](https://github.com/vishalhabib99/agentic-product-playbook): 7 ways AI agents fail in production, plus templates. **[3-minute Agent Readiness Scorecard →](https://vishalhabib99.github.io/agentic-product-playbook/)**
+- 📄 [`ai-pm-portfolio`](https://github.com/vishalhabib99/ai-pm-portfolio): PRDs, prototypes and honestly reported evals, failures included.
 
 ## ✍️ Writing
 - ["0 of 18 got through" isn't a launch. Here's the number that is.](https://dev.to/vishalhabib99/0-of-18-got-through-isnt-a-launch-heres-the-number-that-is-34p4) (dev.to)
