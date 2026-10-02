@@ -38,7 +38,7 @@ None of these maintainers work with me. Each change shipped because the evidence
 
 **🏦 Fintech**
 - 🛡️ [`retirement-answer-check`](https://github.com/vishalhabib99/retirement-answer-check): checks an AI's draft answer to a retirement-account question before a customer sees it, and decides SEND or REVIEW with an IRS or FINRA source for every flag.<br>
-  Pattern rules alone let 5 of 15 blind wrong facts through; adding a fact-checking judge cut that to 0 of 25. Also: [contribution room calculator](https://vishalhabib99.github.io/retirement-answer-check/room/) · [model risk pack](https://github.com/vishalhabib99/retirement-answer-check/blob/main/docs/model-risk/README.md)
+  Pattern rules alone let 5 of 15 blind wrong facts through; adding a fact-checking judge brought that to 0 of 25. Also: [contribution room calculator](https://vishalhabib99.github.io/retirement-answer-check/room/) · [model risk pack](https://github.com/vishalhabib99/retirement-answer-check/blob/main/docs/model-risk/README.md)
 
 **🛒 Marketplaces**
 - 🏷️ [`listing-claim-check`](https://github.com/vishalhabib99/listing-claim-check): checks an AI-written listing against the seller's own item specifics and decides PUBLISH or REVIEW. **[Try it →](https://vishalhabib99.github.io/listing-claim-check/)**<br>
@@ -52,7 +52,7 @@ None of these maintainers work with me. Each change shipped because the evidence
 - 📊 [Which model, and how to price it](https://github.com/vishalhabib99/ai-pm-portfolio/blob/main/memos/2026-09-ai-feature-unit-economics.md): model cost is under 5% of the value delivered, so the real constraint is draft quality.
 
 **🧰 Trust tooling for the tools AI agents call (MCP)**
-- 🩺 [`mcp-doctor`](https://github.com/vishalhabib99/mcp-doctor): tells MCP server maintainers whether an agent can actually use their tools. Open an issue with your repo URL and a bot replies with a graded report. **[Scan your server →](https://github.com/vishalhabib99/mcp-doctor/issues/new?template=scan-request.yml)**<br>
+- 🩺 [`mcp-doctor`](https://github.com/vishalhabib99/mcp-doctor): **for MCP server maintainers who need to know whether an agent can actually use their tools.** Open an issue with your repo URL and a bot replies with a graded report. **[Scan your server →](https://github.com/vishalhabib99/mcp-doctor/issues/new?template=scan-request.yml)**<br>
   Finds [11,228 of 11,411 tools across 603 real servers](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/coverage.md), with every miss published. Scanning real servers surfaced 69 bugs in mcp-doctor itself, all fixed.
 - 🧪 [`mcp-fuzz`](https://github.com/vishalhabib99/mcp-fuzz) checks that a live server fails cleanly · 🩻 [`mcp-reality-check`](https://github.com/vishalhabib99/mcp-reality-check) catches "successful" responses that aren't · 🛡️ [`mcp-trust-check`](https://github.com/vishalhabib99/mcp-trust-check) runs all three as one [GitHub Action](https://github.com/marketplace/actions/mcp-trust-check) that decides SHIP, FIX-FIRST or BLOCK.
 
