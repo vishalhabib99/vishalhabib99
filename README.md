@@ -15,6 +15,9 @@
 ## ✅ Proof from outside
 None of these maintainers work with me. Each change shipped because the evidence was clear enough for them to act on.
 
+> "Thank you for the exact tools/list results and for explaining the effect on clients that use annotations for approval." ([`codebase-memory-mcp` maintainer](https://github.com/DeusData/codebase-memory-mcp/issues/2118#issuecomment-5609248676))<br>
+> "Thanks for shipping this and keeping the regression case." ([an outside tester whose agent found the bug](https://github.com/modelcontextprotocol/modelcontextprotocol/discussions/3322#discussioncomment-18514875))
+
 - Fix [merged upstream](https://github.com/homeassistant-ai/ha-mcp/pull/2327) into `ha-mcp` (4.9K★)
 - Both of my fixes to `excel-mcp-server` (4.2K★) were reimplemented in its v1.0.0 rewrite, [credited in the changelog](https://github.com/haris-musa/excel-mcp-server/releases/tag/v1.0.0)
 - Maintainers shipped fixes after my findings: [`codebase-memory-mcp`](https://github.com/DeusData/codebase-memory-mcp/issues/2118) (45.7K★) relabeled all 12 mislabeled read-only tools (10 in v0.11.0, the [last 2](https://github.com/DeusData/codebase-memory-mcp/pull/2404) merged 09-30); plus [`mcp-server-chart`](https://github.com/antvis/mcp-server-chart/issues/323) (4.4K★) and [`agent-inspect`](https://github.com/rajudandigam/agent-inspect/issues/362)
