@@ -54,7 +54,7 @@ None of these maintainers work with me. Each change shipped because the evidence
 
 **🧰 Trust tooling for the tools AI agents call (MCP)**
 - 🩺 [`mcp-doctor`](https://github.com/vishalhabib99/mcp-doctor): **for MCP server maintainers who need to know whether an agent can actually use their tools.** Open an issue with your repo URL and a bot replies with a graded report. **[Scan your server →](https://github.com/vishalhabib99/mcp-doctor/issues/new?template=scan-request.yml)**<br>
-  Finds [11,228 of 11,411 tools across 603 real servers](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/coverage.md), with every miss published. Scanning real servers surfaced 69 bugs in mcp-doctor itself, all fixed.
+  Finds [11,228 of 11,411 tools across 603 real servers](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/coverage.md), with every miss published. Scanning real servers surfaced 69 bugs in mcp-doctor itself, all fixed. [What the first users taught me →](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/what-users-taught-me.md)
 - 🧪 [`mcp-fuzz`](https://github.com/vishalhabib99/mcp-fuzz) checks that a live server fails cleanly · 🩻 [`mcp-reality-check`](https://github.com/vishalhabib99/mcp-reality-check) catches "successful" responses that aren't · 🛡️ [`mcp-trust-check`](https://github.com/vishalhabib99/mcp-trust-check) runs all three as one [GitHub Action](https://github.com/marketplace/actions/mcp-trust-check) that decides SHIP, FIX-FIRST or BLOCK.
 
 <img src="https://raw.githubusercontent.com/vishalhabib99/mcp-doctor/main/docs/demo.png" alt="mcp-doctor scanning homeassistant-ai/ha-mcp: Quality 96% grade A, Security 98% grade A, 88 tools found, with per-tool OK and WARN lines" width="600">
