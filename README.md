@@ -62,9 +62,9 @@ None of these maintainers work with me. Each change shipped because the evidence
 
 <img src="https://raw.githubusercontent.com/vishalhabib99/mcp-doctor/main/docs/demo.png" alt="mcp-doctor scanning homeassistant-ai/ha-mcp: Quality 96% grade A, Security 98% grade A, 88 tools found, with per-tool OK and WARN lines" width="600">
 
-**⚛️ Quantum (new)**
+**⚛️ Quantum computing**
 - ⚛️ [`circuit-claim-check`](https://github.com/vishalhabib99/circuit-claim-check): checks whether a quantum circuit an AI agent wrote is the circuit it was asked for, by exact matrix comparison with no model in the loop.<br>
-  Haiku said "success" on 41 of 45 tasks, and 13 of those were wrong. Four red teams got 27 wrong circuits graded pass; all are fixed, and it hasn't passed a red team yet. [Write-up →](https://dev.to/vishalhabib99/my-grader-got-every-real-answer-right-four-red-teams-still-broke-it-632)
+  Showing Haiku what its own circuits did in simulation didn't stop false "success" claims: they went from 6 to 8 of 30 ([results](https://github.com/vishalhabib99/circuit-claim-check/blob/main/runs/run4/RESULTS.md)). Four red teams got 27 wrong circuits graded pass; all are fixed, and it hasn't passed a red team yet. [Write-up →](https://dev.to/vishalhabib99/my-grader-got-every-real-answer-right-four-red-teams-still-broke-it-632)
 
 **🧭 For AI product managers**
 - 🧭 [`ai-pm-skills`](https://github.com/vishalhabib99/ai-pm-skills): Claude Code skills (`/build-or-not`, `/eval-plan`, `/agent-trust-review`), each tested against gates set before the first run. **[See real runs →](https://vishalhabib99.github.io/ai-pm-skills/)**
