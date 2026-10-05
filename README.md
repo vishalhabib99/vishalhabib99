@@ -10,7 +10,7 @@
 1. **[A real report from a real user](https://github.com/vishalhabib99/mcp-doctor/issues/5)**: an outside maintainer opened an issue and a bot graded their MCP server. No install needed.
 2. **[A red team that broke my own checker](https://github.com/vishalhabib99/listing-claim-check#results)**: all 22 in-scope attacks got through, and I published it as-is.
 3. **[Try a checker yourself](https://vishalhabib99.github.io/agent-handoff-check/)**: an agent-to-agent handoff, decided ACT, ESCALATE or BLOCK, in your browser.
-4. **[A bet I made before knowing the answer](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/experiments/2026-09-scan-by-issue.md)**: at least 10 outside scan requests by Oct 27, or I stop promoting mcp-doctor. 3 so far (as of Oct 3), all from one maintainer I invited. The result gets posted here either way.
+4. **[A bet I made before knowing the answer](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/experiments/2026-09-scan-by-issue.md)**: at least 10 outside scan requests by Oct 27, or I stop promoting mcp-doctor. 3 so far (as of Oct 5), all from one maintainer I invited. The result gets posted here either way.
 
 ## ✅ Proof from outside
 None of these maintainers work with me. Each change shipped because the evidence was clear enough for them to act on.
