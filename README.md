@@ -23,10 +23,11 @@ None of these maintainers work with me. Each change shipped because the evidence
   - [`mcp-for-blender`](https://github.com/ahujasid/mcp-for-blender/commit/250c00deca845c04df8c72e5b324291ee4969054) (30K★): optional tool arguments now accept an explicit null, re-applied by the maintainer on a refactor with me as commit author.
   - [`davinci-resolve-mcp`](https://github.com/samuelgursky/davinci-resolve-mcp/pull/274) (3.4K★): 16 optional arguments on 9 tools rejected an explicit null, now 0. [Shipped in v4.8.29](https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.8.29) with a credit in the release notes.
   - [`jupyter-mcp-server`](https://github.com/datalayer/jupyter-mcp-server/pull/480) (1.3K★), 2 fixes: [`connect_to_jupyter`](https://github.com/datalayer/jupyter-mcp-server/pull/480) now checks the server before reporting success, and [`tools/list`](https://github.com/datalayer/jupyter-mcp-server/pull/482) no longer reads the server mode before it is set.
-  <details><summary>6 more merged fixes: ha-mcp, shadcn-ui-mcp-server, telegram-mcp, open-meteo-mcp, devglobe, osm-mcp-server</summary>
+  <details><summary>7 more merged fixes: ha-mcp, shadcn-ui-mcp-server, llm-wiki-compiler, telegram-mcp, open-meteo-mcp, devglobe, osm-mcp-server</summary>
 
   - [`ha-mcp`](https://github.com/homeassistant-ai/ha-mcp/pull/2327) (4.9K★)
   - [`shadcn-ui-mcp-server`](https://github.com/Jpisnice/shadcn-ui-mcp-server/pull/62) (3K★): bad tool input now returns a clear error instead of crashing
+  - [`llm-wiki-compiler`](https://github.com/atomicstrata/llm-wiki-compiler/pull/270) (2.2K★): the wiki tools printed progress lines into the MCP stdio channel, which clients can't parse; found by fuzzing, now quiet. The maintainer called it "a real bug and a tidy fix"
   - [`telegram-mcp`](https://github.com/chigwell/telegram-mcp/pull/266) (1.8K★): 111 of 131 tools rejected an explicit null for their optional arguments, now 0
   - [`open-meteo-mcp`](https://github.com/cmer81/open-meteo-mcp/pull/81): [shipped in v2.5.1](https://github.com/cmer81/open-meteo-mcp/releases/tag/v2.5.1), with a maintainer follow-up built on it
   - [`devglobe`](https://github.com/sajeetharan/devglobe/pull/463): closes the maintainer's tool-contract issue
