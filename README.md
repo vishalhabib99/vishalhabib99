@@ -88,12 +88,13 @@ None of these maintainers work with me. Each change shipped because the evidence
 - 📄 [`ai-pm-portfolio`](https://github.com/vishalhabib99/ai-pm-portfolio): PRDs, prototypes and honestly reported evals, failures included.
 
 ## ✍️ Writing
-- [My grader got every real answer right. Four red teams still broke it.](https://dev.to/vishalhabib99/my-grader-got-every-real-answer-right-four-red-teams-still-broke-it-632) (dev.to)
+- [I scanned 3,923 MCP servers. 1 in 4 tools leaves the model guessing.](https://dev.to/vishalhabib99/i-scanned-3923-mcp-servers-1-in-4-tools-leaves-the-model-guessing-1n99): a census of every public MCP server, 147,646 tools, [scripts](https://github.com/vishalhabib99/mcp-doctor/tree/main/census/2026-10) (dev.to)
 - [5 ways AI agents fail, and the checks I built in public](https://www.linkedin.com/feed/update/urn:li:share:7512673002552135680/): accuracy, safety, security, quality and evals, one number each (LinkedIn)
 - [Building T-Mobile's First Enterprise Agentic AI Platform: 25M Users, 75% Adoption, and What I'd Do Differently](https://www.linkedin.com/pulse/building-t-mobiles-first-enterprise-agentic-ai-platform-vishal-habib-bftoc/) (LinkedIn)
 
 <details><summary>More writing</summary><br>
 
+- [My grader got every real answer right. Four red teams still broke it.](https://dev.to/vishalhabib99/my-grader-got-every-real-answer-right-four-red-teams-still-broke-it-632) (dev.to)
 - ["0 of 18 got through" isn't a launch. Here's the number that is.](https://dev.to/vishalhabib99/0-of-18-got-through-isnt-a-launch-heres-the-number-that-is-34p4) (dev.to)
 - [My prompt-injection fix caught 0 of 20 attacks. The part I almost didn't build caught all of them.](https://dev.to/vishalhabib99/my-prompt-injection-fix-caught-0-of-20-attacks-the-part-i-almost-didnt-build-caught-all-of-them-oi0) (dev.to)
 - [I set the pass bar before testing my Claude Code skills. The first run failed.](https://dev.to/vishalhabib99/i-set-the-pass-bar-before-testing-my-claude-code-skills-the-first-run-failed-1ef5) (dev.to)
