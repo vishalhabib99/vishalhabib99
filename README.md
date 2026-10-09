@@ -6,7 +6,11 @@
 
 **▶️ 76-second walkthrough** (AI-narrated):
 
-https://github.com/user-attachments/assets/db26b9e0-3c23-4048-8930-d2f8ada2a269
+
+
+https://github.com/user-attachments/assets/cc84a31b-4a74-425c-a9f5-f44ad8dc6598
+
+
 
 **What ties it together:** AI output is only worth shipping when it can be checked against a source of truth, whether that's an IRS rule, a tool's own schema, or a platform's API contract.
 
