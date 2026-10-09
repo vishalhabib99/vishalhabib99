@@ -88,7 +88,7 @@ None of these maintainers work with me. Each change shipped because the evidence
 - 📄 [`ai-pm-portfolio`](https://github.com/vishalhabib99/ai-pm-portfolio): PRDs, prototypes and honestly reported evals, failures included.
 
 ## ✍️ Writing
-- [I scanned 3,923 MCP servers. 1 in 4 tools leaves the model guessing.](https://dev.to/vishalhabib99/i-scanned-3923-mcp-servers-1-in-4-tools-leaves-the-model-guessing-1n99): a census of every public MCP server, 147,646 tools, [scripts](https://github.com/vishalhabib99/mcp-doctor/tree/main/census/2026-10) (dev.to)
+- [I scanned 3,923 MCP servers. 1 in 4 tools leaves the model guessing.](https://dev.to/vishalhabib99/i-scanned-3923-mcp-servers-1-in-4-tools-leaves-the-model-guessing-1n99): a census of 3,923 public MCP servers (20+ stars), 147,646 tools, [scripts](https://github.com/vishalhabib99/mcp-doctor/tree/main/census/2026-10) (dev.to)
 - [5 ways AI agents fail, and the checks I built in public](https://www.linkedin.com/feed/update/urn:li:share:7512673002552135680/): accuracy, safety, security, quality and evals, one number each (LinkedIn)
 - [Building T-Mobile's First Enterprise Agentic AI Platform: 25M Users, 75% Adoption, and What I'd Do Differently](https://www.linkedin.com/pulse/building-t-mobiles-first-enterprise-agentic-ai-platform-vishal-habib-bftoc/) (LinkedIn)
 
