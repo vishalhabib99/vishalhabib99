@@ -4,6 +4,10 @@
 
 10+ years launching 0→1 products and scaling platforms 1→100 across **fintech, SaaS and enterprise platforms, and marketplaces**: **$9B+ in revenue platforms, 29M+ MAU, $300M+ in cost savings**. On the side I build the eval and trust tooling I wish every AI team had, and I publish the failures along with the passes.
 
+**▶️ 76-second walkthrough** (AI-narrated):
+
+https://github.com/user-attachments/assets/db26b9e0-3c23-4048-8930-d2f8ada2a269
+
 **What ties it together:** AI output is only worth shipping when it can be checked against a source of truth, whether that's an IRS rule, a tool's own schema, or a platform's API contract.
 
 **⏱️ Got 2 minutes? Start here:**
@@ -13,7 +17,7 @@
 4. **[A 155K★ project built its fix on my PR](https://github.com/langflow-ai/langflow/pull/15565)**: Langflow's maintainer adapted my fix for MCP tool arguments and credited me as co-author.
 
 ## ✅ Proof from outside
-None of these maintainers work with me; each acted on the evidence alone.
+None of these maintainers work with me.
 
 > "Thank you for the exact tools/list results and for explaining the effect on clients that use annotations for approval." ([`codebase-memory-mcp` maintainer](https://github.com/DeusData/codebase-memory-mcp/issues/2118#issuecomment-5609248676))<br>
 > "Thanks for shipping this and keeping the regression case." ([an outside tester whose agent found the bug](https://github.com/modelcontextprotocol/modelcontextprotocol/discussions/3322#discussioncomment-18514875))
