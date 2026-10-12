@@ -18,7 +18,7 @@ https://github.com/user-attachments/assets/8ebc4de0-1d60-4367-94bb-2fe66afb08f2
 1. **[A real report from a real user](https://github.com/vishalhabib99/mcp-doctor/issues/5)**: an outside maintainer opened an issue and a bot graded their MCP server. No install needed.
 2. **[A red team that broke my own checker](https://github.com/vishalhabib99/listing-claim-check#results)**: all 22 in-scope attacks got through, and I published it as-is.
 3. **[Try a checker yourself](https://vishalhabib99.github.io/agent-handoff-check/)**: an agent-to-agent handoff, decided ACT, ESCALATE or BLOCK, in your browser.
-4. **[A 155K★ project built its fix on my PR](https://github.com/langflow-ai/langflow/pull/15565)**: its maintainer adapted my fix and credited me as co-author.
+4. **[A 156K★ project built its fix on my PR](https://github.com/langflow-ai/langflow/pull/15565)**: its maintainer adapted my fix and credited me as co-author.
 
 ## ✅ Proof from outside
 None of these maintainers work with me.
@@ -27,7 +27,7 @@ None of these maintainers work with me.
 > "Thanks for shipping this and keeping the regression case." ([an outside tester whose agent found the bug](https://github.com/modelcontextprotocol/modelcontextprotocol/discussions/3322#discussioncomment-18514875))
 
 - Fixes merged upstream by the projects' own maintainers:
-  - [`langflow`](https://github.com/langflow-ai/langflow/pull/15565) (155K★): MCP tool arguments named after component methods (`index`) were sent as the method, not the configured value. The maintainer built the fix on [my PR](https://github.com/langflow-ai/langflow/pull/15523) and credits me as co-author.
+  - [`langflow`](https://github.com/langflow-ai/langflow/pull/15565) (156K★): MCP tool arguments named after component methods (`index`) were sent as the method, not the configured value. The maintainer built the fix on [my PR](https://github.com/langflow-ai/langflow/pull/15523) and credits me as co-author.
   - [`mcp-for-blender`](https://github.com/ahujasid/mcp-for-blender/commit/250c00deca845c04df8c72e5b324291ee4969054) (30.5K★): optional tool arguments now accept an explicit null, re-applied by the maintainer on a refactor with me as commit author.
   - [`davinci-resolve-mcp`](https://github.com/samuelgursky/davinci-resolve-mcp/pull/274) (3.5K★): 16 optional arguments on 9 tools now accept an explicit null, [shipped in v4.8.29](https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.8.29) with a release-notes credit.
   - [`jupyter-mcp-server`](https://github.com/datalayer/jupyter-mcp-server/pull/480) (1.3K★), 2 fixes: [`connect_to_jupyter`](https://github.com/datalayer/jupyter-mcp-server/pull/480) checks the server before reporting success; [`tools/list`](https://github.com/datalayer/jupyter-mcp-server/pull/482) no longer reads the server mode before it's set.
