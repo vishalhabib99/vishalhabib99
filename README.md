@@ -2,7 +2,7 @@
 
 **Lead AI Product Manager & Builder — Agentic AI** · leading the 0→1 Agentic AI Digital Advisor at **Vanguard** · ex-T-Mobile, eBay · Stanford GSB
 
-10+ years launching 0→1 products and scaling platforms 1→100 across **fintech, SaaS and enterprise platforms, and marketplaces**: **$9B+ in revenue platforms, 29M+ MAU, $300M+ in cost savings**. On the side I build the eval and trust tooling I wish every AI team had, and I publish the failures along with the passes.
+10+ years launching 0→1 products and scaling platforms 1→100 across **fintech, SaaS and enterprise platforms, and marketplaces**: **$9B+ in revenue platforms, 29M+ MAU, $300M+ in cost savings**. On the side I build the eval and trust tooling I wish every AI team had, and publish the failures with the passes.
 
 **▶️ 76-second walkthrough** (AI-narrated):
 
@@ -18,7 +18,7 @@ https://github.com/user-attachments/assets/8ebc4de0-1d60-4367-94bb-2fe66afb08f2
 1. **[A real report from a real user](https://github.com/vishalhabib99/mcp-doctor/issues/5)**: an outside maintainer opened an issue and a bot graded their MCP server. No install needed.
 2. **[A red team that broke my own checker](https://github.com/vishalhabib99/listing-claim-check#results)**: all 22 in-scope attacks got through, and I published it as-is.
 3. **[Try a checker yourself](https://vishalhabib99.github.io/agent-handoff-check/)**: an agent-to-agent handoff, decided ACT, ESCALATE or BLOCK, in your browser.
-4. **[A 155K★ project built its fix on my PR](https://github.com/langflow-ai/langflow/pull/15565)**: Langflow's maintainer adapted my fix for MCP tool arguments and credited me as co-author.
+4. **[A 155K★ project built its fix on my PR](https://github.com/langflow-ai/langflow/pull/15565)**: its maintainer adapted my fix and credited me as co-author.
 
 ## ✅ Proof from outside
 None of these maintainers work with me.
@@ -26,18 +26,18 @@ None of these maintainers work with me.
 > "Thank you for the exact tools/list results and for explaining the effect on clients that use annotations for approval." ([`codebase-memory-mcp` maintainer](https://github.com/DeusData/codebase-memory-mcp/issues/2118#issuecomment-5609248676))<br>
 > "Thanks for shipping this and keeping the regression case." ([an outside tester whose agent found the bug](https://github.com/modelcontextprotocol/modelcontextprotocol/discussions/3322#discussioncomment-18514875))
 
-- Fixes merged upstream, all reviewed and merged by the projects' own maintainers:
-  - [`langflow`](https://github.com/langflow-ai/langflow/pull/15565) (155K★): MCP tool arguments named after component methods, such as `index`, were sent as the method instead of the configured value. The maintainer built the fix on [my PR](https://github.com/langflow-ai/langflow/pull/15523) and credits me as co-author.
+- Fixes merged upstream by the projects' own maintainers:
+  - [`langflow`](https://github.com/langflow-ai/langflow/pull/15565) (155K★): MCP tool arguments named after component methods (`index`) were sent as the method, not the configured value. The maintainer built the fix on [my PR](https://github.com/langflow-ai/langflow/pull/15523) and credits me as co-author.
   - [`mcp-for-blender`](https://github.com/ahujasid/mcp-for-blender/commit/250c00deca845c04df8c72e5b324291ee4969054) (30.5K★): optional tool arguments now accept an explicit null, re-applied by the maintainer on a refactor with me as commit author.
-  - [`davinci-resolve-mcp`](https://github.com/samuelgursky/davinci-resolve-mcp/pull/274) (3.5K★): 16 optional arguments on 9 tools rejected an explicit null, now 0. [Shipped in v4.8.29](https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.8.29) with a credit in the release notes.
-  - [`jupyter-mcp-server`](https://github.com/datalayer/jupyter-mcp-server/pull/480) (1.3K★), 2 fixes: [`connect_to_jupyter`](https://github.com/datalayer/jupyter-mcp-server/pull/480) now checks the server before reporting success, and [`tools/list`](https://github.com/datalayer/jupyter-mcp-server/pull/482) no longer reads the server mode before it is set.
+  - [`davinci-resolve-mcp`](https://github.com/samuelgursky/davinci-resolve-mcp/pull/274) (3.5K★): 16 optional arguments on 9 tools now accept an explicit null, [shipped in v4.8.29](https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.8.29) with a release-notes credit.
+  - [`jupyter-mcp-server`](https://github.com/datalayer/jupyter-mcp-server/pull/480) (1.3K★), 2 fixes: [`connect_to_jupyter`](https://github.com/datalayer/jupyter-mcp-server/pull/480) checks the server before reporting success; [`tools/list`](https://github.com/datalayer/jupyter-mcp-server/pull/482) no longer reads the server mode before it's set.
   - 18 more: [`ha-mcp`](https://github.com/homeassistant-ai/ha-mcp/pull/2327) (5.0K★) · [`dbhub`](https://github.com/bytebase/dbhub/pull/470) (3.6K★) · [`google_workspace_mcp`](https://github.com/taylorwilsdon/google_workspace_mcp/pull/1230) (3.3K★) · [`shadcn-ui-mcp-server`](https://github.com/Jpisnice/shadcn-ui-mcp-server/pull/62) (3.0K★) · [`llm-wiki-compiler`](https://github.com/atomicstrata/llm-wiki-compiler/pull/270) (2.2K★) · [`stealth-browser-mcp`](https://github.com/vibheksoni/stealth-browser-mcp/pull/36) (2.2K★) · [`telegram-mcp`](https://github.com/chigwell/telegram-mcp/pull/266) (1.8K★) · [`Qiskit/mcp-servers`](https://github.com/Qiskit/mcp-servers/pull/225) (IBM) · [`aimock`](https://github.com/CopilotKit/aimock/pull/529) (971★) · [`AgentChat`](https://github.com/Shy2593666979/AgentChat/pull/55) (914★) · [`jadx-mcp-server`](https://github.com/zinja-coder/jadx-mcp-server/pull/69) (794★) · [`unsplash-mcp-server`](https://github.com/hellokaton/unsplash-mcp-server/pull/18) · [`MacOS-MCP`](https://github.com/CursorTouch/MacOS-MCP/pull/69) · [`MCP-PostgreSQL-Ops`](https://github.com/call518/MCP-PostgreSQL-Ops/pull/71) · [`LivePilot`](https://github.com/dreamrec/LivePilot/pull/99) · [`open-meteo-mcp`](https://github.com/cmer81/open-meteo-mcp/pull/81) · [`devglobe`](https://github.com/sajeetharan/devglobe/pull/463) · [`osm-mcp-server`](https://github.com/yuiseki/osm-mcp-server/pull/43)
-- Both of my fixes to `excel-mcp-server` (4.2K★) were reimplemented in its v1.0.0 rewrite, [credited in the changelog](https://github.com/haris-musa/excel-mcp-server/releases/tag/v1.0.0)
+- Both my fixes to `excel-mcp-server` (4.2K★) were reimplemented in its v1.0.0 rewrite, [credited in the changelog](https://github.com/haris-musa/excel-mcp-server/releases/tag/v1.0.0)
 - Maintainers shipped fixes after my findings: [`codebase-memory-mcp`](https://github.com/DeusData/codebase-memory-mcp/issues/2118) (46.4K★) relabeled all 12 mislabeled read-only tools; plus [`mcp-server-chart`](https://github.com/antvis/mcp-server-chart/issues/323) (4.4K★) and [`agent-inspect`](https://github.com/rajudandigam/agent-inspect/issues/362)
-- Two contributors on the official [MCP spec discussion](https://github.com/modelcontextprotocol/modelcontextprotocol/discussions/3322) reported two real bugs and a spec gap in my tools; all three are fixed
-- A [public leaderboard](https://vishalhabib99.github.io/mcp-doctor/) grading 24 MCP servers, 3 added by an outside maintainer through the [no-install scan](https://github.com/vishalhabib99/mcp-doctor/issues?q=label%3Ascan-request), and [real skill runs](https://vishalhabib99.github.io/ai-pm-skills/) you can read without installing anything
+- Two contributors on the official [MCP spec discussion](https://github.com/modelcontextprotocol/modelcontextprotocol/discussions/3322) found two real bugs and a spec gap in my tools, all fixed
+- A [public leaderboard](https://vishalhabib99.github.io/mcp-doctor/) grading 24 MCP servers, 3 added by an outside maintainer through the [no-install scan](https://github.com/vishalhabib99/mcp-doctor/issues?q=label%3Ascan-request), and [real skill runs](https://vishalhabib99.github.io/ai-pm-skills/) to read without installing
 
-<details><summary><b>🗺️ Where my work sits in the AI stack</b>: what I shipped at work vs. built in the open, layer by layer</summary><br>
+<details><summary><b>🗺️ Where my work sits in the AI stack</b>: shipped at work vs. built in the open</summary><br>
 
 | Layer | Shipped at work | Built in the open |
 |---|---|---|
@@ -69,12 +69,12 @@ None of these maintainers work with me.
 - 📊 [Which model, and how to price it](https://github.com/vishalhabib99/ai-pm-portfolio/blob/main/memos/2026-09-ai-feature-unit-economics.md): model cost is under 5% of the value delivered, so the real constraint is draft quality.
 
 **🧰 Trust tooling for the tools AI agents call (MCP)**
-- 🩺 [`mcp-doctor`](https://github.com/vishalhabib99/mcp-doctor): **for MCP server maintainers who need to know whether an agent can actually use their tools.** Open an issue with your repo URL and a bot replies with a graded report, add the [GitHub Action](https://github.com/vishalhabib99/mcp-doctor#github-action) for one-click fixes on every PR, or install the [Claude Code plugin](https://github.com/vishalhabib99/mcp-doctor#claude-code-plugin) to scan and fix while you build. **[Scan your server →](https://github.com/vishalhabib99/mcp-doctor/issues/new?template=scan-request.yml)**<br>
+- 🩺 [`mcp-doctor`](https://github.com/vishalhabib99/mcp-doctor): **for MCP server maintainers: can an agent actually use your tools?** Open an issue with your repo URL and a bot replies with a graded report, or use the [GitHub Action](https://github.com/vishalhabib99/mcp-doctor#github-action) (one-click fixes on every PR) or the [Claude Code plugin](https://github.com/vishalhabib99/mcp-doctor#claude-code-plugin) (scan and fix while you build). **[Scan your server →](https://github.com/vishalhabib99/mcp-doctor/issues/new?template=scan-request.yml)**<br>
   Finds [15,755 of 15,977 tools across 805 real servers](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/coverage.md), with every miss published. Scanning real servers surfaced [104 bugs in mcp-doctor itself](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/BUILD_LOG.md), all fixed ([postmortem](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/postmortem-69-bugs.md)). [What the first users taught me →](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/what-users-taught-me.md)<br>
-  [A bet I made before knowing the answer](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/experiments/2026-09-scan-by-issue.md): at least 10 outside scan requests by Oct 27, or I stop promoting mcp-doctor. 3 so far (as of Oct 12), all from one maintainer I invited. The result gets posted here either way.
+  [A bet I made before knowing the answer](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/experiments/2026-09-scan-by-issue.md): at least 10 outside scan requests by Oct 27, or I stop promoting mcp-doctor. 3 so far (as of Oct 12), all from one maintainer I invited. The result goes here either way.
 - 🧪 [`mcp-fuzz`](https://github.com/vishalhabib99/mcp-fuzz) checks that a live server fails cleanly · 🩻 [`mcp-reality-check`](https://github.com/vishalhabib99/mcp-reality-check) catches "successful" responses that aren't · 🛡️ [`mcp-trust-check`](https://github.com/vishalhabib99/mcp-trust-check) runs all three as one [GitHub Action](https://github.com/marketplace/actions/mcp-trust-check) that decides SHIP, FIX-FIRST or BLOCK.
 
-<img src="https://raw.githubusercontent.com/vishalhabib99/mcp-doctor/main/docs/demo.png" alt="mcp-doctor scanning homeassistant-ai/ha-mcp: Quality 96% grade A, Security 98% grade A, 88 tools found, with per-tool OK and WARN lines" width="600">
+<img src="https://raw.githubusercontent.com/vishalhabib99/mcp-doctor/main/docs/demo.png" alt="mcp-doctor report for homeassistant-ai/ha-mcp: Quality 96% A, Security 98% A, 88 tools" width="600">
 
 **🧭 For AI product managers**
 - 🧭 [`ai-pm-skills`](https://github.com/vishalhabib99/ai-pm-skills): Claude Code skills (`/build-or-not`, `/eval-plan`, `/agent-trust-review`), each tested against gates set before the first run. **[See real runs →](https://vishalhabib99.github.io/ai-pm-skills/)**
@@ -82,7 +82,7 @@ None of these maintainers work with me.
 - 📄 [`ai-pm-portfolio`](https://github.com/vishalhabib99/ai-pm-portfolio): PRDs, prototypes and honestly reported evals, failures included.
 
 ## ✍️ Writing
-- [I scanned 3,923 MCP servers. 1 in 4 tools leaves the model guessing.](https://dev.to/vishalhabib99/i-scanned-3923-mcp-servers-1-in-4-tools-leaves-the-model-guessing-1n99): a census of 3,923 public MCP servers (20+ stars), 147,646 tools, [scripts](https://github.com/vishalhabib99/mcp-doctor/tree/main/census/2026-10) (dev.to)
+- [I scanned 3,923 MCP servers. 1 in 4 tools leaves the model guessing.](https://dev.to/vishalhabib99/i-scanned-3923-mcp-servers-1-in-4-tools-leaves-the-model-guessing-1n99): a census of public MCP servers (20+ stars), 147,646 tools, [scripts](https://github.com/vishalhabib99/mcp-doctor/tree/main/census/2026-10) (dev.to)
 - [5 ways AI agents fail, and the checks I built in public](https://www.linkedin.com/feed/update/urn:li:share:7512673002552135680/): accuracy, safety, security, quality and evals, one number each (LinkedIn)
 - [Building T-Mobile's First Enterprise Agentic AI Platform: 25M Users, 75% Adoption, and What I'd Do Differently](https://www.linkedin.com/pulse/building-t-mobiles-first-enterprise-agentic-ai-platform-vishal-habib-bftoc/) (LinkedIn)
 
@@ -102,7 +102,7 @@ None of these maintainers work with me.
 <details><summary>Vanguard · T-Mobile · eBay · earlier roles</summary><br>
 
 - 🏦 **Fintech: Vanguard.** Product strategy for **Digital Advisor** and **Personal Advisor** ($6B+ LOB, 4M+ MAU) at the world's second-largest asset manager (~$12T AUM). Architecting the Agentic AI Digital Advisor from 0→1: LLM orchestration, agent workflows, model evals and FINRA/SEC-compliant responsible AI. Also launched **T-Mobile Money** and, earlier, digital lending modernization at Axis Bank.
-- 🏢 **SaaS & enterprise platforms: T-Mobile.** Product lead for T-Life, the flagship app ($3B+ LOB, 25M+ MAU); managed 3 PMs and a 40+ person org. Launched one of the first autonomous enterprise Agentic AI platforms in US telecom: **75% adoption, 60% containment, 80% CSAT, 30% fewer support calls**. Built the IntentCX AI governance and eval framework (NIST AI RMF), adopted by 3 more teams. AI personalization: **+27% engagement, +15% conversion**.
+- 🏢 **SaaS & enterprise platforms: T-Mobile.** Product lead for T-Life, the flagship app ($3B+ LOB, 25M+ MAU); mentored 3 PMs and led a 40+ person org. Launched one of the first autonomous enterprise Agentic AI platforms in US telecom: **75% adoption, 60% containment, 80% CSAT, 30% fewer support calls**. Built the IntentCX AI governance and eval framework (NIST AI RMF), adopted by 3 more teams. AI personalization: **+27% engagement, +15% conversion**.
 - 🛒 **Marketplaces: eBay.** Drove **$300M+ in savings** and **+35% adoption** through platform modernization and API standardization across hundreds of teams; 40% faster deploys, 99.9% availability on seller APIs.
 - 🩺 **Earlier, healthcare: Premera Blue Cross.** Billing and payment redesign that cut task completion time 25%.
 
@@ -126,8 +126,8 @@ None of these maintainers work with me.
 
 <details><summary>What this portfolio doesn't cover</summary><br>
 
-- **Semantic hallucination** ("is this answer true" in general): it needs an LLM judge, which would break the deterministic, no-API-cost design of the MCP tools. `retirement-answer-check` uses a judge only for narrow fact checks against IRS and FINRA sources.
-- **Live agent red-teaming**: `mcp-doctor`'s security score audits a tool's code and description for injection risk, not whether a live agent can be manipulated at runtime.
+- **Semantic hallucination** ("is this answer true" in general): it needs an LLM judge, which would break the MCP tools' deterministic, no-API-cost design. `retirement-answer-check` uses a judge only to check facts against IRS and FINRA sources.
+- **Live agent red-teaming**: `mcp-doctor`'s security score audits code and descriptions for injection risk, not whether a live agent can be manipulated.
 
 </details>
 
