@@ -16,7 +16,7 @@ https://github.com/user-attachments/assets/7d868f48-9dca-42fb-ab40-c1c837cea865
 
 
 
-## 🩺 Flagship: the mcp-doctor ecosystem
+## 🩺 Flagship: mcp-doctor, the QA suite for AI agents and the tools they call
 
 [`mcp-doctor`](https://github.com/vishalhabib99/mcp-doctor) answers two questions: **can an agent actually use your server, and can you trust what the agent does with it?** One open-source tool covers both, before release and at runtime. **[Scan your server →](https://github.com/vishalhabib99/mcp-doctor/issues/new?template=scan-request.yml)**
 
