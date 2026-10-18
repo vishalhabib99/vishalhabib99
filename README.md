@@ -18,7 +18,7 @@ https://github.com/user-attachments/assets/7d868f48-9dca-42fb-ab40-c1c837cea865
 
 ## 🩺 Flagship: mcp-doctor, the QA suite for AI agents and the tools they call
 
-[`mcp-doctor`](https://github.com/vishalhabib99/mcp-doctor) answers two questions: **can an agent actually use your server, and can you trust what the agent does with it?** One open-source tool covers both, before release and at runtime. **[Scan your server →](https://github.com/vishalhabib99/mcp-doctor/issues/new?template=scan-request.yml)**
+[`mcp-doctor`](https://github.com/vishalhabib99/mcp-doctor) answers two questions: **can an agent actually use your server, and can you trust what the agent does with it?** **[Scan your server →](https://github.com/vishalhabib99/mcp-doctor/issues/new?template=scan-request.yml)**
 
 - 🔍 **Scan:** open an issue with your repo URL, get a graded quality and security report ([a real one](https://github.com/vishalhabib99/mcp-doctor/issues/5)), no install. Or run it in CI with the [GitHub Action](https://github.com/vishalhabib99/mcp-doctor#github-action), or as a [plugin for Claude Code, Codex or Cursor](https://github.com/vishalhabib99/mcp-doctor#plugin-for-claude-code-codex-and-cursor).
 - 🛡️ **[`guard`](https://github.com/vishalhabib99/mcp-doctor#guard--catch-tool-calls-that-report-success-but-didnt-work):** one line puts an MCP server, or the built-in tools of Claude Code, Codex or Cursor, behind a live check for "successes" that didn't happen and likely prompt-injection leaks. Without it, after reading a web page the agent planted a `.git` hook and sent a token from `.env`; with it, both were stopped.
