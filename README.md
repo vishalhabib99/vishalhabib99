@@ -54,7 +54,7 @@ None of these maintainers work with me.
 ## 🧱 Portfolio
 
 **🏦 Fintech**
-- 🛡️ [`fin-doctor`](https://github.com/vishalhabib99/fin-doctor) (formerly retirement-answer-check): checks the money facts in an AI's draft answer before a customer sees it. It flags stale or wrong IRS and SSA figures against a sourced registry, and decides SEND or REVIEW on retirement answers with an IRS or FINRA source for every flag.<br>
+- 🛡️ [`fin-doctor`](https://github.com/vishalhabib99/fin-doctor): checks the money facts in an AI's draft answer before a customer sees it. It flags stale or wrong IRS and SSA figures against a sourced registry, and decides SEND or REVIEW on retirement answers with an IRS or FINRA source for every flag.<br>
   Pattern rules alone let 5 of 15 blind wrong facts through; adding a fact-checking judge brought that to 0 of 25. Also: [contribution room calculator](https://vishalhabib99.github.io/fin-doctor/room/) · [model risk pack](https://github.com/vishalhabib99/fin-doctor/blob/main/docs/model-risk/README.md)
 
 **🛒 Marketplaces**
