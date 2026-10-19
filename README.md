@@ -50,7 +50,7 @@ None of these maintainers work with me.
 The common thread: AI output is only worth shipping when it can be checked against a source of truth, whether that's an IRS rule, a tool's own schema, or a platform's API contract.
 
 **🏦 Fintech**
-- 🛡️ [`fin-doctor`](https://github.com/vishalhabib99/fin-assist): checks the money facts in an AI's draft answer before a customer sees it. It flags stale or wrong IRS and SSA figures against a sourced registry, and decides SEND or REVIEW on retirement answers with an IRS or FINRA source for every flag.<br>
+- 🛡️ [`fin-assist`](https://github.com/vishalhabib99/fin-assist): checks the money facts in an AI's draft answer before a customer sees it. It flags stale or wrong IRS and SSA figures against a sourced registry, and decides SEND or REVIEW on retirement answers with an IRS or FINRA source for every flag.<br>
   Pattern rules alone let 5 of 15 blind wrong facts through; adding a fact-checking judge brought that to 0 of 25. Also: [contribution room calculator](https://vishalhabib99.github.io/fin-assist/room/) · [model risk pack](https://github.com/vishalhabib99/fin-assist/blob/main/docs/model-risk/README.md)
 
 **🛒 Marketplaces**
@@ -126,7 +126,7 @@ The common thread: AI output is only worth shipping when it can be checked again
 
 <details><summary>What this portfolio doesn't cover</summary><br>
 
-- **Semantic hallucination** ("is this answer true" in general): it needs a judge model, and the MCP tools stay deterministic with no API cost. `fin-doctor` uses a judge only to check facts against IRS and FINRA sources, and `mcp-doctor --llm` uses a local model only to draft parameter docs you review.
+- **Semantic hallucination** ("is this answer true" in general): it needs a judge model, and the MCP tools stay deterministic with no API cost. `fin-assist` uses a judge only to check facts against IRS and FINRA sources, and `mcp-doctor --llm` uses a local model only to draft parameter docs you review.
 - **Live agent red-teaming**: `guard` catches likely prompt-injection leaks and `.git`-hook plants during a live session, but nothing here attacks an agent to find new ways in.
 
 </details>
