@@ -51,7 +51,7 @@ The common thread: AI output is only worth shipping when it can be checked again
 
 **🏦 Fintech**
 - 🛡️ [`fin-assist`](https://github.com/vishalhabib99/fin-assist): checks the money facts in an AI's draft answer before a customer sees it. It flags stale or wrong IRS and SSA figures against a sourced registry, and decides SEND or REVIEW on retirement answers with an IRS or FINRA source for every flag.<br>
-  Pattern rules alone let 5 of 15 blind wrong facts through; adding a fact-checking judge brought that to 0 of 25. Also: [contribution room calculator](https://vishalhabib99.github.io/fin-assist/room/) · [model risk pack](https://github.com/vishalhabib99/fin-assist/blob/main/docs/model-risk/README.md)
+  Pattern rules alone let 5 of 15 blind wrong facts through; adding a fact-checking judge brought that to 0 of 25. On [PyPI](https://pypi.org/project/fin-assist/): `pip install fin-assist`. Also: [contribution room calculator](https://vishalhabib99.github.io/fin-assist/room/) · [model risk pack](https://github.com/vishalhabib99/fin-assist/blob/main/docs/model-risk/README.md)
 
 **🛒 Marketplaces**
 - 🏷️ [`listing-claim-check`](https://github.com/vishalhabib99/listing-claim-check): checks an AI-written listing against the seller's own item specifics and decides PUBLISH or REVIEW. **[Try it →](https://vishalhabib99.github.io/listing-claim-check/)**<br>
