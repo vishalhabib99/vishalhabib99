@@ -110,6 +110,7 @@ The common thread: AI output is only worth shipping when it can be checked again
 
 <details><summary>Recognition</summary><br>
 
+- **Vanguard AI Summit (2026):** built and presented the AI Agents Evaluations & Guardrails Framework, now adopted by 6 Vanguard orgs.
 - **Patent filed:** sole inventor on a U.S. provisional patent application (No. 63/980,243, May 2026) for agentic AI orchestration and governance.
 - **Top Product Leader, T-Mobile (2025)**, for building and launching the enterprise agentic AI platform.
 - **Keynote speaker, T-Mobile Technology Innovation Summit (2025):** AI strategy keynote to 1,200+ attendees.
