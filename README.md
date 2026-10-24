@@ -2,7 +2,7 @@
 
 **Lead AI Product Manager & Builder — Agentic AI** · leading the 0→1 Agentic AI Digital Advisor at **Vanguard**, now in limited client beta · ex-T-Mobile, eBay · Stanford GSB
 
-10+ years launching 0→1 products and scaling platforms 1→100 across **fintech, SaaS and enterprise platforms, and marketplaces**: **$9B+ in revenue platforms, 29M+ MAU, $300M+ in cost savings**. On the side I build the eval and trust tooling I wish every AI team had, and publish the failures with the passes.
+10+ years launching 0→1 products and scaling platforms 1→100 across **fintech, SaaS and enterprise platforms, and marketplaces & e-commerce**: **$9B+ in revenue platforms, 29M+ MAU, $300M+ in cost savings**. On the side I build the eval and trust tooling I wish every AI team had, and publish the failures with the passes.
 
 **▶️ 78-second walkthrough** (AI-narrated):
 
@@ -53,7 +53,7 @@ The common thread: AI output is only worth shipping when it can be checked again
 - 🛡️ [`fin-assist`](https://github.com/vishalhabib99/fin-assist): catches stale and wrong money figures in an AI agent's answer before a customer sees it, like last year's 401(k) limit or the old $10,000 SALT cap. It checks each figure against 102 dated, sourced IRS, SSA and Medicare figures and corrects stale ones; on retirement answers it also flags advice and promissory language, citing IRS or FINRA.<br>
   Blind-tested on eight sets written by agents that never saw the code, with every miss published; a fact-checking judge took wrong facts sent from 5 of 15 to 0 of 25. Its registry caught a real tax-bracket bug in [`ignidash`](https://github.com/schelskedevco/ignidash/pull/69), an open-source retirement planner: the maintainer merged my fix. `pip install fin-assist` · [paste an AI answer to check it](https://vishalhabib99.github.io/fin-assist/check/) · [contribution room calculator](https://vishalhabib99.github.io/fin-assist/room/) · [model risk pack](https://github.com/vishalhabib99/fin-assist/blob/main/docs/model-risk/README.md)
 
-**🛒 Marketplaces**
+**🛒 Marketplaces & E-commerce**
 - 🏷️ [`listing-claim-check`](https://github.com/vishalhabib99/listing-claim-check): checks an AI-written listing against the seller's own item specifics and decides PUBLISH or REVIEW. **[Try it →](https://vishalhabib99.github.io/listing-claim-check/)**<br>
   v0.1 failed its blind run and v0.2 passed a fresh one, then a [red team](https://github.com/vishalhabib99/listing-claim-check#results) got all 22 attacks through. Published as-is.
 - 🧩 [eBay case study](https://github.com/vishalhabib99/ai-pm-portfolio/blob/main/case-studies/2026-09-ebay-marketplace-platform.md): the platform behind $300M+ in savings, and why clear contracts matter for agents.
@@ -94,7 +94,7 @@ The common thread: AI output is only worth shipping when it can be checked again
 
 - 🏦 **Fintech: Vanguard.** Product strategy for **Digital Advisor** and **Personal Advisor** ($6B+ LOB, 4M+ MAU) at the world's second-largest asset manager (~$12T AUM). Architecting the Agentic AI Digital Advisor from 0→1, now in limited client beta (7+ use cases, launch gates met): LLM orchestration, agent workflows, model evals and FINRA/SEC-compliant responsible AI. Also launched **T-Mobile Money** and, earlier, digital lending modernization at Axis Bank.
 - 🏢 **SaaS & enterprise platforms: T-Mobile.** Product lead for T-Life, the flagship app ($3B+ LOB, 25M+ MAU); mentored 3 PMs and led a 40+ person org. Launched one of the first autonomous enterprise Agentic AI platforms in US telecom: **75% adoption, 60% containment, 80% CSAT, 30% fewer support calls**. Built the IntentCX AI governance and eval framework (NIST AI RMF), adopted by 3 more teams. AI personalization: **+27% engagement, +15% conversion**.
-- 🛒 **Marketplaces: eBay.** Drove **$300M+ in savings** and **+35% adoption** through platform modernization and API standardization across hundreds of teams; 40% faster deploys, 99.9% availability on seller APIs.
+- 🛒 **Marketplaces & E-commerce: eBay.** Drove **$300M+ in savings** and **+35% adoption** through platform modernization and API standardization across hundreds of teams; 40% faster deploys, 99.9% availability on seller APIs.
 - 🩺 **Earlier, healthcare: Premera Blue Cross.** Billing and payment redesign that cut task completion time 25%.
 
 </details>
