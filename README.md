@@ -28,8 +28,6 @@ https://github.com/user-attachments/assets/e5cec3be-9817-4412-9d19-c9a5b1938b4b
 
 **Where it stands:** [`jupyter-mcp-server`](https://github.com/datalayer/jupyter-mcp-server/pull/488) became the first outside CI user on Oct 16, after its maintainer asked for the Action. It finds [15,755 of 15,977 tools across 805 real servers](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/coverage.md), every miss published; scanning real servers surfaced [143 bugs in mcp-doctor itself](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/BUILD_LOG.md), all fixed ([postmortem](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/postmortem-69-bugs.md)).
 
-**[A bet I made before knowing the answer](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/experiments/2026-09-scan-by-issue.md):** at least 10 outside scan requests by Oct 27. **Result: 4, a miss.** All four came from two maintainers I invited, and none from strangers: removing the install step wasn't enough, so distribution is the gap ([readout](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/experiments/2026-09-scan-by-issue.md#readout-filled-in-on-2026-10-27)).
-
 <img src="https://raw.githubusercontent.com/vishalhabib99/mcp-doctor/main/docs/demo.svg" alt="Animated mcp-doctor demo: a scan that opens with 1 finding that will break an agent, a release verdict (BLOCK, then SHIP), and guard catching a call that reported success without writing the file" width="700">
 
 ## ✅ Proof from outside
