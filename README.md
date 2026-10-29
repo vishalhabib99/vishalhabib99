@@ -4,13 +4,13 @@
 
 10+ years launching 0→1 products and scaling platforms 1→100 across **fintech, SaaS, enterprise platforms, marketplaces & e-commerce**: **$9B+ in revenue platforms, 29M+ MAU, $300M+ in cost savings**. On the side I build the eval and trust tooling I wish every AI team had, and publish the failures with the passes.
 
-**▶️ 84-second walkthrough** (AI-narrated):
+**▶️ 88-second walkthrough** (AI-narrated):
 
 
 
 
 
-https://github.com/user-attachments/assets/b5430c89-5c5e-4aa9-b40c-7104fa7fb48f
+https://github.com/user-attachments/assets/74af5aa6-073b-45bf-9a57-596cd1999913
 
 
 
