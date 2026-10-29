@@ -28,7 +28,7 @@ https://github.com/user-attachments/assets/b5430c89-5c5e-4aa9-b40c-7104fa7fb48f
 
 **Where it stands:** [`jupyter-mcp-server`](https://github.com/datalayer/jupyter-mcp-server/pull/488) became the first outside CI user on Oct 16, after its maintainer asked for the Action. It finds [15,755 of 15,977 tools across 805 real servers](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/coverage.md), every miss published; scanning real servers surfaced [143 bugs in mcp-doctor itself](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/BUILD_LOG.md), all fixed ([postmortem](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/postmortem-69-bugs.md)).
 
-<img src="https://raw.githubusercontent.com/vishalhabib99/mcp-doctor/main/docs/demo.svg" alt="Animated mcp-doctor demo: a scan that opens with 1 finding that will break an agent, a release verdict (BLOCK, then SHIP), and guard catching a call that reported success without writing the file" width="700">
+<img src="https://raw.githubusercontent.com/vishalhabib99/mcp-doctor/main/docs/demo.svg" alt="Animated mcp-doctor demo in four steps: find a bug that will break an agent, fix it with --fix and re-check clean, get a SHIP release verdict, and guard a live call that reported success without writing the file" width="700">
 
 ## ✅ Proof from outside
 None of these maintainers work with me.
