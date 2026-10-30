@@ -4,6 +4,8 @@
 
 10+ years launching 0→1 products and scaling platforms 1→100 across **fintech, SaaS, enterprise platforms, marketplaces & e-commerce**: **$9B+ in revenue platforms, 29M+ MAU, $300M+ in cost savings**. On the side I build the eval and trust tooling I wish every AI team had, and publish the failures with the passes.
 
+**Outside proof:** 83 fixes merged in 79 outside repos, including at Microsoft, AWS, NVIDIA, Intel, IBM and AMD Research ([details](#-proof-from-outside)).
+
 **▶️ 88-second walkthrough** (AI-narrated):
 
 
@@ -26,7 +28,7 @@ https://github.com/user-attachments/assets/74af5aa6-073b-45bf-9a57-596cd1999913
 - 🤖 **[`fix-upstream`](https://github.com/vishalhabib99/mcp-doctor/blob/main/plugin/skills/fix-upstream/SKILL.md):** an agent that turns a finding into a tested PR I approve first. Replayed on 15 fixes maintainers had already merged, it made the same edits; its first real PR [merged at AMD's intellikit](https://github.com/AMDResearch/intellikit/pull/202) in 41 minutes ([write-up](https://dev.to/vishalhabib99/before-i-let-an-agent-open-prs-on-strangers-repos-i-made-it-earn-it-27od)).
 - 📊 **[Leaderboard](https://vishalhabib99.github.io/mcp-doctor/) and [census](https://github.com/vishalhabib99/mcp-doctor/tree/main/census/2026-10):** 24 public servers checked; 3,923 servers and 147,646 tools scanned.
 
-**Where it stands:** [`jupyter-mcp-server`](https://github.com/datalayer/jupyter-mcp-server/pull/488) became the first outside CI user on Oct 16, after its maintainer asked for the Action. It finds [15,755 of 15,977 tools across 805 real servers](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/coverage.md), every miss published; scanning real servers surfaced [143 bugs in mcp-doctor itself](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/BUILD_LOG.md), all fixed ([postmortem](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/postmortem-69-bugs.md)).
+**Where it stands:** [`jupyter-mcp-server`](https://github.com/datalayer/jupyter-mcp-server/pull/488) became the first outside CI user on Oct 16, after its maintainer asked for the Action. It finds [15,755 of 15,977 tools across 805 real servers](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/coverage.md), every miss published; by scanning real servers, I found and fixed [143 bugs in mcp-doctor itself](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/BUILD_LOG.md) ([postmortem](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/postmortem-69-bugs.md)).
 
 <img src="https://raw.githubusercontent.com/vishalhabib99/mcp-doctor/main/docs/demo.svg" alt="Animated mcp-doctor demo in four steps: a server grades an A but has a bug that will break an agent, the release verdict BLOCKs it, --fix fixes it and the verdict becomes SHIP, then guard catches a live call that reported success without writing the file" width="700">
 
@@ -64,6 +66,7 @@ The common thread: AI output is worth shipping only when it can be checked again
 **🧭 For AI product managers**
 - 🧭 [`ai-pm-skills`](https://github.com/vishalhabib99/ai-pm-skills): Claude Code skills (`/build-or-not`, `/eval-plan`, `/agent-trust-review`), each tested against gates set in advance. **[See real runs →](https://vishalhabib99.github.io/ai-pm-skills/)**
 - 📋 [`agentic-product-playbook`](https://github.com/vishalhabib99/agentic-product-playbook): 7 ways AI agents fail in production, plus templates. **[3-minute Agent Readiness Scorecard →](https://vishalhabib99.github.io/agentic-product-playbook/)**
+- 🚫 [What I decided not to build](https://github.com/vishalhabib99/ai-pm-portfolio/blob/main/memos/2026-10-what-i-decided-not-to-build.md): six ideas checked against a bar I set before looking; four never got built, one was built and then parked, and one stayed a published failure.
 - 🔎 [What 129 maintainer replies told me](https://github.com/vishalhabib99/ai-pm-portfolio/blob/main/research/2026-10-what-maintainers-told-me.md): user research from 118 outside PRs: maintainers answer within a day or never; adoption hinged on a security review.
 - 📄 [`ai-pm-portfolio`](https://github.com/vishalhabib99/ai-pm-portfolio): PRDs, prototypes and evals, failures included.
 
