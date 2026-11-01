@@ -18,7 +18,7 @@ https://github.com/user-attachments/assets/e06eb3b1-888e-4ce5-af76-84ced45f7113
 
 
 
-## 🩺 Flagship: mcp-doctor, evals & guardrails for AI agents and the MCP tools they call
+## 🩺 Agentic AI: mcp-doctor, evals & guardrails for AI agents and the MCP tools they call
 
 [`mcp-doctor`](https://github.com/vishalhabib99/mcp-doctor) answers two questions: **can an agent actually use your server, and can you trust what the agent does with it?** **[Scan your server →](https://github.com/vishalhabib99/mcp-doctor/issues/new?template=scan-request.yml)**
 
