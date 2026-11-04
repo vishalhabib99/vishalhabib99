@@ -6,13 +6,13 @@
 
 **Outside proof:** 92 fixes merged in 87 outside repos, including at Microsoft, Google, Amazon (AWS), NVIDIA, Intel, IBM and AMD Research ([details](#-proof-from-outside)).
 
-**▶️ 89-second walkthrough** (AI-narrated):
+**▶️ 94-second walkthrough** (AI-narrated):
 
 
 
 
 
-https://github.com/user-attachments/assets/e06eb3b1-888e-4ce5-af76-84ced45f7113
+https://github.com/user-attachments/assets/08d723df-8f6a-4c2e-8b6f-9e49624c901c
 
 
 
