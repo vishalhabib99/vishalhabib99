@@ -4,7 +4,7 @@
 
 10+ years launching 0→1 products and scaling platforms 1→100 across **fintech, SaaS, enterprise platforms, marketplaces & e-commerce**: **$9B+ in revenue platforms, 29M+ MAU, $300M+ in cost savings**. On the side I build the eval and trust tooling I wish every AI team had, and publish the failures with the passes.
 
-**Outside proof:** 92 fixes merged in 87 outside repos, including at Microsoft, Google, Amazon (AWS), NVIDIA, Intel, IBM and AMD Research ([details](#-proof-from-outside)).
+**Outside proof:** 93 fixes merged in 88 outside repos, including at Microsoft, Google, Amazon (AWS), NVIDIA, Intel, IBM and AMD Research ([details](#-proof-from-outside)).
 
 **▶️ 94-second walkthrough** (AI-narrated):
 
@@ -32,7 +32,7 @@ None of these maintainers work with me.
 
 > "Thank you for the exact tools/list results and for explaining the effect on clients that use annotations for approval." ([`codebase-memory-mcp` maintainer](https://github.com/DeusData/codebase-memory-mcp/issues/2118#issuecomment-5609248676))
 
-**92 fixes landed in 87 outside repos**, merged by their own maintainers.
+**93 fixes landed in 88 outside repos**, merged by their own maintainers.
 
 **At top 500 tech companies**
 
@@ -40,7 +40,7 @@ None of these maintainers work with me.
 |---|---|
 | **Microsoft** | [`AutoGenesis`](https://github.com/microsoft/AutoGenesis/pull/33) · [`mcp-for-beginners`](https://github.com/microsoft/mcp-for-beginners/pull/1213) (17.6K★, 2 fixes: [#1213](https://github.com/microsoft/mcp-for-beginners/pull/1213), [#1214](https://github.com/microsoft/mcp-for-beginners/pull/1214)) · [`copilot-pro-dev-samples`](https://github.com/pnp/copilot-pro-dev-samples/pull/185) |
 | **Google** | [`mcp-security`](https://github.com/google/mcp-security/pull/323) |
-| **Amazon (AWS)** | [`sample-aws-genai-ops-demos`](https://github.com/aws-samples/sample-aws-genai-ops-demos/pull/259) · [`amazon-neptune-generative-ai-samples`](https://github.com/aws-samples/amazon-neptune-generative-ai-samples/pull/487) · [`genai-quickstart-pocs`](https://github.com/aws-samples/genai-quickstart-pocs/pull/634) |
+| **Amazon (AWS)** | [`sample-aws-genai-ops-demos`](https://github.com/aws-samples/sample-aws-genai-ops-demos/pull/259) · [`amazon-neptune-generative-ai-samples`](https://github.com/aws-samples/amazon-neptune-generative-ai-samples/pull/487) · [`genai-quickstart-pocs`](https://github.com/aws-samples/genai-quickstart-pocs/pull/634) · [`sample-aws-idp-pipeline`](https://github.com/aws-samples/sample-aws-idp-pipeline/pull/377) |
 | **NVIDIA** | [`aistore`](https://github.com/NVIDIA/aistore/pull/395) |
 | **Intel** | [`dokimi`](https://github.com/intel/dokimi/pull/243) |
 | **IBM** | [`Qiskit/mcp-servers`](https://github.com/Qiskit/mcp-servers/pull/225) |
