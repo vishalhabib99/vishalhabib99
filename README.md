@@ -14,16 +14,17 @@ https://github.com/user-attachments/assets/08d723df-8f6a-4c2e-8b6f-9e49624c901c
 
 [`mcp-doctor`](https://github.com/vishalhabib99/mcp-doctor) answers two questions: **can an agent actually use your server, and can you trust what the agent does with it?** **[Scan your server →](https://github.com/vishalhabib99/mcp-doctor/issues/new?template=scan-request.yml)**
 
-- 🔍 **Scan:** open an issue with your repo URL, get a report that leads with what will break an agent ([example](https://github.com/vishalhabib99/mcp-doctor/issues/9)). Also runs in CI as a [GitHub Action](https://github.com/vishalhabib99/mcp-doctor#github-action) or as a [plugin for Claude Code, Codex or Cursor](https://github.com/vishalhabib99/mcp-doctor#plugin-for-claude-code-codex-and-cursor).
-- 🛡️ **[`guard`](https://github.com/vishalhabib99/mcp-doctor#guard--catch-tool-calls-that-report-success-but-didnt-work):** one line adds a live check for likely prompt-injection leaks and "successes" that didn't happen. An unguarded agent read a web page, then planted a `.git` hook and leaked a `.env` token; guard stopped both.
-- 🧪 **[`fuzz` and `verdict`](https://github.com/vishalhabib99/mcp-doctor#fuzz-and-verdict--launch-the-server-and-check-it):** launches a server and tests how it fails, then returns SHIP, FIX-FIRST or BLOCK. Anything that will break an agent blocks, even when every grade is an A.
-- 🤖 **[`fix-upstream`](https://github.com/vishalhabib99/mcp-doctor/blob/main/plugin/skills/fix-upstream/SKILL.md):** an agent that turns a finding into a tested PR I approve first. Its first real PR [merged at AMD's intellikit](https://github.com/AMDResearch/intellikit/pull/202) in 41 minutes ([write-up](https://dev.to/vishalhabib99/before-i-let-an-agent-open-prs-on-strangers-repos-i-made-it-earn-it-27od)).
-- 📊 **[Leaderboard](https://vishalhabib99.github.io/mcp-doctor/) and [census](https://github.com/vishalhabib99/mcp-doctor/tree/main/census/2026-10):** 24 public servers checked; 3,923 servers and 147,646 tools scanned ([write-up](https://dev.to/vishalhabib99/i-scanned-3923-mcp-servers-1-in-4-tools-leaves-the-model-guessing-1n99)).
-
 **Where it stands**
 - **First outside CI user:** [`jupyter-mcp-server`](https://github.com/datalayer/jupyter-mcp-server/pull/488), Oct 16, after its maintainer asked for the Action.
 - **Coverage:** finds [15,755 of 15,977 tools across 805 real servers](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/coverage.md), every miss published.
 - **Dogfooding:** scanning real servers, I found and fixed [149 bugs in mcp-doctor itself](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/BUILD_LOG.md) ([postmortem](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/postmortem-69-bugs.md)).
+
+**What it does**
+- 🔍 **Scan:** open an issue with your repo URL, get a report that leads with what will break an agent ([example](https://github.com/vishalhabib99/mcp-doctor/issues/9)); also a [GitHub Action](https://github.com/vishalhabib99/mcp-doctor#github-action) and a [Claude Code, Codex or Cursor plugin](https://github.com/vishalhabib99/mcp-doctor#plugin-for-claude-code-codex-and-cursor).
+- 🛡️ **[`guard`](https://github.com/vishalhabib99/mcp-doctor#guard--catch-tool-calls-that-report-success-but-didnt-work):** one line adds a live check for likely prompt-injection leaks and "successes" that didn't happen; it stopped an agent planting a `.git` hook and leaking a `.env` token.
+- 🧪 **[`fuzz` and `verdict`](https://github.com/vishalhabib99/mcp-doctor#fuzz-and-verdict--launch-the-server-and-check-it):** launches a server, tests how it fails and returns SHIP, FIX-FIRST or BLOCK; a bug that will break an agent blocks, even when every grade is an A.
+- 🤖 **[`fix-upstream`](https://github.com/vishalhabib99/mcp-doctor/blob/main/plugin/skills/fix-upstream/SKILL.md):** an agent that turns a finding into a tested PR I approve first; its first real PR [merged at AMD's intellikit](https://github.com/AMDResearch/intellikit/pull/202) in 41 minutes ([write-up](https://dev.to/vishalhabib99/before-i-let-an-agent-open-prs-on-strangers-repos-i-made-it-earn-it-27od)).
+- 📊 **[Leaderboard](https://vishalhabib99.github.io/mcp-doctor/) and [census](https://github.com/vishalhabib99/mcp-doctor/tree/main/census/2026-10):** 24 public servers checked; 3,923 servers and 147,646 tools scanned ([write-up](https://dev.to/vishalhabib99/i-scanned-3923-mcp-servers-1-in-4-tools-leaves-the-model-guessing-1n99)).
 
 <img src="https://raw.githubusercontent.com/vishalhabib99/mcp-doctor/main/docs/demo.svg" alt="Animated mcp-doctor demo in four steps: a server grades an A but has a bug that will break an agent, the release verdict BLOCKs it, --fix fixes it and the verdict becomes SHIP, then guard catches a live call that reported success without writing the file" width="700">
 
@@ -66,27 +67,24 @@ None of these maintainers work with me.
 
 ## 🧱 More repos, by vertical
 
-The common thread: AI output is worth shipping only when it can be checked against a source of truth: an IRS rule, a tool's schema, an API contract.
+**The common thread:** AI output is worth shipping only when it can be checked against a source of truth: an IRS rule, a tool's schema, an API contract.
 
 **🏦 Fintech**
-- 🛡️ [`fin-assist`](https://github.com/vishalhabib99/fin-assist): catches stale and wrong money figures in an AI agent's answer before a customer sees it, using 102 dated, sourced IRS, SSA and Medicare figures. **[Try it →](https://vishalhabib99.github.io/fin-assist/check/)**<br>
-  Blind-tested on eight agent-written sets, every miss published; a fact-checking judge cut wrong facts sent from 5 of 15 to 0 of 25. It caught a real tax-bracket bug in [`ignidash`](https://github.com/schelskedevco/ignidash/pull/69), and the maintainer merged my fix. [Model risk pack](https://github.com/vishalhabib99/fin-assist/blob/main/docs/model-risk/README.md)
+- 🛡️ [`fin-assist`](https://github.com/vishalhabib99/fin-assist): catches stale and wrong money figures in an AI agent's answer, using 102 dated, sourced IRS, SSA and Medicare figures; blind-tested, every miss published. **[Try it →](https://vishalhabib99.github.io/fin-assist/check/)**
 
 **🛒 Marketplaces & E-commerce**
-- 🏷️ [`listing-claim-check`](https://github.com/vishalhabib99/listing-claim-check): checks an AI-written listing against the seller's own item specifics and decides PUBLISH or REVIEW. **[Try it →](https://vishalhabib99.github.io/listing-claim-check/)**<br>
-  v0.1 failed its blind run, v0.2 passed a fresh one, then a [red team](https://github.com/vishalhabib99/listing-claim-check#results) got all 22 attacks through, published as-is.
+- 🏷️ [`listing-claim-check`](https://github.com/vishalhabib99/listing-claim-check): checks an AI-written listing against the seller's item specifics; it passed a blind run, then a [red team](https://github.com/vishalhabib99/listing-claim-check#results) got all 22 attacks through, published as-is. **[Try it →](https://vishalhabib99.github.io/listing-claim-check/)**
 - 🧩 [eBay case study](https://github.com/vishalhabib99/ai-pm-portfolio/blob/main/case-studies/2026-09-ebay-marketplace-platform.md): the platform behind $300M+ in savings, and why clear contracts matter for agents.
 
 **🏢 SaaS & enterprise platforms**
-- 🔗 [`agent-handoff-check`](https://github.com/vishalhabib99/agent-handoff-check): checks every agent-to-agent handoff against what the customer authorized and decides ACT, ESCALATE or BLOCK. **[Try it →](https://vishalhabib99.github.io/agent-handoff-check/)**<br>
-  A red team got 3 unauthorized calls through; after a redesign, a fresh blind run let 0 of 18 through and blocked 0 of 14 legitimate calls.
-- 📡 [T-Mobile case study](https://github.com/vishalhabib99/ai-pm-portfolio/blob/main/case-studies/2026-09-tmobile-enterprise-agentic-platform.md): four architecture decisions behind the agentic platform (25M users, 60% containment) and what I'd do differently.
+- 🔗 [`agent-handoff-check`](https://github.com/vishalhabib99/agent-handoff-check): checks every agent-to-agent handoff against what the customer authorized; after a red-team redesign, a fresh blind run let 0 of 18 through and blocked 0 of 14 legitimate calls. **[Try it →](https://vishalhabib99.github.io/agent-handoff-check/)**
+- 📡 [T-Mobile case study](https://github.com/vishalhabib99/ai-pm-portfolio/blob/main/case-studies/2026-09-tmobile-enterprise-agentic-platform.md): four architecture decisions behind the agentic platform (25M users, 60% containment).
 
 **🧭 For AI product managers**
 - 🧭 [`ai-pm-skills`](https://github.com/vishalhabib99/ai-pm-skills): Claude Code skills (`/build-or-not`, `/eval-plan`, `/agent-trust-review`), each tested against gates set in advance. **[See real runs →](https://vishalhabib99.github.io/ai-pm-skills/)**
 - 📋 [`agentic-product-playbook`](https://github.com/vishalhabib99/agentic-product-playbook): 7 ways AI agents fail in production, plus templates. **[3-minute Agent Readiness Scorecard →](https://vishalhabib99.github.io/agentic-product-playbook/)**
-- 🚫 [What I decided not to build](https://github.com/vishalhabib99/ai-pm-portfolio/blob/main/memos/2026-10-what-i-decided-not-to-build.md): six ideas checked against a bar set before looking; four never got built, one was built and then parked, and one stayed a published failure.
-- 🔎 [What 129 maintainer replies told me](https://github.com/vishalhabib99/ai-pm-portfolio/blob/main/research/2026-10-what-maintainers-told-me.md): user research from 118 outside PRs: maintainers answer within a day or never; adoption hinged on a security review.
+- 🚫 [What I decided not to build](https://github.com/vishalhabib99/ai-pm-portfolio/blob/main/memos/2026-10-what-i-decided-not-to-build.md): six ideas checked against a bar set before looking; four never got built.
+- 🔎 [What 129 maintainer replies told me](https://github.com/vishalhabib99/ai-pm-portfolio/blob/main/research/2026-10-what-maintainers-told-me.md): user research from 118 outside PRs: maintainers answer within a day or never.
 - 📄 [`ai-pm-portfolio`](https://github.com/vishalhabib99/ai-pm-portfolio): PRDs, prototypes and evals, failures included.
 
 <details><summary><b>🗺️ Where my work sits in the AI stack</b>: shipped at work vs. built in the open</summary><br>
