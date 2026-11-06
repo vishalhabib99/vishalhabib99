@@ -32,7 +32,7 @@ None of these maintainers work with me.
 
 > "Thank you for the exact tools/list results and for explaining the effect on clients that use annotations for approval." ([`codebase-memory-mcp` maintainer](https://github.com/DeusData/codebase-memory-mcp/issues/2118#issuecomment-5609248676))
 
-**95 fixes landed in 90 outside repos**, merged by their own maintainers.
+**95 fixes landed in 90 outside repos.**
 
 **At top 500 tech companies**
 
