@@ -4,7 +4,7 @@
 
 10+ years launching 0→1 products and scaling platforms 1→100 across **fintech, SaaS, enterprise platforms, marketplaces & e-commerce**: **$9B+ in revenue platforms, 29M+ MAU, $300M+ in cost savings**. On the side I build the eval and trust tooling I wish every AI team had, and publish the failures with the passes.
 
-**Outside proof:** 99 fixes merged in 93 outside repos, including at Microsoft, Google, Amazon (AWS), NVIDIA, Intel, IBM and AMD Research ([details](#-proof-from-outside)).
+**Outside proof:** 100 fixes merged in 94 outside repos, including at Microsoft, Google, Amazon (AWS), NVIDIA, Intel, IBM and AMD Research ([details](#-proof-from-outside)).
 
 **▶️ 94-second walkthrough** (AI-narrated):
 
@@ -33,7 +33,7 @@ None of these maintainers work with me.
 
 > "Thank you for the exact tools/list results and for explaining the effect on clients that use annotations for approval." ([`codebase-memory-mcp` maintainer](https://github.com/DeusData/codebase-memory-mcp/issues/2118#issuecomment-5609248676))
 
-**99 fixes landed in 93 outside repos.**
+**100 fixes landed in 94 outside repos.**
 
 **At top 500 tech companies**
 
@@ -49,6 +49,7 @@ None of these maintainers work with me.
 | **Cisco** | [`mcp-scanner`](https://github.com/cisco-ai-defense/mcp-scanner/pull/291) |
 | **Juniper (HPE)** | [`junos-mcp-server`](https://github.com/Juniper/junos-mcp-server/pull/35) |
 | **Elastic** | [`relevance-studio`](https://github.com/elastic/relevance-studio/pull/47) |
+| **UiPath** | [`uipath-dev-python`](https://github.com/UiPath/uipath-dev-python/pull/144) |
 
 **Biggest projects**
 - [`langflow`](https://github.com/langflow-ai/langflow/pull/15565) (156K★): built on [my PR](https://github.com/langflow-ai/langflow/pull/15523), me as co-author
