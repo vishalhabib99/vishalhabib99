@@ -41,6 +41,7 @@ None of these maintainers work with me.
 |---|---|
 | **Microsoft** | [`AutoGenesis`](https://github.com/microsoft/AutoGenesis/pull/33) · [`mcp-for-beginners`](https://github.com/microsoft/mcp-for-beginners/pull/1213) (17.6K★, 2 fixes: [#1213](https://github.com/microsoft/mcp-for-beginners/pull/1213), [#1214](https://github.com/microsoft/mcp-for-beginners/pull/1214)) · [`copilot-pro-dev-samples`](https://github.com/pnp/copilot-pro-dev-samples/pull/185) |
 | **Google** | [`mcp-security`](https://github.com/google/mcp-security/pull/323) |
+| **Meta** | [`lexical`](https://github.com/facebook/lexical/pull/9851) (24K★): approved by a maintainer, awaiting merge, not yet in the 100 |
 | **Amazon (AWS)** | [`threat-composer`](https://github.com/awslabs/threat-composer/pull/371) · [`sample-aws-genai-ops-demos`](https://github.com/aws-samples/sample-aws-genai-ops-demos/pull/259) · [`amazon-neptune-generative-ai-samples`](https://github.com/aws-samples/amazon-neptune-generative-ai-samples/pull/487) · [`genai-quickstart-pocs`](https://github.com/aws-samples/genai-quickstart-pocs/pull/634) · [`sample-aws-idp-pipeline`](https://github.com/aws-samples/sample-aws-idp-pipeline/pull/377) · [`sample-agentic-value-accelerator`](https://github.com/aws-samples/sample-agentic-value-accelerator/pull/133) |
 | **NVIDIA** | [`aistore`](https://github.com/NVIDIA/aistore/pull/395) |
 | **Intel** | [`dokimi`](https://github.com/intel/dokimi/pull/243) (2 fixes: [#243](https://github.com/intel/dokimi/pull/243), [#411](https://github.com/intel/dokimi/pull/411)) |
@@ -64,7 +65,7 @@ None of these maintainers work with me.
 
 </details>
 
-**Also:** at **Meta**, my [`lexical`](https://github.com/facebook/lexical/pull/9851) (24K★) table fix is approved by a maintainer, awaiting merge (not in the 100); [`codebase-memory-mcp`](https://github.com/DeusData/codebase-memory-mcp/issues/2118) (48.4K★) relabeled all 12 tools I flagged; [`excel-mcp-server`](https://github.com/haris-musa/excel-mcp-server/releases/tag/v1.0.0) (4.3K★) reimplemented both my fixes, credited.
+**Also:** [`codebase-memory-mcp`](https://github.com/DeusData/codebase-memory-mcp/issues/2118) (48.4K★) relabeled all 12 tools I flagged; [`excel-mcp-server`](https://github.com/haris-musa/excel-mcp-server/releases/tag/v1.0.0) (4.3K★) reimplemented both my fixes, credited.
 
 ## 🧱 More repos, by vertical
 
