@@ -4,7 +4,7 @@
 
 10+ years launching 0→1 products and scaling platforms 1→100 across **fintech, SaaS, enterprise platforms, marketplaces & e-commerce**: **$9B+ in revenue platforms, 29M+ MAU, $300M+ in cost savings**. On the side I build the eval and trust tooling I wish every AI team had, and publish the failures with the passes.
 
-**Outside proof:** 100 fixes merged in 94 outside repos, including at Microsoft, Google, Amazon (AWS), NVIDIA, Intel, IBM and AMD Research; at **Meta**, a [Lexical](https://github.com/facebook/lexical/pull/9851) fix is approved, awaiting merge ([details](#-proof-from-outside)).
+**Outside proof:** **102 merged PRs · 100 fixes** in 94 outside repos, including at Microsoft, Google, Amazon (AWS), NVIDIA, Intel, IBM and AMD Research; at **Meta**, a [Lexical](https://github.com/facebook/lexical/pull/9851) fix is approved, awaiting merge ([details](#-proof-from-outside)).
 
 **▶️ 94-second walkthrough** (AI-narrated):
 
@@ -14,7 +14,7 @@ https://github.com/user-attachments/assets/e357248f-3372-41b6-bfab-a3e866373452
 
 [`mcp-doctor`](https://github.com/vishalhabib99/mcp-doctor) answers two questions: **can an agent actually use your server, and can you trust what the agent does with it?** **[Scan your server →](https://github.com/vishalhabib99/mcp-doctor/issues/new?template=scan-request.yml)**
 
-**First outside CI user:** [`jupyter-mcp-server`](https://github.com/datalayer/jupyter-mcp-server/pull/488), Oct 16, after its maintainer asked for the Action.
+**First outside CI user:** [`jupyter-mcp-server`](https://github.com/datalayer/jupyter-mcp-server/pull/488), after its maintainer asked for it.
 
 <img src="https://raw.githubusercontent.com/vishalhabib99/mcp-doctor/main/docs/demo.svg" alt="Animated mcp-doctor demo in four steps: a server grades an A but has a bug that will break an agent, the release verdict BLOCKs it, --fix fixes it and the verdict becomes SHIP, then guard catches a live call that reported success without writing the file" width="700">
 
@@ -22,7 +22,7 @@ https://github.com/user-attachments/assets/e357248f-3372-41b6-bfab-a3e866373452
 
 **Where it stands**
 - **Coverage:** finds [15,755 of 15,977 tools across 805 real servers](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/coverage.md), every miss published.
-- **Dogfooding:** scanning real servers, I found and fixed [149 bugs in mcp-doctor itself](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/BUILD_LOG.md) ([postmortem](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/postmortem-69-bugs.md)).
+- **Dogfooding:** I found and fixed [149 bugs in mcp-doctor itself](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/BUILD_LOG.md) ([postmortem](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/postmortem-69-bugs.md)).
 
 **What it does**
 - 🔍 **Scan:** open an issue with your repo URL, get a report that leads with what will break an agent ([example](https://github.com/vishalhabib99/mcp-doctor/issues/9)); also a [GitHub Action](https://github.com/vishalhabib99/mcp-doctor#github-action) and a [Claude Code, Codex or Cursor plugin](https://github.com/vishalhabib99/mcp-doctor#plugin-for-claude-code-codex-and-cursor).
@@ -38,7 +38,10 @@ None of these maintainers work with me.
 
 > "Thank you for the exact tools/list results and for explaining the effect on clients that use annotations for approval." ([`codebase-memory-mcp` maintainer](https://github.com/DeusData/codebase-memory-mcp/issues/2118#issuecomment-5609248676))
 
-**100 fixes landed in 94 outside repos.** Plus 1 more shipped by a maintainer in their own release: [`mcp-gsc`](https://github.com/AminForou/mcp-gsc/pull/58) (2.2K★) put my null-args fix in [0.4.2](https://github.com/AminForou/mcp-gsc/commit/45291df024c7873b2042c83d7add70ced7bb621f), so the PR closed unmerged and isn't in the 100.
+| **102** merged PRs in 93 repos | **100** fixes landed in 94 repos |
+|:---:|:---:|
+
+102 = 98 fixes + 4 non-fixes (awesome-list entry, 2 CI scans, lockfile). 100 = those 98 + 2 maintainers landed crediting me (langflow, mcp-for-blender). Not counted: [`mcp-gsc`](https://github.com/AminForou/mcp-gsc/pull/58) (2.2K★) shipped my fix in its [0.4.2](https://github.com/AminForou/mcp-gsc/commit/45291df024c7873b2042c83d7add70ced7bb621f) release.
 
 **At top 500 tech companies**
 
@@ -63,7 +66,7 @@ None of these maintainers work with me.
 - [`mcp-for-blender`](https://github.com/ahujasid/mcp-for-blender/commit/250c00deca845c04df8c72e5b324291ee4969054) (33.8K★): me as commit author
 - [`DeepCode`](https://github.com/HKUDS/DeepCode/pull/261) (16.8K★): drafted by my fix-upstream agent
 - [`davinci-resolve-mcp`](https://github.com/samuelgursky/davinci-resolve-mcp/pull/274) (4.0K★): [shipped in v4.8.29](https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.8.29) with credit
-- [`jupyter-mcp-server`](https://github.com/datalayer/jupyter-mcp-server/pull/480) (1.3K★): [2 fixes](https://github.com/datalayer/jupyter-mcp-server/pull/482), then it [added the mcp-doctor Action](https://github.com/datalayer/jupyter-mcp-server/pull/488)
+- [`jupyter-mcp-server`](https://github.com/datalayer/jupyter-mcp-server/pull/480) (1.3K★): [2 fixes](https://github.com/datalayer/jupyter-mcp-server/pull/482)
 
 </details>
 
