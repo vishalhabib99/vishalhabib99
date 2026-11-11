@@ -38,7 +38,7 @@ None of these maintainers work with me.
 
 > "Thank you for the exact tools/list results and for explaining the effect on clients that use annotations for approval." ([`codebase-memory-mcp` maintainer](https://github.com/DeusData/codebase-memory-mcp/issues/2118#issuecomment-5609248676))
 
-**100 fixes landed in 94 outside repos.**
+**100 fixes landed in 94 outside repos.** Plus 1 more shipped by a maintainer in their own release: [`mcp-gsc`](https://github.com/AminForou/mcp-gsc/pull/58) (2.2K★) put my null-args fix in [0.4.2](https://github.com/AminForou/mcp-gsc/commit/45291df024c7873b2042c83d7add70ced7bb621f), so the PR closed unmerged and isn't in the 100.
 
 **At top 500 tech companies**
 
