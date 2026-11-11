@@ -64,7 +64,7 @@ None of these maintainers work with me.
 
 </details>
 
-**Also:** [`codebase-memory-mcp`](https://github.com/DeusData/codebase-memory-mcp/issues/2118) (48.4K★) relabeled all 12 tools I flagged; [`excel-mcp-server`](https://github.com/haris-musa/excel-mcp-server/releases/tag/v1.0.0) (4.3K★) reimplemented both my fixes, credited.
+**Also:** at **Meta**, my [`lexical`](https://github.com/facebook/lexical/pull/9851) (24K★) table fix is approved by a maintainer, awaiting merge (not in the 100); [`codebase-memory-mcp`](https://github.com/DeusData/codebase-memory-mcp/issues/2118) (48.4K★) relabeled all 12 tools I flagged; [`excel-mcp-server`](https://github.com/haris-musa/excel-mcp-server/releases/tag/v1.0.0) (4.3K★) reimplemented both my fixes, credited.
 
 ## 🧱 More repos, by vertical
 
