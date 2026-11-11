@@ -4,7 +4,7 @@
 
 10+ years launching 0→1 products and scaling platforms 1→100 across **fintech, SaaS, enterprise platforms, marketplaces & e-commerce**: **$9B+ in revenue platforms, 29M+ MAU, $300M+ in cost savings**. On the side I build the eval and trust tooling I wish every AI team had, and publish the failures with the passes.
 
-**Outside proof:** **102 merged PRs · 100 fixes** in 94 outside repos, including at Microsoft, Google, Meta ([Lexical](https://github.com/facebook/lexical/pull/9851) fix approved, awaiting merge), Amazon (AWS), NVIDIA, Intel, IBM and AMD Research ([details](#-proof-from-outside)).
+**Outside proof:** **102 merged PRs · 100 fixes** in 94 outside repos, including at Microsoft, Google, Meta, Amazon (AWS), NVIDIA, Intel, IBM and AMD Research ([details](#-proof-from-outside)).
 
 **▶️ 94-second walkthrough** (AI-narrated):
 
