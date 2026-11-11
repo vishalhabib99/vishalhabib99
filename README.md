@@ -57,12 +57,15 @@ None of these maintainers work with me.
 | **Elastic** | [`relevance-studio`](https://github.com/elastic/relevance-studio/pull/47) |
 | **UiPath** | [`uipath-dev-python`](https://github.com/UiPath/uipath-dev-python/pull/144) |
 
-**Biggest projects**
+<details><summary><b>Biggest projects</b>: langflow (156K★), mcp-for-blender (33.8K★), DeepCode (16.8K★) and 2 more</summary>
+
 - [`langflow`](https://github.com/langflow-ai/langflow/pull/15565) (156K★): built on [my PR](https://github.com/langflow-ai/langflow/pull/15523), me as co-author
 - [`mcp-for-blender`](https://github.com/ahujasid/mcp-for-blender/commit/250c00deca845c04df8c72e5b324291ee4969054) (33.8K★): me as commit author
 - [`DeepCode`](https://github.com/HKUDS/DeepCode/pull/261) (16.8K★): drafted by my fix-upstream agent
 - [`davinci-resolve-mcp`](https://github.com/samuelgursky/davinci-resolve-mcp/pull/274) (4.0K★): [shipped in v4.8.29](https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.8.29) with credit
 - [`jupyter-mcp-server`](https://github.com/datalayer/jupyter-mcp-server/pull/480) (1.3K★): [2 fixes](https://github.com/datalayer/jupyter-mcp-server/pull/482), then it [added the mcp-doctor Action](https://github.com/datalayer/jupyter-mcp-server/pull/488)
+
+</details>
 
 <details><summary>The other 74 merged fixes</summary>
 
