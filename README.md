@@ -14,8 +14,13 @@ https://github.com/user-attachments/assets/e357248f-3372-41b6-bfab-a3e866373452
 
 [`mcp-doctor`](https://github.com/vishalhabib99/mcp-doctor) answers two questions: **can an agent actually use your server, and can you trust what the agent does with it?** **[Scan your server →](https://github.com/vishalhabib99/mcp-doctor/issues/new?template=scan-request.yml)**
 
+**First outside CI user:** [`jupyter-mcp-server`](https://github.com/datalayer/jupyter-mcp-server/pull/488), Oct 16, after its maintainer asked for the Action.
+
+<img src="https://raw.githubusercontent.com/vishalhabib99/mcp-doctor/main/docs/demo.svg" alt="Animated mcp-doctor demo in four steps: a server grades an A but has a bug that will break an agent, the release verdict BLOCKs it, --fix fixes it and the verdict becomes SHIP, then guard catches a live call that reported success without writing the file" width="700">
+
+<details><summary><b>What it does and where it stands</b>: scan, guard, fuzz and verdict, fix-upstream, leaderboard, coverage</summary><br>
+
 **Where it stands**
-- **First outside CI user:** [`jupyter-mcp-server`](https://github.com/datalayer/jupyter-mcp-server/pull/488), Oct 16, after its maintainer asked for the Action.
 - **Coverage:** finds [15,755 of 15,977 tools across 805 real servers](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/coverage.md), every miss published.
 - **Dogfooding:** scanning real servers, I found and fixed [149 bugs in mcp-doctor itself](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/BUILD_LOG.md) ([postmortem](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/postmortem-69-bugs.md)).
 
@@ -26,7 +31,7 @@ https://github.com/user-attachments/assets/e357248f-3372-41b6-bfab-a3e866373452
 - 🤖 **[`fix-upstream`](https://github.com/vishalhabib99/mcp-doctor/blob/main/plugin/skills/fix-upstream/SKILL.md):** an agent that turns a finding into a tested PR I approve first; its first real PR [merged at AMD's intellikit](https://github.com/AMDResearch/intellikit/pull/202) in 41 minutes ([write-up](https://dev.to/vishalhabib99/before-i-let-an-agent-open-prs-on-strangers-repos-i-made-it-earn-it-27od)).
 - 📊 **[Leaderboard](https://vishalhabib99.github.io/mcp-doctor/) and [census](https://github.com/vishalhabib99/mcp-doctor/tree/main/census/2026-10):** 24 public servers checked; 3,923 servers and 147,646 tools scanned ([write-up](https://dev.to/vishalhabib99/i-scanned-3923-mcp-servers-1-in-4-tools-leaves-the-model-guessing-1n99)).
 
-<img src="https://raw.githubusercontent.com/vishalhabib99/mcp-doctor/main/docs/demo.svg" alt="Animated mcp-doctor demo in four steps: a server grades an A but has a bug that will break an agent, the release verdict BLOCKs it, --fix fixes it and the verdict becomes SHIP, then guard catches a live call that reported success without writing the file" width="700">
+</details>
 
 ## ✅ Proof from outside
 None of these maintainers work with me.
