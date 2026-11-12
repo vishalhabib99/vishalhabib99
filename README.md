@@ -6,7 +6,7 @@
 
 **Outside proof:** **104 merged PRs · 102 fixes** in 95 outside repos, including at Microsoft, Google, Meta, Amazon (AWS), NVIDIA, Intel, IBM and AMD Research ([details](#-proof-from-outside)).
 
-**▶️ 99-second walkthrough** (AI-narrated):
+**▶️ 98-second walkthrough** (AI-narrated):
 
 https://github.com/user-attachments/assets/59de5ea7-4408-4c08-a622-71cb1008c9a4
 
