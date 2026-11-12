@@ -38,10 +38,10 @@ None of these maintainers work with me.
 
 > "Thank you for the exact tools/list results and for explaining the effect on clients that use annotations for approval." ([`codebase-memory-mcp` maintainer](https://github.com/DeusData/codebase-memory-mcp/issues/2118#issuecomment-5609248676))
 
-| **102** merged PRs in 93 repos | **100** fixes landed in 94 repos |
+| **100 fixes** merged upstream | in **94 outside repos** |
 |:---:|:---:|
 
-102 = 98 fixes + 4 non-fixes (awesome-list entry, 2 CI scans, lockfile). 100 = those 98 + 2 maintainers landed crediting me (langflow, mcp-for-blender). Not counted: [`mcp-gsc`](https://github.com/AminForou/mcp-gsc/pull/58) (2.2K★) shipped my fix in its [0.4.2](https://github.com/AminForou/mcp-gsc/commit/45291df024c7873b2042c83d7add70ced7bb621f) release.
+<sub>**How I count:** 98 are my own merged PRs; in 2 more, the maintainers landed my fix themselves and credited me (langflow, mcp-for-blender). GitHub shows 102 merged PRs because 4 weren't fixes (an awesome-list entry, 2 CI scans, a lockfile). Not counted: [`mcp-gsc`](https://github.com/AminForou/mcp-gsc/pull/58) (2.2K★) shipped my fix in its [0.4.2](https://github.com/AminForou/mcp-gsc/commit/45291df024c7873b2042c83d7add70ced7bb621f) release.</sub>
 
 **At top 500 tech companies**
 
