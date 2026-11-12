@@ -38,9 +38,6 @@ None of these maintainers work with me.
 
 > "Thank you for the exact tools/list results and for explaining the effect on clients that use annotations for approval." ([`codebase-memory-mcp` maintainer](https://github.com/DeusData/codebase-memory-mcp/issues/2118#issuecomment-5609248676))
 
-| **102** merged PRs | **98** of them fixes | in **93 outside repos** |
-|:---:|:---:|:---:|
-
 **At top 500 tech companies**
 
 | Company | Merged in |
