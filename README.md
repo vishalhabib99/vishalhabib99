@@ -4,7 +4,7 @@
 
 10+ years launching 0→1 products and scaling platforms 1→100 across **fintech, SaaS, enterprise platforms, marketplaces & e-commerce**: **$9B+ in revenue platforms, 29M+ MAU, $300M+ in cost savings**. On the side I build the eval and trust tooling I wish every AI team had, and publish the failures with the passes.
 
-**Outside proof:** **102 merged PRs · 100 fixes** in 94 outside repos, including at Microsoft, Google, Meta, Amazon (AWS), NVIDIA, Intel, IBM and AMD Research ([details](#-proof-from-outside)).
+**Outside proof:** **104 merged PRs · 102 fixes** in 95 outside repos, including at Microsoft, Google, Meta, Amazon (AWS), NVIDIA, Intel, IBM and AMD Research ([details](#-proof-from-outside)).
 
 **▶️ 99-second walkthrough** (AI-narrated):
 
@@ -44,7 +44,7 @@ None of these maintainers work with me.
 |---|---|
 | **Microsoft** | [`AutoGenesis`](https://github.com/microsoft/AutoGenesis/pull/33) · [`mcp-for-beginners`](https://github.com/microsoft/mcp-for-beginners/pull/1213) (17.6K★, 2 fixes: [#1213](https://github.com/microsoft/mcp-for-beginners/pull/1213), [#1214](https://github.com/microsoft/mcp-for-beginners/pull/1214)) · [`copilot-pro-dev-samples`](https://github.com/pnp/copilot-pro-dev-samples/pull/185) |
 | **Google** | [`mcp-security`](https://github.com/google/mcp-security/pull/323) |
-| **Meta** | [`lexical`](https://github.com/facebook/lexical/pull/9851) (24K★): approved by a maintainer, awaiting merge |
+| **Meta** | [`lexical`](https://github.com/meta/lexical/pull/9851) (24.0K★) · [`TorchRL`](https://github.com/pytorch/rl/pull/4711) (3.6K★) |
 | **Amazon (AWS)** | [`threat-composer`](https://github.com/awslabs/threat-composer/pull/371) · [`sample-aws-genai-ops-demos`](https://github.com/aws-samples/sample-aws-genai-ops-demos/pull/259) · [`amazon-neptune-generative-ai-samples`](https://github.com/aws-samples/amazon-neptune-generative-ai-samples/pull/487) · [`genai-quickstart-pocs`](https://github.com/aws-samples/genai-quickstart-pocs/pull/634) · [`sample-aws-idp-pipeline`](https://github.com/aws-samples/sample-aws-idp-pipeline/pull/377) · [`sample-agentic-value-accelerator`](https://github.com/aws-samples/sample-agentic-value-accelerator/pull/133) |
 | **NVIDIA** | [`aistore`](https://github.com/NVIDIA/aistore/pull/395) |
 | **Intel** | [`dokimi`](https://github.com/intel/dokimi/pull/243) (2 fixes: [#243](https://github.com/intel/dokimi/pull/243), [#411](https://github.com/intel/dokimi/pull/411)) |
