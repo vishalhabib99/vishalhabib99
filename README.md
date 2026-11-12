@@ -8,7 +8,7 @@
 
 **▶️ 99-second walkthrough** (AI-narrated):
 
-https://github.com/user-attachments/assets/ba072013-ac94-4924-b959-eae51398c492
+https://github.com/user-attachments/assets/59de5ea7-4408-4c08-a622-71cb1008c9a4
 
 ## 🩺 Agentic AI: mcp-doctor, evals & guardrails for AI agents and the MCP tools they call
 
