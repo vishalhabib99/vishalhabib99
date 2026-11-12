@@ -38,10 +38,8 @@ None of these maintainers work with me.
 
 > "Thank you for the exact tools/list results and for explaining the effect on clients that use annotations for approval." ([`codebase-memory-mcp` maintainer](https://github.com/DeusData/codebase-memory-mcp/issues/2118#issuecomment-5609248676))
 
-| **100 fixes** merged upstream | in **94 outside repos** |
+| **102** merged PRs | in **93 outside repos** |
 |:---:|:---:|
-
-<sub>**How I count:** 98 are my own merged PRs; in 2 more, the maintainers landed my fix themselves and credited me (langflow, mcp-for-blender). GitHub shows 102 merged PRs because 4 weren't fixes (an awesome-list entry, 2 CI scans, a lockfile). Not counted: [`mcp-gsc`](https://github.com/AminForou/mcp-gsc/pull/58) (2.2K★) shipped my fix in its [0.4.2](https://github.com/AminForou/mcp-gsc/commit/45291df024c7873b2042c83d7add70ced7bb621f) release.</sub>
 
 **At top 500 tech companies**
 
@@ -49,7 +47,6 @@ None of these maintainers work with me.
 |---|---|
 | **Microsoft** | [`AutoGenesis`](https://github.com/microsoft/AutoGenesis/pull/33) · [`mcp-for-beginners`](https://github.com/microsoft/mcp-for-beginners/pull/1213) (17.6K★, 2 fixes: [#1213](https://github.com/microsoft/mcp-for-beginners/pull/1213), [#1214](https://github.com/microsoft/mcp-for-beginners/pull/1214)) · [`copilot-pro-dev-samples`](https://github.com/pnp/copilot-pro-dev-samples/pull/185) |
 | **Google** | [`mcp-security`](https://github.com/google/mcp-security/pull/323) |
-| **Meta** | [`lexical`](https://github.com/facebook/lexical/pull/9851) (24K★): approved by a maintainer, awaiting merge |
 | **Amazon (AWS)** | [`threat-composer`](https://github.com/awslabs/threat-composer/pull/371) · [`sample-aws-genai-ops-demos`](https://github.com/aws-samples/sample-aws-genai-ops-demos/pull/259) · [`amazon-neptune-generative-ai-samples`](https://github.com/aws-samples/amazon-neptune-generative-ai-samples/pull/487) · [`genai-quickstart-pocs`](https://github.com/aws-samples/genai-quickstart-pocs/pull/634) · [`sample-aws-idp-pipeline`](https://github.com/aws-samples/sample-aws-idp-pipeline/pull/377) · [`sample-agentic-value-accelerator`](https://github.com/aws-samples/sample-agentic-value-accelerator/pull/133) |
 | **NVIDIA** | [`aistore`](https://github.com/NVIDIA/aistore/pull/395) |
 | **Intel** | [`dokimi`](https://github.com/intel/dokimi/pull/243) (2 fixes: [#243](https://github.com/intel/dokimi/pull/243), [#411](https://github.com/intel/dokimi/pull/411)) |
