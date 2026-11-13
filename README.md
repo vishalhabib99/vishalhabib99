@@ -6,9 +6,9 @@
 
 **Outside proof:** **108 merged PRs · 106 fixes** in 99 outside repos, including at Apple, Microsoft, Google, Meta, Amazon (AWS), NVIDIA, Intel, IBM and AMD Research ([details](#-proof-from-outside)).
 
-**▶️ 98-second walkthrough** (AI-narrated):
+**▶️ 99-second walkthrough** (AI-narrated):
 
-https://github.com/user-attachments/assets/5f00e993-ea76-4a4b-a11f-b037fc0b30bc
+https://github.com/user-attachments/assets/07883eda-cefe-4ff0-9e84-e63fb59c64a9
 
 ## 🩺 Agentic AI: mcp-doctor, evals & guardrails for AI agents and the MCP tools they call
 
