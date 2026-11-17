@@ -4,7 +4,7 @@
 
 10+ years launching 0→1 products and scaling platforms 1→100 across **fintech, SaaS, enterprise platforms, marketplaces & e-commerce**: **$9B+ in revenue platforms, 29M+ MAU, $300M+ in cost savings**. On the side I build the eval and trust tooling I wish every AI team had, and publish the failures with the passes.
 
-**Outside proof:** **113 merged PRs · 111 fixes** in 104 outside repos, including at OpenAI, Apple, Microsoft, Google, Meta, Amazon (AWS), NVIDIA, Intel, IBM and AMD Research ([details](#-proof-from-outside)).
+**Outside proof:** **114 merged PRs · 112 fixes** in 105 outside repos, including at OpenAI, Apple, Microsoft, Google, Meta, Amazon (AWS), NVIDIA, Intel, IBM and AMD Research ([details](#-proof-from-outside)).
 
 **▶️ 102-second walkthrough** (AI-narrated):
 
@@ -54,7 +54,7 @@ None of these maintainers work with me.
 | **AMD Research** | [`intellikit`](https://github.com/AMDResearch/intellikit/pull/202) |
 | **Cisco** | [`mcp-scanner`](https://github.com/cisco-ai-defense/mcp-scanner/pull/291) |
 | **Juniper (HPE)** | [`junos-mcp-server`](https://github.com/Juniper/junos-mcp-server/pull/35) |
-| **Elastic** | [`relevance-studio`](https://github.com/elastic/relevance-studio/pull/47) |
+| **Elastic** | [`elastic-labs`](https://github.com/elastic/elastic-labs/pull/608) (1.1K★) · [`relevance-studio`](https://github.com/elastic/relevance-studio/pull/47) |
 | **UiPath** | [`uipath-dev-python`](https://github.com/UiPath/uipath-dev-python/pull/144) |
 
 <details><summary><b>Biggest projects</b>: langflow (157K★), mcp-for-blender (34.7K★), DeepCode (16.8K★) and 2 more</summary>
