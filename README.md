@@ -52,7 +52,8 @@ None of these maintainers work with me.
 | **Intel** | [`dokimi`](https://github.com/intel/dokimi/pull/243) (2 fixes: [#243](https://github.com/intel/dokimi/pull/243), [#411](https://github.com/intel/dokimi/pull/411)) |
 | **IBM** | [`Qiskit/mcp-servers`](https://github.com/Qiskit/mcp-servers/pull/225) |
 | **AMD Research** | [`intellikit`](https://github.com/AMDResearch/intellikit/pull/202) |
-| **Cisco** | [`mcp-scanner`](https://github.com/cisco-ai-defense/mcp-scanner/pull/291) · [`splunk-mltk-container-docker`](https://github.com/splunk/splunk-mltk-container-docker/pull/75) (Splunk) |
+| **Cisco** | [`mcp-scanner`](https://github.com/cisco-ai-defense/mcp-scanner/pull/291) |
+| **Splunk** | [`splunk-mltk-container-docker`](https://github.com/splunk/splunk-mltk-container-docker/pull/75) |
 | **Juniper (HPE)** | [`junos-mcp-server`](https://github.com/Juniper/junos-mcp-server/pull/35) |
 | **Elastic** | [`elastic-labs`](https://github.com/elastic/elastic-labs/pull/608) (1.1K★) · [`relevance-studio`](https://github.com/elastic/relevance-studio/pull/47) |
 | **UiPath** | [`uipath-dev-python`](https://github.com/UiPath/uipath-dev-python/pull/144) |
