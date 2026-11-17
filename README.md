@@ -4,7 +4,7 @@
 
 10+ years launching 0→1 products and scaling platforms 1→100 across **fintech, SaaS, enterprise platforms, marketplaces & e-commerce**: **$9B+ in revenue platforms, 29M+ MAU, $300M+ in cost savings**. On the side I build the eval and trust tooling I wish every AI team had, and publish the failures with the passes.
 
-**Outside proof:** **112 merged PRs · 110 fixes** in 103 outside repos, including at Apple, Microsoft, Google, Meta, Amazon (AWS), NVIDIA, Intel, IBM and AMD Research ([details](#-proof-from-outside)).
+**Outside proof:** **113 merged PRs · 111 fixes** in 104 outside repos, including at OpenAI, Apple, Microsoft, Google, Meta, Amazon (AWS), NVIDIA, Intel, IBM and AMD Research ([details](#-proof-from-outside)).
 
 **▶️ 99-second walkthrough** (AI-narrated):
 
@@ -42,6 +42,7 @@ None of these maintainers work with me.
 
 | Company | Merged in |
 |---|---|
+| **OpenAI** | [`tart`](https://github.com/openai/tart/pull/1429) (7.9K★) |
 | **Apple** | [`pkl-go`](https://github.com/apple/pkl-go/pull/295) |
 | **Microsoft** | [`AutoGenesis`](https://github.com/microsoft/AutoGenesis/pull/33) · [`mcp-for-beginners`](https://github.com/microsoft/mcp-for-beginners/pull/1213) (17.6K★, 2 fixes: [#1213](https://github.com/microsoft/mcp-for-beginners/pull/1213), [#1214](https://github.com/microsoft/mcp-for-beginners/pull/1214)) · [`copilot-pro-dev-samples`](https://github.com/pnp/copilot-pro-dev-samples/pull/185) |
 | **Google** | [`mcp-security`](https://github.com/google/mcp-security/pull/323) |
