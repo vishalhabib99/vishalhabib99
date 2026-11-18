@@ -4,6 +4,8 @@
 
 I lead agentic AI products from 0→1, and I build the evals and guardrails that decide when an agent is safe to ship. 10+ years across fintech, SaaS and marketplaces: **$9B+ in revenue platforms, 29M+ MAU, $300M+ in cost savings**.
 
+**Outside proof:** 115 merged PRs at OpenAI, Apple, Meta, Google and more ([details](#-proof-from-outside))
+
 ## 💼 What I've shipped
 
 | | What I shipped | Results |
@@ -16,7 +18,7 @@ I lead agentic AI products from 0→1, and I build the evals and guardrails that
 
 ## ✅ Proof from outside
 
-**115 merged PRs · 113 fixes in 106 outside repos**, including at OpenAI, Apple, Microsoft, Google, Meta, Amazon (AWS), NVIDIA, Intel, IBM and AMD Research. None of these maintainers work with me.
+**115 merged PRs · 113 fixes in 106 outside repos**, including at OpenAI, Apple, Microsoft, Google, Meta, Amazon (AWS), NVIDIA, Intel, IBM and AMD Research. None of these maintainers work with me. **[See all 115 on GitHub →](https://github.com/search?q=author%3Avishalhabib99+is%3Apr+is%3Amerged+-user%3Avishalhabib99&type=pullrequests)**
 
 | Company | What my fix did |
 |---|---|
