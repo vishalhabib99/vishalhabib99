@@ -1,44 +1,38 @@
 # Hi, I'm Vishal 👋
 
-**Lead AI Product Manager — Agentic AI & Evals** · leading the 0→1 Agentic AI Digital Advisor at **Vanguard**, now in limited client beta · ex-T-Mobile, eBay · Stanford GSB
+**Lead AI Product Manager @ Vanguard — Agentic AI & Evals** · ex-T-Mobile, eBay · Stanford GSB
 
-10+ years launching 0→1 products and scaling platforms 1→100 across **fintech, SaaS, enterprise platforms, marketplaces & e-commerce**: **$9B+ in revenue platforms, 29M+ MAU, $300M+ in cost savings**. On the side I build the eval and trust tooling I wish every AI team had, and publish the failures with the passes.
+I lead agentic AI products from 0→1, and I build the evals and guardrails that decide when an agent is safe to ship. 10+ years across fintech, SaaS and marketplaces: **$9B+ in revenue platforms, 29M+ MAU, $300M+ in cost savings**.
 
-**Outside proof:** **115 merged PRs · 113 fixes** in 106 outside repos, including at OpenAI, Apple, Microsoft, Google, Meta, Amazon (AWS), NVIDIA, Intel, IBM and AMD Research ([details](#-proof-from-outside)).
+## 💼 What I've shipped
+
+| | What I shipped | Results |
+|---|---|---|
+| 🏦 **Vanguard** | The 0→1 Agentic AI Digital Advisor, now in limited client beta | **85–96%** verified task success · **98%** financial-fact accuracy · **zero** unsafe actions |
+| 🏢 **T-Mobile** | One of the first autonomous enterprise agentic AI platforms in US telecom | **75%** adoption · **60%** containment · **80%** CSAT · **30%** fewer support calls |
+| 🛒 **eBay** | Platform modernization and API standardization across hundreds of teams | **$300M+** in savings · **+35%** adoption · **99.9%** seller-API availability |
+
+🏅 Sole inventor on a U.S. provisional patent application for agentic AI orchestration and governance · Evals & guardrails framework adopted by 6 Vanguard orgs · Top Product Leader, T-Mobile (2025) · AI strategy keynote to 1,200+
+
+## ✅ Proof from outside
+
+**115 merged PRs · 113 fixes in 106 outside repos**, including at OpenAI, Apple, Microsoft, Google, Meta, Amazon (AWS), NVIDIA, Intel, IBM and AMD Research. None of these maintainers work with me.
+
+| Company | What my fix did |
+|---|---|
+| **OpenAI** · [`tart`](https://github.com/openai/tart/pull/1429) (7.9K★) | Rejects `--dir` and `--disk` values without a path instead of crashing |
+| **Apple** · [`pkl-go`](https://github.com/apple/pkl-go/pull/295) | Decodes a Pkl `Duration` into Go's `time.Duration` |
+| **Meta** · [`lexical`](https://github.com/meta/lexical/pull/9851) (24.0K★) | Deleting a table row no longer drops a merged cell changed earlier in the same update |
+| **Meta (PyTorch)** · [`TorchRL`](https://github.com/pytorch/rl/pull/4711) (3.6K★) | `OneHot.project` now handles specs with more than one batch dimension |
+| **Google** · [`mcp-security`](https://github.com/google/mcp-security/pull/323) | Accepts an explicit `null` for parameters that default to `None` |
+
+> "Thank you for the exact tools/list results and for explaining the effect on clients that use annotations for approval." ([`codebase-memory-mcp` maintainer](https://github.com/DeusData/codebase-memory-mcp/issues/2118#issuecomment-5609248676))
 
 **▶️ 102-second walkthrough** (AI-narrated):
 
 https://github.com/user-attachments/assets/592d5232-d601-4899-8a57-abeee3c9004e
 
-## 🩺 Agentic AI: mcp-doctor, evals & guardrails for AI agents and the MCP tools they call
-
-[`mcp-doctor`](https://github.com/vishalhabib99/mcp-doctor) answers two questions: **can an agent actually use your server, and can you trust what the agent does with it?** **[Scan your server →](https://github.com/vishalhabib99/mcp-doctor/issues/new?template=scan-request.yml)**
-
-**First outside CI user:** [`jupyter-mcp-server`](https://github.com/datalayer/jupyter-mcp-server/pull/488), after its maintainer asked for it.
-
-<img src="https://raw.githubusercontent.com/vishalhabib99/mcp-doctor/main/docs/demo.svg" alt="Animated mcp-doctor demo in four steps: a server grades an A but has a bug that will break an agent, the release verdict BLOCKs it, --fix fixes it and the verdict becomes SHIP, then guard catches a live call that reported success without writing the file" width="700">
-
-<details><summary><b>What it does and where it stands</b>: scan, guard, fuzz and verdict, fix-upstream, leaderboard, coverage</summary><br>
-
-**Where it stands**
-- **Coverage:** finds [15,755 of 15,977 tools across 805 real servers](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/coverage.md), every miss published.
-- **Dogfooding:** I found and fixed [149 bugs in mcp-doctor itself](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/BUILD_LOG.md) ([postmortem](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/postmortem-69-bugs.md)).
-
-**What it does**
-- 🔍 **Scan:** open an issue with your repo URL, get a report that leads with what will break an agent ([example](https://github.com/vishalhabib99/mcp-doctor/issues/9)); also a [GitHub Action](https://github.com/vishalhabib99/mcp-doctor#github-action) and a [Claude Code, Codex or Cursor plugin](https://github.com/vishalhabib99/mcp-doctor#plugin-for-claude-code-codex-and-cursor).
-- 🛡️ **[`guard`](https://github.com/vishalhabib99/mcp-doctor#guard--catch-tool-calls-that-report-success-but-didnt-work):** one line adds a live check for likely prompt-injection leaks and "successes" that didn't happen; it stopped an agent planting a `.git` hook and leaking a `.env` token.
-- 🧪 **[`fuzz` and `verdict`](https://github.com/vishalhabib99/mcp-doctor#fuzz-and-verdict--launch-the-server-and-check-it):** launches a server, tests how it fails and returns SHIP, FIX-FIRST or BLOCK; a bug that will break an agent blocks, even when every grade is an A.
-- 🤖 **[`fix-upstream`](https://github.com/vishalhabib99/mcp-doctor/blob/main/plugin/skills/fix-upstream/SKILL.md):** an agent that turns a finding into a tested PR I approve first; its first real PR [merged at AMD's intellikit](https://github.com/AMDResearch/intellikit/pull/202) in 41 minutes ([write-up](https://dev.to/vishalhabib99/before-i-let-an-agent-open-prs-on-strangers-repos-i-made-it-earn-it-27od)).
-- 📊 **[Leaderboard](https://vishalhabib99.github.io/mcp-doctor/) and [census](https://github.com/vishalhabib99/mcp-doctor/tree/main/census/2026-10):** 24 public servers checked; 3,923 servers and 147,646 tools scanned ([write-up](https://dev.to/vishalhabib99/i-scanned-3923-mcp-servers-1-in-4-tools-leaves-the-model-guessing-1n99)).
-
-</details>
-
-## ✅ Proof from outside
-None of these maintainers work with me.
-
-> "Thank you for the exact tools/list results and for explaining the effect on clients that use annotations for approval." ([`codebase-memory-mcp` maintainer](https://github.com/DeusData/codebase-memory-mcp/issues/2118#issuecomment-5609248676))
-
-**At AI/Tech companies**
+<details><summary><b>Every company</b>: Microsoft, Amazon (AWS), NVIDIA, Intel, IBM, AMD Research, Cisco, Splunk, Juniper, Elastic, UiPath and more</summary><br>
 
 | Company | Merged in |
 |---|---|
@@ -58,6 +52,8 @@ None of these maintainers work with me.
 | **Elastic** | [`elastic-labs`](https://github.com/elastic/elastic-labs/pull/608) (1.1K★) · [`relevance-studio`](https://github.com/elastic/relevance-studio/pull/47) |
 | **UiPath** | [`uipath-dev-python`](https://github.com/UiPath/uipath-dev-python/pull/144) |
 
+</details>
+
 <details><summary><b>Biggest projects</b>: langflow (157K★), mcp-for-blender (34.7K★), DeepCode (16.8K★) and 2 more</summary>
 
 - [`langflow`](https://github.com/langflow-ai/langflow/pull/15565) (157K★): built on [my PR](https://github.com/langflow-ai/langflow/pull/15523), me as co-author
@@ -76,27 +72,43 @@ None of these maintainers work with me.
 
 **Also:** [`codebase-memory-mcp`](https://github.com/DeusData/codebase-memory-mcp/issues/2118) (48.7K★) relabeled all 12 tools I flagged; [`excel-mcp-server`](https://github.com/haris-musa/excel-mcp-server/releases/tag/v1.0.0) (4.3K★) reimplemented both my fixes, credited.
 
-## 🧱 More repos, by vertical
+## 🩺 mcp-doctor: can an agent actually use your tools?
+
+AI agents reach outside tools through MCP servers. [`mcp-doctor`](https://github.com/vishalhabib99/mcp-doctor) checks whether an agent can really use a server, and blocks the release when a bug will break the agent, even if every grade is an A. **[Scan your server →](https://github.com/vishalhabib99/mcp-doctor/issues/new?template=scan-request.yml)**
+
+- **Coverage:** finds [15,755 of 15,977 tools across 805 real servers](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/coverage.md), every miss published.
+- **Census:** [3,923 servers and 147,646 tools scanned](https://dev.to/vishalhabib99/i-scanned-3923-mcp-servers-1-in-4-tools-leaves-the-model-guessing-1n99); 1 in 4 tools leaves the model guessing.
+- **Agent that fixes upstream:** its first real PR [merged at AMD's intellikit](https://github.com/AMDResearch/intellikit/pull/202) in 41 minutes.
+- **First outside CI user:** [`jupyter-mcp-server`](https://github.com/datalayer/jupyter-mcp-server/pull/488), after its maintainer asked for it.
+- **Dogfooding:** [149 bugs found and fixed in mcp-doctor itself](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/BUILD_LOG.md).
+
+<img src="https://raw.githubusercontent.com/vishalhabib99/mcp-doctor/main/docs/demo.svg" alt="Animated mcp-doctor demo in four steps: a server grades an A but has a bug that will break an agent, the release verdict BLOCKs it, --fix fixes it and the verdict becomes SHIP, then guard catches a live call that reported success without writing the file" width="700">
+
+<details><summary><b>What it does and where it stands</b>: scan, guard, fuzz and verdict, fix-upstream, leaderboard, coverage</summary><br>
+
+**Where it stands**
+- **Coverage:** finds [15,755 of 15,977 tools across 805 real servers](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/coverage.md), every miss published.
+- **Dogfooding:** I found and fixed [149 bugs in mcp-doctor itself](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/BUILD_LOG.md) ([postmortem](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/postmortem-69-bugs.md)).
+
+**What it does**
+- 🔍 **Scan:** open an issue with your repo URL, get a report that leads with what will break an agent ([example](https://github.com/vishalhabib99/mcp-doctor/issues/9)); also a [GitHub Action](https://github.com/vishalhabib99/mcp-doctor#github-action) and a [Claude Code, Codex or Cursor plugin](https://github.com/vishalhabib99/mcp-doctor#plugin-for-claude-code-codex-and-cursor).
+- 🛡️ **[`guard`](https://github.com/vishalhabib99/mcp-doctor#guard--catch-tool-calls-that-report-success-but-didnt-work):** one line adds a live check for likely prompt-injection leaks and "successes" that didn't happen; it stopped an agent planting a `.git` hook and leaking a `.env` token.
+- 🧪 **[`fuzz` and `verdict`](https://github.com/vishalhabib99/mcp-doctor#fuzz-and-verdict--launch-the-server-and-check-it):** launches a server, tests how it fails and returns SHIP, FIX-FIRST or BLOCK; a bug that will break an agent blocks, even when every grade is an A.
+- 🤖 **[`fix-upstream`](https://github.com/vishalhabib99/mcp-doctor/blob/main/plugin/skills/fix-upstream/SKILL.md):** an agent that turns a finding into a tested PR I approve first; its first real PR [merged at AMD's intellikit](https://github.com/AMDResearch/intellikit/pull/202) in 41 minutes ([write-up](https://dev.to/vishalhabib99/before-i-let-an-agent-open-prs-on-strangers-repos-i-made-it-earn-it-27od)).
+- 📊 **[Leaderboard](https://vishalhabib99.github.io/mcp-doctor/) and [census](https://github.com/vishalhabib99/mcp-doctor/tree/main/census/2026-10):** 24 public servers checked; 3,923 servers and 147,646 tools scanned ([write-up](https://dev.to/vishalhabib99/i-scanned-3923-mcp-servers-1-in-4-tools-leaves-the-model-guessing-1n99)).
+
+</details>
+
+## 🧱 More I've built
 
 **The common thread:** AI output is worth shipping only when it can be checked against a source of truth: an IRS rule, a tool's schema, an API contract.
 
-**🏦 Fintech**
-- 🛡️ [`fin-assist`](https://github.com/vishalhabib99/fin-assist): catches stale and wrong money figures in an AI agent's answer, using 102 dated, sourced IRS, SSA and Medicare figures; blind-tested, every miss published. **[Try it →](https://vishalhabib99.github.io/fin-assist/check/)**
-
-**🛒 Marketplaces & E-commerce**
-- 🏷️ [`listing-claim-check`](https://github.com/vishalhabib99/listing-claim-check): checks an AI-written listing against the seller's item specifics; it passed a blind run, then a [red team](https://github.com/vishalhabib99/listing-claim-check#results) got all 22 attacks through, published as-is. **[Try it →](https://vishalhabib99.github.io/listing-claim-check/)**
-- 🧩 [eBay case study](https://github.com/vishalhabib99/ai-pm-portfolio/blob/main/case-studies/2026-09-ebay-marketplace-platform.md): the platform behind $300M+ in savings, and why clear contracts matter for agents.
-
-**🏢 SaaS & enterprise platforms**
-- 🔗 [`agent-handoff-check`](https://github.com/vishalhabib99/agent-handoff-check): checks every agent-to-agent handoff against what the customer authorized; after a red-team redesign, a fresh blind run let 0 of 18 through and blocked 0 of 14 legitimate calls. **[Try it →](https://vishalhabib99.github.io/agent-handoff-check/)**
-- 📡 [T-Mobile case study](https://github.com/vishalhabib99/ai-pm-portfolio/blob/main/case-studies/2026-09-tmobile-enterprise-agentic-platform.md): four architecture decisions behind the agentic platform (25M users, 60% containment).
-
-**🧭 For AI product managers**
-- 🧭 [`ai-pm-skills`](https://github.com/vishalhabib99/ai-pm-skills): Claude Code skills (`/build-or-not`, `/eval-plan`, `/agent-trust-review`), each tested against gates set in advance. **[See real runs →](https://vishalhabib99.github.io/ai-pm-skills/)**
-- 📋 [`agentic-product-playbook`](https://github.com/vishalhabib99/agentic-product-playbook): the AI PM playbook from strategy to sunset: 12 templates, a fully worked example, 7 ways AI agents fail in production, and 9 GenAI and agentic patterns as clickable sequence diagrams. **[3-minute Agent Readiness Scorecard →](https://vishalhabib99.github.io/agentic-product-playbook/)** · **[Request-flow diagrams →](https://vishalhabib99.github.io/agentic-product-playbook/request-flow/)** · **[AI PM playbook →](https://vishalhabib99.github.io/agentic-product-playbook/ai-pm-playbook/)**
-- 🚫 [What I decided not to build](https://github.com/vishalhabib99/ai-pm-portfolio/blob/main/memos/2026-10-what-i-decided-not-to-build.md): six ideas checked against a bar set before looking; four never got built.
-- 🔎 [What 129 maintainer replies told me](https://github.com/vishalhabib99/ai-pm-portfolio/blob/main/research/2026-10-what-maintainers-told-me.md): user research from 118 outside PRs: maintainers answer within a day or never.
-- 📄 [`ai-pm-portfolio`](https://github.com/vishalhabib99/ai-pm-portfolio): PRDs, prototypes and evals, failures included.
+- 🏦 [`fin-assist`](https://github.com/vishalhabib99/fin-assist): catches stale and wrong money figures in an AI agent's answer, against 102 dated, sourced IRS, SSA and Medicare figures. **[Try it →](https://vishalhabib99.github.io/fin-assist/check/)**
+- 🔗 [`agent-handoff-check`](https://github.com/vishalhabib99/agent-handoff-check): checks every agent-to-agent handoff against what the customer authorized; a fresh blind run let 0 of 18 attacks through. **[Try it →](https://vishalhabib99.github.io/agent-handoff-check/)**
+- 🏷️ [`listing-claim-check`](https://github.com/vishalhabib99/listing-claim-check): passed a blind run, then a [red team](https://github.com/vishalhabib99/listing-claim-check#results) got all 22 attacks through, published as-is. **[Try it →](https://vishalhabib99.github.io/listing-claim-check/)**
+- 📋 [`agentic-product-playbook`](https://github.com/vishalhabib99/agentic-product-playbook): the AI PM playbook from strategy to sunset, with 12 templates and 9 [request-flow diagrams](https://vishalhabib99.github.io/agentic-product-playbook/request-flow/). **[Agent Readiness Scorecard →](https://vishalhabib99.github.io/agentic-product-playbook/)**
+- 🧭 [`ai-pm-skills`](https://github.com/vishalhabib99/ai-pm-skills): Claude Code skills (`/build-or-not`, `/eval-plan`, `/agent-trust-review`), each tested against gates set in advance.
+- 🚫 [What I decided not to build](https://github.com/vishalhabib99/ai-pm-portfolio/blob/main/memos/2026-10-what-i-decided-not-to-build.md) · 🔎 [What 129 maintainer replies told me](https://github.com/vishalhabib99/ai-pm-portfolio/blob/main/research/2026-10-what-maintainers-told-me.md) · 🧩 Case studies: [eBay](https://github.com/vishalhabib99/ai-pm-portfolio/blob/main/case-studies/2026-09-ebay-marketplace-platform.md), [T-Mobile](https://github.com/vishalhabib99/ai-pm-portfolio/blob/main/case-studies/2026-09-tmobile-enterprise-agentic-platform.md) · 📄 [`ai-pm-portfolio`](https://github.com/vishalhabib99/ai-pm-portfolio)
 
 <details><summary><b>🗺️ Where my work sits in the AI stack</b>: shipped at work vs. built in the open</summary><br>
 
@@ -112,9 +124,7 @@ None of these maintainers work with me.
 
 </details>
 
-## 💼 Career, by vertical
-
-<details><summary>Vanguard · T-Mobile · eBay · earlier roles</summary><br>
+<details><summary><b>Full career</b>: Vanguard · T-Mobile · eBay · earlier roles</summary><br>
 
 - 🏦 **Fintech: Vanguard.** Product strategy for **Digital Advisor** and **Personal Advisor** ($6B+ LOB, 4M+ MAU) at the world's second-largest asset manager (~$12T AUM).
   - Architecting the Agentic AI Digital Advisor from 0→1, now in limited client beta (7+ use cases; 85–96% verified task success, 98% financial-fact accuracy, zero unsafe actions).
@@ -126,15 +136,6 @@ None of these maintainers work with me.
   - AI personalization: **+27% engagement, +15% conversion**.
 - 🛒 **Marketplaces & E-commerce: eBay.** Drove **$300M+ in savings** and **+35% adoption** through platform modernization and API standardization across hundreds of teams; 40% faster deploys, 99.9% availability on seller APIs.
 - 🩺 **Earlier, healthcare: Premera Blue Cross.** Billing and payment redesign that cut task completion time 25%.
-
-</details>
-
-<details><summary>Recognition</summary><br>
-
-- **Vanguard AI Summit (2026):** built and presented the AI Agents Evaluations & Guardrails Framework, now adopted by 6 Vanguard orgs.
-- **Patent filed:** sole inventor on a U.S. provisional patent application (No. 63/980,243, May 2026) for agentic AI orchestration and governance.
-- **Top Product Leader, T-Mobile (2025)**, for building and launching the enterprise agentic AI platform.
-- **Keynote speaker, T-Mobile Technology Innovation Summit (2025):** AI strategy keynote to 1,200+ attendees.
 
 </details>
 
