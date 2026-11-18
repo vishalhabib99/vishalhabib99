@@ -14,7 +14,9 @@ I lead agentic AI products from 0→1, and I build the evals and guardrails that
 | 🏢 **T-Mobile** | One of the first autonomous enterprise agentic AI platforms in US telecom | **75%** adoption · **60%** containment · **80%** CSAT · **30%** fewer support calls |
 | 🛒 **eBay** | Platform modernization and API standardization across hundreds of teams | **$300M+** in savings · **+35%** adoption · **99.9%** seller-API availability |
 
-🏅 Sole inventor on a U.S. provisional patent application for agentic AI orchestration and governance · Evals & guardrails framework adopted by 6 Vanguard orgs · Top Product Leader, T-Mobile (2025) · AI strategy keynote to 1,200+
+🏅 **Patent:** sole inventor, U.S. provisional application for agentic AI orchestration and governance
+
+🏆 **Top Product Leader**, T-Mobile (2025) · Evals & guardrails framework adopted by **6 Vanguard orgs** · AI strategy keynote to **1,200+**
 
 ## ✅ Proof from outside
 
@@ -30,9 +32,11 @@ I lead agentic AI products from 0→1, and I build the evals and guardrails that
 
 > "Thank you for the exact tools/list results and for explaining the effect on clients that use annotations for approval." ([`codebase-memory-mcp` maintainer](https://github.com/DeusData/codebase-memory-mcp/issues/2118#issuecomment-5609248676))
 
-**▶️ 102-second walkthrough** (AI-narrated):
+<details><summary><b>▶️ 102-second walkthrough</b> (AI-narrated)</summary><br>
 
 https://github.com/user-attachments/assets/592d5232-d601-4899-8a57-abeee3c9004e
+
+</details>
 
 <details><summary><b>Every company</b>: Microsoft, Amazon (AWS), NVIDIA, Intel, IBM, AMD Research, Cisco, Splunk, Juniper, Elastic, UiPath and more</summary><br>
 
@@ -105,12 +109,12 @@ AI agents reach outside tools through MCP servers. [`mcp-doctor`](https://github
 
 **The common thread:** AI output is worth shipping only when it can be checked against a source of truth: an IRS rule, a tool's schema, an API contract.
 
-- 🏦 [`fin-assist`](https://github.com/vishalhabib99/fin-assist): catches stale and wrong money figures in an AI agent's answer, against 102 dated, sourced IRS, SSA and Medicare figures. **[Try it →](https://vishalhabib99.github.io/fin-assist/check/)**
-- 🔗 [`agent-handoff-check`](https://github.com/vishalhabib99/agent-handoff-check): checks every agent-to-agent handoff against what the customer authorized; a fresh blind run let 0 of 18 attacks through. **[Try it →](https://vishalhabib99.github.io/agent-handoff-check/)**
-- 🏷️ [`listing-claim-check`](https://github.com/vishalhabib99/listing-claim-check): passed a blind run, then a [red team](https://github.com/vishalhabib99/listing-claim-check#results) got all 22 attacks through, published as-is. **[Try it →](https://vishalhabib99.github.io/listing-claim-check/)**
-- 📋 [`agentic-product-playbook`](https://github.com/vishalhabib99/agentic-product-playbook): the AI PM playbook from strategy to sunset, with 12 templates and 9 [request-flow diagrams](https://vishalhabib99.github.io/agentic-product-playbook/request-flow/). **[Agent Readiness Scorecard →](https://vishalhabib99.github.io/agentic-product-playbook/)**
-- 🧭 [`ai-pm-skills`](https://github.com/vishalhabib99/ai-pm-skills): Claude Code skills (`/build-or-not`, `/eval-plan`, `/agent-trust-review`), each tested against gates set in advance.
-- 🚫 [What I decided not to build](https://github.com/vishalhabib99/ai-pm-portfolio/blob/main/memos/2026-10-what-i-decided-not-to-build.md) · 🔎 [What 129 maintainer replies told me](https://github.com/vishalhabib99/ai-pm-portfolio/blob/main/research/2026-10-what-maintainers-told-me.md) · 🧩 Case studies: [eBay](https://github.com/vishalhabib99/ai-pm-portfolio/blob/main/case-studies/2026-09-ebay-marketplace-platform.md), [T-Mobile](https://github.com/vishalhabib99/ai-pm-portfolio/blob/main/case-studies/2026-09-tmobile-enterprise-agentic-platform.md) · 📄 [`ai-pm-portfolio`](https://github.com/vishalhabib99/ai-pm-portfolio)
+- 🏦 [`fin-assist`](https://github.com/vishalhabib99/fin-assist): catches wrong money figures in AI answers, against 102 sourced IRS, SSA and Medicare figures. **[Try it →](https://vishalhabib99.github.io/fin-assist/check/)**
+- 🔗 [`agent-handoff-check`](https://github.com/vishalhabib99/agent-handoff-check): blocks agent handoffs the customer never authorized; 0 of 18 attacks got through. **[Try it →](https://vishalhabib99.github.io/agent-handoff-check/)**
+- 🏷️ [`listing-claim-check`](https://github.com/vishalhabib99/listing-claim-check): checks AI-written listings; a [red team](https://github.com/vishalhabib99/listing-claim-check#results) broke it, published as-is. **[Try it →](https://vishalhabib99.github.io/listing-claim-check/)**
+- 📋 [`agentic-product-playbook`](https://github.com/vishalhabib99/agentic-product-playbook): the AI PM playbook, strategy to sunset. **[Scorecard →](https://vishalhabib99.github.io/agentic-product-playbook/)** · **[Diagrams →](https://vishalhabib99.github.io/agentic-product-playbook/request-flow/)**
+- 🧭 [`ai-pm-skills`](https://github.com/vishalhabib99/ai-pm-skills): Claude Code skills for AI PMs, each tested against gates set in advance.
+- 📄 [`ai-pm-portfolio`](https://github.com/vishalhabib99/ai-pm-portfolio): PRDs, case studies ([T-Mobile](https://github.com/vishalhabib99/ai-pm-portfolio/blob/main/case-studies/2026-09-tmobile-enterprise-agentic-platform.md), [eBay](https://github.com/vishalhabib99/ai-pm-portfolio/blob/main/case-studies/2026-09-ebay-marketplace-platform.md)), [what I decided not to build](https://github.com/vishalhabib99/ai-pm-portfolio/blob/main/memos/2026-10-what-i-decided-not-to-build.md) and [what 129 maintainers told me](https://github.com/vishalhabib99/ai-pm-portfolio/blob/main/research/2026-10-what-maintainers-told-me.md).
 
 <details><summary><b>🗺️ Where my work sits in the AI stack</b>: shipped at work vs. built in the open</summary><br>
 
