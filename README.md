@@ -4,7 +4,7 @@
 
 I lead agentic AI products from 0→1, and I build the evals and guardrails that decide when an agent is safe to ship. 10+ years across fintech, SaaS and marketplaces: **$9B+ in revenue platforms, 29M+ MAU, $300M+ in cost savings**.
 
-**Outside proof:** 115 merged PRs at **OpenAI, Apple, Microsoft, Google, Meta, Amazon (AWS), NVIDIA, Intel, IBM, AMD Research, Cisco (incl. Splunk), Juniper (HPE), Elastic and UiPath** ([details](#-proof-from-outside))
+**Outside proof:** 116 merged PRs at **OpenAI, Apple, Microsoft, Google, Meta, Amazon (AWS), NVIDIA, Intel, IBM, AMD Research, Cisco (incl. Splunk), Juniper (HPE), Elastic, Grafana and UiPath** ([details](#-proof-from-outside))
 
 ## 💼 What I've shipped
 
@@ -20,7 +20,7 @@ I lead agentic AI products from 0→1, and I build the evals and guardrails that
 
 ## ✅ Proof from outside
 
-**115 merged PRs · 113 fixes in 106 outside repos.** None of these maintainers work with me. **[See all 115 on GitHub →](https://github.com/search?q=author%3Avishalhabib99+is%3Apr+is%3Amerged+-user%3Avishalhabib99&type=pullrequests)**
+**116 merged PRs · 114 fixes in 107 outside repos.** None of these maintainers work with me. **[See all 116 on GitHub →](https://github.com/search?q=author%3Avishalhabib99+is%3Apr+is%3Amerged+-user%3Avishalhabib99&type=pullrequests)**
 
 | Company | What my fix did |
 |---|---|
@@ -37,6 +37,7 @@ I lead agentic AI products from 0→1, and I build the evals and guardrails that
 | **Cisco (incl. Splunk)** · [`mcp-scanner`](https://github.com/cisco-ai-defense/mcp-scanner/pull/291) | Its example test server runs again on MCP 2.x · also Splunk's AI investigator servers start again ([`splunk-mltk-container-docker`](https://github.com/splunk/splunk-mltk-container-docker/pull/75)) |
 | **Juniper (HPE)** · [`junos-mcp-server`](https://github.com/Juniper/junos-mcp-server/pull/35) | The server installs cleanly again, not just in CI |
 | **Elastic** · [`elastic-labs`](https://github.com/elastic/elastic-labs/pull/608) (1.1K★) | Search errors no longer corrupt the stream the agent reads · also [`relevance-studio`](https://github.com/elastic/relevance-studio/pull/47) |
+| **Grafana** · [`alloy`](https://github.com/grafana/alloy/pull/7714) (3.7K★) | Alloy no longer crashes when Kubernetes misses a monitor delete, and stops scraping the deleted target |
 | **UiPath** · [`uipath-dev-python`](https://github.com/UiPath/uipath-dev-python/pull/144) | Its MCP server starts again on a fresh install |
 
 > "Thank you for the exact tools/list results and for explaining the effect on clients that use annotations for approval." ([`codebase-memory-mcp` maintainer](https://github.com/DeusData/codebase-memory-mcp/issues/2118#issuecomment-5609248676))
