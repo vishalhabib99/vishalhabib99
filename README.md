@@ -78,7 +78,7 @@ https://github.com/user-attachments/assets/592d5232-d601-4899-8a57-abeee3c9004e
 
 **Also:** [`codebase-memory-mcp`](https://github.com/DeusData/codebase-memory-mcp/issues/2118) (48.7K★) relabeled all 12 tools I flagged; [`excel-mcp-server`](https://github.com/haris-musa/excel-mcp-server/releases/tag/v1.0.0) (4.3K★) reimplemented both my fixes, credited.
 
-## 🩺 Agentic AI · mcp-doctor: for AI agents and MCP servers
+## 🩺 Agentic AI · mcp-doctor: evals and guardrails for AI agents and MCP servers
 
 AI agents reach outside tools through MCP servers. [`mcp-doctor`](https://github.com/vishalhabib99/mcp-doctor) checks whether an agent can really use a server, and blocks the release when a bug will break the agent, even if every grade is an A. **[Scan your server →](https://github.com/vishalhabib99/mcp-doctor/issues/new?template=scan-request.yml)**
 
