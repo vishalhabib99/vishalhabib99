@@ -16,7 +16,7 @@ I lead agentic AI products from 0→1, and I build the evals and guardrails that
 
 🏅 **Patent:** sole inventor, U.S. provisional application for agentic AI orchestration and governance
 
-🏆 **Top Product Leader**, T-Mobile (2025) · Evals & guardrails framework adopted by **6 Vanguard orgs** · AI strategy keynote to **1,200+**
+🏆 Evals & guardrails framework adopted by **6 Vanguard orgs** · **Top Product Leader**, T-Mobile (2025) · AI strategy keynote to **1,200+**
 
 ## ✅ Proof from outside
 
