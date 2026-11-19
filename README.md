@@ -26,37 +26,24 @@ I lead agentic AI products from 0→1, and I build the evals and guardrails that
 |---|---|
 | **OpenAI** · [`tart`](https://github.com/openai/tart/pull/1429) (7.9K★) | Rejects `--dir` and `--disk` values without a path instead of crashing |
 | **Apple** · [`pkl-go`](https://github.com/apple/pkl-go/pull/295) | Fixes how Apple's Pkl config language converts time values in Go |
-| **Meta** · [`lexical`](https://github.com/meta/lexical/pull/9851) (24.0K★) | Deleting a table row no longer drops a merged cell changed earlier in the same update |
-| **Meta (PyTorch)** · [`TorchRL`](https://github.com/pytorch/rl/pull/4711) (3.6K★) | `OneHot.project` now handles specs with more than one batch dimension |
+| **Microsoft** · [`mcp-for-beginners`](https://github.com/microsoft/mcp-for-beginners/pull/1213) (17.7K★) | A course server failed on a fresh install; now it starts (2 fixes) · also [`AutoGenesis`](https://github.com/microsoft/AutoGenesis/pull/33), [`copilot-pro-dev-samples`](https://github.com/pnp/copilot-pro-dev-samples/pull/185) |
 | **Google** · [`mcp-security`](https://github.com/google/mcp-security/pull/323) | Accepts an explicit `null` for parameters that default to `None` |
+| **Meta** · [`lexical`](https://github.com/meta/lexical/pull/9851) (24.0K★) | Deleting a table row no longer drops a merged cell changed earlier in the same update · also [`TorchRL`](https://github.com/pytorch/rl/pull/4711) (3.6K★) |
+| **Amazon (AWS)** · [`threat-composer`](https://github.com/awslabs/threat-composer/pull/371) | Keeps the AI tool's output clean so agents can read it, and accepts empty optional fields · also [6 AWS sample repos](https://github.com/search?q=author%3Avishalhabib99+is%3Apr+is%3Amerged+org%3Aaws-samples&type=pullrequests) |
+| **NVIDIA** · [`aistore`](https://github.com/NVIDIA/aistore/pull/395) | Keeps its MCP tools installing after the breaking MCP 2.0 release |
+| **Intel** · [`dokimi`](https://github.com/intel/dokimi/pull/243) | Doc sources broke on MCP 2.x; now they work (2 fixes) |
+| **IBM** · [`Qiskit/mcp-servers`](https://github.com/Qiskit/mcp-servers/pull/225) | Docs now use the tool names agents actually see |
+| **AMD Research** · [`intellikit`](https://github.com/AMDResearch/intellikit/pull/202) | Profiling tools accept the empty filter they advertise; my agent's first PR, merged in 41 minutes |
+| **Cisco (incl. Splunk)** · [`mcp-scanner`](https://github.com/cisco-ai-defense/mcp-scanner/pull/291) | Its example test server runs again on MCP 2.x · also Splunk's AI investigator servers start again ([`splunk-mltk-container-docker`](https://github.com/splunk/splunk-mltk-container-docker/pull/75)) |
+| **Juniper (HPE)** · [`junos-mcp-server`](https://github.com/Juniper/junos-mcp-server/pull/35) | The server installs cleanly again, not just in CI |
+| **Elastic** · [`elastic-labs`](https://github.com/elastic/elastic-labs/pull/608) (1.1K★) | Search errors no longer corrupt the stream the agent reads · also [`relevance-studio`](https://github.com/elastic/relevance-studio/pull/47) |
+| **UiPath** · [`uipath-dev-python`](https://github.com/UiPath/uipath-dev-python/pull/144) | Its MCP server starts again on a fresh install |
 
 > "Thank you for the exact tools/list results and for explaining the effect on clients that use annotations for approval." ([`codebase-memory-mcp` maintainer](https://github.com/DeusData/codebase-memory-mcp/issues/2118#issuecomment-5609248676))
 
 <details><summary><b>▶️ 102-second walkthrough</b> (AI-narrated)</summary><br>
 
 https://github.com/user-attachments/assets/592d5232-d601-4899-8a57-abeee3c9004e
-
-</details>
-
-<details><summary><b>Every company</b>: OpenAI, Apple, Microsoft, Google, Meta, Amazon (AWS), NVIDIA, Intel, IBM, AMD Research, Cisco (incl. Splunk), Juniper (HPE), Elastic and UiPath</summary><br>
-
-| Company | Merged in |
-|---|---|
-| **OpenAI** | [`tart`](https://github.com/openai/tart/pull/1429) (7.9K★) |
-| **Apple** | [`pkl-go`](https://github.com/apple/pkl-go/pull/295) |
-| **Microsoft** | [`AutoGenesis`](https://github.com/microsoft/AutoGenesis/pull/33) · [`mcp-for-beginners`](https://github.com/microsoft/mcp-for-beginners/pull/1213) (17.7K★, 2 fixes: [#1213](https://github.com/microsoft/mcp-for-beginners/pull/1213), [#1214](https://github.com/microsoft/mcp-for-beginners/pull/1214)) · [`copilot-pro-dev-samples`](https://github.com/pnp/copilot-pro-dev-samples/pull/185) |
-| **Google** | [`mcp-security`](https://github.com/google/mcp-security/pull/323) |
-| **Meta** | [`lexical`](https://github.com/meta/lexical/pull/9851) (24.0K★) · [`TorchRL`](https://github.com/pytorch/rl/pull/4711) (3.6K★) |
-| **Amazon (AWS)** | [`threat-composer`](https://github.com/awslabs/threat-composer/pull/371) · [`sample-aws-genai-ops-demos`](https://github.com/aws-samples/sample-aws-genai-ops-demos/pull/259) · [`amazon-neptune-generative-ai-samples`](https://github.com/aws-samples/amazon-neptune-generative-ai-samples/pull/487) · [`genai-quickstart-pocs`](https://github.com/aws-samples/genai-quickstart-pocs/pull/634) · [`sample-aws-idp-pipeline`](https://github.com/aws-samples/sample-aws-idp-pipeline/pull/377) · [`sample-agentic-value-accelerator`](https://github.com/aws-samples/sample-agentic-value-accelerator/pull/133) · [`sample-amazon-quick-suite-knowledge-hub`](https://github.com/aws-samples/sample-amazon-quick-suite-knowledge-hub/pull/165) |
-| **NVIDIA** | [`aistore`](https://github.com/NVIDIA/aistore/pull/395) |
-| **Intel** | [`dokimi`](https://github.com/intel/dokimi/pull/243) (2 fixes: [#243](https://github.com/intel/dokimi/pull/243), [#411](https://github.com/intel/dokimi/pull/411)) |
-| **IBM** | [`Qiskit/mcp-servers`](https://github.com/Qiskit/mcp-servers/pull/225) |
-| **AMD Research** | [`intellikit`](https://github.com/AMDResearch/intellikit/pull/202) |
-| **Cisco** | [`mcp-scanner`](https://github.com/cisco-ai-defense/mcp-scanner/pull/291) |
-| **Cisco (Splunk)** | [`splunk-mltk-container-docker`](https://github.com/splunk/splunk-mltk-container-docker/pull/75) |
-| **Juniper (HPE)** | [`junos-mcp-server`](https://github.com/Juniper/junos-mcp-server/pull/35) |
-| **Elastic** | [`elastic-labs`](https://github.com/elastic/elastic-labs/pull/608) (1.1K★) · [`relevance-studio`](https://github.com/elastic/relevance-studio/pull/47) |
-| **UiPath** | [`uipath-dev-python`](https://github.com/UiPath/uipath-dev-python/pull/144) |
 
 </details>
 
