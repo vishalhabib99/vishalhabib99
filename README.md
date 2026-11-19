@@ -20,12 +20,12 @@ I lead agentic AI products from 0→1, and I build the evals and guardrails that
 
 ## ✅ Proof from outside
 
-**115 merged PRs · 113 fixes in 106 outside repos**, including at OpenAI, Apple, Microsoft, Google, Meta, Amazon (AWS), NVIDIA, Intel, IBM, AMD Research, Cisco (incl. Splunk), Juniper (HPE), Elastic and UiPath. None of these maintainers work with me. **[See all 115 on GitHub →](https://github.com/search?q=author%3Avishalhabib99+is%3Apr+is%3Amerged+-user%3Avishalhabib99&type=pullrequests)**
+**115 merged PRs · 113 fixes in 106 outside repos.** None of these maintainers work with me. **[See all 115 on GitHub →](https://github.com/search?q=author%3Avishalhabib99+is%3Apr+is%3Amerged+-user%3Avishalhabib99&type=pullrequests)**
 
 | Company | What my fix did |
 |---|---|
 | **OpenAI** · [`tart`](https://github.com/openai/tart/pull/1429) (7.9K★) | Rejects `--dir` and `--disk` values without a path instead of crashing |
-| **Apple** · [`pkl-go`](https://github.com/apple/pkl-go/pull/295) | Decodes a Pkl `Duration` into Go's `time.Duration` |
+| **Apple** · [`pkl-go`](https://github.com/apple/pkl-go/pull/295) | Fixes how Apple's Pkl config language converts time values in Go |
 | **Meta** · [`lexical`](https://github.com/meta/lexical/pull/9851) (24.0K★) | Deleting a table row no longer drops a merged cell changed earlier in the same update |
 | **Meta (PyTorch)** · [`TorchRL`](https://github.com/pytorch/rl/pull/4711) (3.6K★) | `OneHot.project` now handles specs with more than one batch dimension |
 | **Google** · [`mcp-security`](https://github.com/google/mcp-security/pull/323) | Accepts an explicit `null` for parameters that default to `None` |
@@ -86,17 +86,12 @@ AI agents reach outside tools through MCP servers. [`mcp-doctor`](https://github
 - **Census:** [3,923 servers and 147,646 tools scanned](https://dev.to/vishalhabib99/i-scanned-3923-mcp-servers-1-in-4-tools-leaves-the-model-guessing-1n99); 1 in 4 tools leaves the model guessing.
 - **Agent that fixes upstream:** its first real PR [merged at AMD's intellikit](https://github.com/AMDResearch/intellikit/pull/202) in 41 minutes.
 - **First outside CI user:** [`jupyter-mcp-server`](https://github.com/datalayer/jupyter-mcp-server/pull/488), after its maintainer asked for it.
-- **Dogfooding:** [149 bugs found and fixed in mcp-doctor itself](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/BUILD_LOG.md).
+- **Dogfooding:** [149 bugs found and fixed in mcp-doctor itself](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/BUILD_LOG.md) ([postmortem](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/postmortem-69-bugs.md)).
 
 <img src="https://raw.githubusercontent.com/vishalhabib99/mcp-doctor/main/docs/demo.svg" alt="Animated mcp-doctor demo in four steps: a server grades an A but has a bug that will break an agent, the release verdict BLOCKs it, --fix fixes it and the verdict becomes SHIP, then guard catches a live call that reported success without writing the file" width="700">
 
-<details><summary><b>What it does and where it stands</b>: scan, guard, fuzz and verdict, fix-upstream, leaderboard, coverage</summary><br>
+<details><summary><b>What it does</b>: scan, guard, fuzz and verdict, fix-upstream, leaderboard</summary><br>
 
-**Where it stands**
-- **Coverage:** finds [15,755 of 15,977 tools across 805 real servers](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/coverage.md), every miss published.
-- **Dogfooding:** I found and fixed [149 bugs in mcp-doctor itself](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/BUILD_LOG.md) ([postmortem](https://github.com/vishalhabib99/mcp-doctor/blob/main/docs/postmortem-69-bugs.md)).
-
-**What it does**
 - 🔍 **Scan:** open an issue with your repo URL, get a report that leads with what will break an agent ([example](https://github.com/vishalhabib99/mcp-doctor/issues/9)); also a [GitHub Action](https://github.com/vishalhabib99/mcp-doctor#github-action) and a [Claude Code, Codex or Cursor plugin](https://github.com/vishalhabib99/mcp-doctor#plugin-for-claude-code-codex-and-cursor).
 - 🛡️ **[`guard`](https://github.com/vishalhabib99/mcp-doctor#guard--catch-tool-calls-that-report-success-but-didnt-work):** one line adds a live check for likely prompt-injection leaks and "successes" that didn't happen; it stopped an agent planting a `.git` hook and leaking a `.env` token.
 - 🧪 **[`fuzz` and `verdict`](https://github.com/vishalhabib99/mcp-doctor#fuzz-and-verdict--launch-the-server-and-check-it):** launches a server, tests how it fails and returns SHIP, FIX-FIRST or BLOCK; a bug that will break an agent blocks, even when every grade is an A.
@@ -161,4 +156,6 @@ AI agents reach outside tools through MCP servers. [`mcp-doctor`](https://github
 </details>
 
 ## 📫 Reach me
+Building in the open on agent reliability. **[Follow along on GitHub →](https://github.com/vishalhabib99)**
+
 [Email](mailto:vishalhabib99@gmail.com) · [LinkedIn](https://www.linkedin.com/in/vishal-habib/) · [Website](https://vishalhabib.netlify.app/) · [dev.to](https://dev.to/vishalhabib99) · [Book 1:1 time](https://topmate.io/vishal_habib21)
