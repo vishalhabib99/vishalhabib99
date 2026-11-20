@@ -43,9 +43,9 @@ I lead agentic AI products from 0→1, and I build the evals and guardrails that
 
 > "Thank you for the exact tools/list results and for explaining the effect on clients that use annotations for approval." ([`codebase-memory-mcp` maintainer](https://github.com/DeusData/codebase-memory-mcp/issues/2118#issuecomment-5609248676))
 
-<details><summary><b>▶️ 102-second walkthrough</b> (AI-narrated)</summary><br>
+<details><summary><b>▶️ 103-second walkthrough</b> (AI-narrated)</summary><br>
 
-https://github.com/user-attachments/assets/592d5232-d601-4899-8a57-abeee3c9004e
+https://github.com/user-attachments/assets/0afc9e34-9df6-416f-b100-aaab02693345
 
 </details>
 
