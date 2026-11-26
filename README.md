@@ -4,7 +4,7 @@
 
 I lead agentic AI products from 0→1, and I build the evals and guardrails that decide when an agent is safe to ship. 10+ years across fintech, SaaS and marketplaces: **$9B+ in revenue platforms, 29M+ MAU, $300M+ in cost savings**.
 
-**Outside proof:** 121 merged PRs at **OpenAI, Apple, Microsoft, Google, Meta, Amazon (AWS), NVIDIA, Intel, IBM, AMD Research, Cisco (incl. Splunk), Juniper (HPE), Datadog, Elastic, Grafana and UiPath** ([details](#-proof-from-outside))
+**Outside proof:** 122 merged PRs at **OpenAI, Apple, Microsoft, Google, Meta, Amazon (AWS), NVIDIA, Intel, IBM, AMD Research, Cisco (incl. Splunk), Juniper (HPE), Datadog, Elastic, Grafana, Temporal and UiPath** ([details](#-proof-from-outside))
 
 ## 💼 What I've shipped
 
@@ -20,7 +20,7 @@ I lead agentic AI products from 0→1, and I build the evals and guardrails that
 
 ## ✅ Proof from outside
 
-**121 merged PRs · 119 fixes in 111 outside repos.** None of these maintainers work with me. **[See all 121 on GitHub →](https://github.com/search?q=author%3Avishalhabib99+is%3Apr+is%3Amerged+-user%3Avishalhabib99&type=pullrequests)**
+**122 merged PRs · 120 fixes in 112 outside repos.** None of these maintainers work with me. **[See all 122 on GitHub →](https://github.com/search?q=author%3Avishalhabib99+is%3Apr+is%3Amerged+-user%3Avishalhabib99&type=pullrequests)**
 
 | Company | What my fix did |
 |---|---|
@@ -39,6 +39,7 @@ I lead agentic AI products from 0→1, and I build the evals and guardrails that
 | **Datadog** · [`dd-trace-py`](https://github.com/DataDog/dd-trace-py/pull/21832) | Its LLM Observability tracing no longer fails Bedrock streaming agent calls when a tool input arrives as a dict |
 | **Elastic** · [`elastic-labs`](https://github.com/elastic/elastic-labs/pull/608) (1.1K★) | Search errors no longer corrupt the stream the agent reads · also [`relevance-studio`](https://github.com/elastic/relevance-studio/pull/47) |
 | **Grafana** · [`alloy`](https://github.com/grafana/alloy/pull/7714) (3.7K★) | Alloy no longer crashes when Kubernetes misses a monitor delete, and stops scraping the deleted target |
+| **Temporal** · [`ai-integrations`](https://github.com/temporalio/ai-integrations/pull/692) | Its LangSmith and Deep Agents plugins install with the current LangSmith releases again |
 | **UiPath** · [`uipath-dev-python`](https://github.com/UiPath/uipath-dev-python/pull/144) | Its MCP server starts again on a fresh install |
 
 > "Thank you for the exact tools/list results and for explaining the effect on clients that use annotations for approval." ([`codebase-memory-mcp` maintainer](https://github.com/DeusData/codebase-memory-mcp/issues/2118#issuecomment-5609248676))
