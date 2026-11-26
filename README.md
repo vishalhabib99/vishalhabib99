@@ -46,7 +46,7 @@ I lead agentic AI products from 0→1, and I build the evals and guardrails that
 
 <details><summary><b>▶️ 103-second walkthrough</b> (AI-narrated)</summary><br>
 
-https://github.com/user-attachments/assets/0afc9e34-9df6-416f-b100-aaab02693345
+https://github.com/user-attachments/assets/9eddf7ad-c238-4a1f-b0f1-5fdf714b100b
 
 </details>
 
